@@ -1,0 +1,173 @@
+name: Bootstrap Issue 1 migration
+
+on:
+  push:
+    branches:
+      - issue-1-wikidata-news-sync
+    paths:
+      - .github/workflows/issue-1-bootstrap.yml
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: issue-1-wikidata-news-sync
+
+      - name: Download current generator and prefecture geometry
+        run: |
+          mkdir -p scripts reference
+          curl -fsSL https://raw.githubusercontent.com/K-Sakanoshita/osm-whatsnew-japan/main/www/whatsnew/news-sync.php -o scripts/news-sync.php
+          curl -fsSL https://raw.githubusercontent.com/K-Sakanoshita/osm-whatsnew-japan/main/www/whatsnew/data/prefectures.min.geojson -o reference/prefectures.min.geojson
+
+      - name: Adapt generator for Japan Timeline Data
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path('scripts/news-sync.php')
+          text = path.read_text()
+
+          config_pattern = re.compile(
+              r"\$config = require __DIR__ \. '/bootstrap\.php';\n"
+              r"\$userAgent = trim\(\(string\) \(\n"
+              r"    \$config\['wikidata_user_agent'\]\n"
+              r"    \?\? \$config\['osm_user_agent'\]\n"
+              r"    \?\? 'OSMWhatNewJapan/2\.0 \(https://github\.com/K-Sakanoshita/osm-whatsnew-japan\)'\n"
+              r"\)\);\n\n"
+              r"\$outputDir = __DIR__ \. '/data/news';\n"
+              r"\$prefectureGeoJsonPath = __DIR__ \. '/data/prefectures\.min\.geojson';"
+          )
+          replacement = """$rootDir = dirname(__DIR__);
+          $userAgent = trim((string) (
+              getenv('JAPAN_TIMELINE_USER_AGENT')
+              ?: 'JapanTimelineData/1.0 (+https://github.com/armd-02/Japan-Timeline-Data)'
+          ));
+          $outputDir = $rootDir . '/data';
+          $prefectureGeoJsonPath = trim((string) (
+              getenv('JAPAN_TIMELINE_PREFECTURES')
+              ?: ($rootDir . '/reference/prefectures.min.geojson')
+          ));"""
+          text, count = config_pattern.subn(replacement, text, count=1)
+          assert count == 1, 'source config block changed'
+
+          old_lock = "$lockPath = sys_get_temp_dir() . '/whatsnew-news-sync-' . sha1(__DIR__) . '.lock';"
+          new_lock = "$lockPath = sys_get_temp_dir() . '/japan-timeline-news-sync-' . sha1($rootDir) . '.lock';"
+          assert old_lock in text, 'source lock block changed'
+          text = text.replace(old_lock, new_lock, 1)
+
+          marker = 'foreach ($nationalDateProperties as $dateProperty) {'
+          regional, national = text.split(marker, 1)
+          assert '$eventsByQid = [];' in regional
+          regional = regional.replace('$eventsByQid = [];', '$regionalEventsByKey = [];', 1)
+
+          definition_line = "$definition = datePropertyDefinition($pattern['date_property']);\n            $sourceName"
+          definition_replacement = "$definition = datePropertyDefinition($pattern['date_property']);\n            $eventKey = $qid . ':' . $definition['event_group'];\n            $sourceName"
+          assert definition_line in regional, 'regional definition block changed'
+          regional = regional.replace(definition_line, definition_replacement, 1)
+          regional = regional.replace('$eventsByQid[$qid]', '$regionalEventsByKey[$eventKey]')
+          text = regional + marker + national
+
+          old_metadata = """$metadataQids = array_values(array_unique(array_merge(
+              array_keys($eventsByQid),
+              array_keys($nationalEventsByQid)
+          )));"""
+          new_metadata = """$regionalQids = array_values(array_unique(array_map(
+              static fn(array $event): string => (string) $event['wikidata_id'],
+              array_values($regionalEventsByKey)
+          )));
+          $regionalQidSet = array_fill_keys($regionalQids, true);
+          $metadataQids = array_values(array_unique(array_merge(
+              $regionalQids,
+              array_keys($nationalEventsByQid)
+          )));"""
+          assert old_metadata in text, 'metadata QID block changed'
+          text = text.replace(old_metadata, new_metadata, 1)
+
+          old_loop = 'foreach ($eventsByQid as $qid => $event) {'
+          new_loop = "foreach ($regionalEventsByKey as $event) {\n    $qid = (string) $event['wikidata_id'];"
+          assert old_loop in text, 'regional enrichment loop changed'
+          text = text.replace(old_loop, new_loop, 1)
+
+          old_duplicate = 'if (!isset($eventsByQid[$qid])) {'
+          new_duplicate = 'if (!isset($regionalQidSet[$qid])) {'
+          assert old_duplicate in text, 'national duplicate guard changed'
+          text = text.replace(old_duplicate, new_duplicate, 1)
+          assert '$eventsByQid' not in text, 'old QID-only regional dedup remains'
+
+          index_function = r'''
+          function updateIndex(string $outputDir): void
+          {
+              $files = glob($outputDir . '/????-??.json') ?: [];
+              $months = [];
+              foreach ($files as $file) {
+                  $month = basename($file, '.json');
+                  if (preg_match('/^\d{4}-\d{2}$/', $month) === 1) {
+                      $months[] = $month;
+                  }
+              }
+              sort($months, SORT_STRING);
+              $months = array_values(array_unique($months));
+
+              $index = [
+                  'schema_version' => 1,
+                  'generated_at' => gmdate('Y-m-d\\TH:i:s\\Z'),
+                  'months' => $months,
+              ];
+              $json = json_encode(
+                  $index,
+                  JSON_PRETTY_PRINT
+                      | JSON_UNESCAPED_UNICODE
+                      | JSON_UNESCAPED_SLASHES
+                      | JSON_THROW_ON_ERROR
+              );
+              $indexPath = $outputDir . '/index.json';
+              $tempPath = $indexPath . '.tmp';
+              if (file_put_contents($tempPath, $json . PHP_EOL, LOCK_EX) === false) {
+                  throw new RuntimeException('Temporary index JSON could not be written.');
+              }
+              if (!rename($tempPath, $indexPath)) {
+                  throw new RuntimeException('Could not finalize index JSON.');
+              }
+          }
+
+          '''
+          cli_marker = '$force = in_array(\'--force\', $argv, true);'
+          assert cli_marker in text, 'CLI marker changed'
+          text = text.replace(cli_marker, index_function + cli_marker, 1)
+
+          rename_block = """if (!rename($tempPath, $outputPath)) {
+              throw new RuntimeException("Could not finalize JSON.");
+          }
+
+          echo "created: {$outputPath}\\n";"""
+          rename_replacement = """if (!rename($tempPath, $outputPath)) {
+              throw new RuntimeException("Could not finalize JSON.");
+          }
+
+          updateIndex($outputDir);
+
+          echo "created: {$outputPath}\\n";"""
+          assert rename_block in text, 'final rename block changed'
+          text = text.replace(rename_block, rename_replacement, 1)
+
+          path.write_text(text)
+          PY
+
+      - name: Validate generated files
+        run: |
+          php -l scripts/news-sync.php
+          php -r '$j=json_decode(file_get_contents("reference/prefectures.min.geojson"), true, 512, JSON_THROW_ON_ERROR); if (($j["type"] ?? null) !== "FeatureCollection" || count($j["features"] ?? []) < 47) { exit(1); } echo "prefecture GeoJSON: OK\n";'
+
+      - name: Commit migrated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/news-sync.php reference/prefectures.min.geojson
+          git commit -m "feat: add standalone Wikidata news generator"
+          git push origin HEAD:issue-1-wikidata-news-sync
