@@ -141,20 +141,10 @@ jobs:
           assert cli_marker in text, 'CLI marker changed'
           text = text.replace(cli_marker, index_function + cli_marker, 1)
 
-          rename_block = """if (!rename($tempPath, $outputPath)) {
-              throw new RuntimeException("Could not finalize JSON.");
-          }
-
-          echo "created: {$outputPath}\\n";"""
-          rename_replacement = """if (!rename($tempPath, $outputPath)) {
-              throw new RuntimeException("Could not finalize JSON.");
-          }
-
-          updateIndex($outputDir);
-
-          echo "created: {$outputPath}\\n";"""
-          assert rename_block in text, 'final rename block changed'
-          text = text.replace(rename_block, rename_replacement, 1)
+          echo_marker = 'echo "created: {$outputPath}\\n";'
+          pos = text.rfind(echo_marker)
+          assert pos >= 0, 'created output marker changed'
+          text = text[:pos] + "updateIndex($outputDir);\n\n" + text[pos:]
 
           path.write_text(text)
           PY
@@ -163,6 +153,9 @@ jobs:
         run: |
           php -l scripts/news-sync.php
           php -r '$j=json_decode(file_get_contents("reference/prefectures.min.geojson"), true, 512, JSON_THROW_ON_ERROR); if (($j["type"] ?? null) !== "FeatureCollection" || count($j["features"] ?? []) < 47) { exit(1); } echo "prefecture GeoJSON: OK\n";'
+          grep -q 'JapanTimelineData/1.0' scripts/news-sync.php
+          grep -q '\$eventKey = \$qid' scripts/news-sync.php
+          grep -q 'function updateIndex' scripts/news-sync.php
 
       - name: Commit migrated files
         run: |
