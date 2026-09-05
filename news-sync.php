@@ -15,7 +15,7 @@ const MAX_SPLIT_DEPTH = 2;
 const MIN_DATE_PRECISION = 10; // 9=year, 10=month, 11=day
 const NATIONAL_LIMIT = 10;
 
-$rootDir = dirname(__DIR__);
+$rootDir = __DIR__;
 $userAgent = trim((string) (
     getenv('JAPAN_TIMELINE_USER_AGENT')
     ?: 'JapanTimelineData/1.0 (+https://github.com/armd-02/Japan-Timeline-Data)'

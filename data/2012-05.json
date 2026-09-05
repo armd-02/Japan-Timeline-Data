@@ -1,0 +1,3755 @@
+{
+    "year": 2012,
+    "month": 5,
+    "generated_at": "2026-08-30T13:55:18Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 44,
+        "raw_rows_by_property": {
+            "P1619": 13,
+            "P3999": 2,
+            "P571": 19,
+            "P580": 2,
+            "P585": 8
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 23,
+        "event_counts_by_type": {
+            "closure": 2,
+            "event": 5,
+            "inception": 5,
+            "opening": 9,
+            "start": 2
+        },
+        "national_raw_rows": 117,
+        "national_raw_rows_by_property": {
+            "P1619": 9,
+            "P3999": 2,
+            "P571": 29,
+            "P576": 4,
+            "P580": 66,
+            "P585": 7
+        },
+        "national_query_candidate_count": 112,
+        "national_candidate_count": 90,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2012-05-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q57965",
+            "latitude": 35.710055555,
+            "longitude": 139.810722222,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national",
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "東京スカイツリー",
+            "description": "東京都墨田区の電波塔",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC",
+            "wikipedia_language": "ja",
+            "headline": "東京スカイツリーが開業",
+            "headline_category": "building",
+            "headline_rule": "building.open",
+            "sitelink_count": 72,
+            "category": "society",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 30,
+                "category": 5,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2012-05-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q11592006",
+            "latitude": 34.485861111,
+            "longitude": 133.362305555,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "福山ホテル火災",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B1%B1%E3%83%9B%E3%83%86%E3%83%AB%E7%81%AB%E7%81%BD",
+            "wikipedia_language": "ja",
+            "headline": "福山ホテル火災",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 3,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "広島県"
+        },
+        {
+            "date": "2012-05-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q97185006",
+            "latitude": 36.75855,
+            "longitude": 137.75843,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "2012年の白馬岳大量遭難事故",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4%E3%81%AE%E7%99%BD%E9%A6%AC%E5%B2%B3%E5%A4%A7%E9%87%8F%E9%81%AD%E9%9B%A3%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "headline": "2012年の白馬岳大量遭難事故",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "長野県"
+        },
+        {
+            "date": "2012-05-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11235194",
+            "latitude": 35.710333,
+            "longitude": 139.812222,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "東京ソラマチ",
+            "description": "東京都墨田区にあるショッピングセンター",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%BD%E3%83%A9%E3%83%9E%E3%83%81",
+            "wikipedia_language": "ja",
+            "headline": "東京ソラマチが開業",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.open",
+            "sitelink_count": 3,
+            "category": "economy",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2012-05-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q11426128",
+            "latitude": 33.195611111,
+            "longitude": 129.661916666,
+            "query_sources": [
+                "P3999:direct",
+                "P3999:national"
+            ],
+            "title": "城島健司ベースボール記念館",
+            "description": "former museum in Sasebo, Nagasaki, Japan (2001–2012)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9F%8E%E5%B3%B6%E5%81%A5%E5%8F%B8%E3%83%99%E3%83%BC%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%AB%E8%A8%98%E5%BF%B5%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "城島健司ベースボール記念館が閉鎖",
+            "headline_category": "museum",
+            "headline_rule": "museum.close",
+            "sitelink_count": 1,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "長崎県"
+        },
+        {
+            "date": "2012-05-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11438100",
+            "latitude": 35.696944,
+            "longitude": 139.793333,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "大相撲平成24年5月場所",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E5%B9%B3%E6%88%9024%E5%B9%B45%E6%9C%88%E5%A0%B4%E6%89%80",
+            "wikipedia_language": "ja",
+            "headline": "大相撲平成24年5月場所",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 2,
+            "category": "sports",
+            "score": 33,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2012-05-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q106305196",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "つくば市竜巻災害",
+            "description": "2012年5月6日に発生した竜巻災害",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "つくば市竜巻災害",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "disaster",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q11641003",
+            "latitude": 45.41725,
+            "longitude": 141.677361111,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "道の駅わっかない",
+            "description": "北海道稚内市にある国道40号の道の駅",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "headline": "道の駅わっかないが開業",
+            "headline_category": "roadside_station",
+            "headline_rule": "roadside_station.open",
+            "sitelink_count": 1,
+            "category": "infrastructure",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "北海道"
+        },
+        {
+            "date": "2012-05-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q116243642",
+            "latitude": 33.583194444,
+            "longitude": 130.357722222,
+            "query_sources": [
+                "P585:direct",
+                "P585:national"
+            ],
+            "title": "サザエさん通り (福岡市)",
+            "description": "福岡市早良区の道路愛称",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "headline": "サザエさん通り (福岡市)",
+            "headline_category": "road_facility",
+            "headline_rule": "event.label",
+            "sitelink_count": 0,
+            "category": "infrastructure",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福岡県"
+        },
+        {
+            "date": "2012-05-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130425644",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "俺がお嬢様学校に「庶民サンプル」として拉致られた件",
+            "description": "七月隆文による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "俺がお嬢様学校に「庶民サンプル」として拉致られた件が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2012-05-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q17212522",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "小京都連続殺人事件",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E4%BA%AC%E9%83%BD%E9%80%A3%E7%B6%9A%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "小京都連続殺人事件",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11180148",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "斉木楠雄のΨ難",
+            "description": "麻生周一による日本のギャグ漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%89%E6%9C%A8%E6%A5%A0%E9%9B%84%E3%81%AE%CE%A8%E9%9B%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 23,
+            "headline": "斉木楠雄のΨ難",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q17751436",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "がっこうぐらし!",
+            "description": "日本の漫画・アニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8C%E3%81%A3%E3%81%93%E3%81%86%E3%81%90%E3%82%89%E3%81%97!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 17,
+            "headline": "がっこうぐらし!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q22080525",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋愛暴君",
+            "description": "三星めがねによる日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E6%84%9B%E6%9A%B4%E5%90%9B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "恋愛暴君",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q48744367",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "TELASA",
+            "description": "日本の動画ストリーミングサービス",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/TELASA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "TELASAが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q10370095",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "戦星のバルジ",
+            "description": "堀越耕平による日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%88%A6%E6%98%9F%E3%81%AE%E3%83%90%E3%83%AB%E3%82%B8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "戦星のバルジ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q19819487",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "スピリットサークル",
+            "description": "水上悟志による日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "スピリットサークル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11305587",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "サンシティ",
+            "description": "不動産販売会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3_(%E4%B8%8D%E5%8B%95%E7%94%A3%E8%B2%A9%E5%A3%B2%E4%BC%9A%E7%A4%BE)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "サンシティが解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q24875552",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "マネーフォワード",
+            "description": "日本の金融ウェブサービス企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "マネーフォワードが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11474085",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "岩井証券",
+            "description": "日本の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E4%BA%95%E8%A8%BC%E5%88%B8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "岩井証券が解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111985980",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ビットグルーヴプロモーション",
+            "description": "日本の東京都中野区にある音響制作会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%83%E3%83%88%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%83%97%E3%83%AD%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ビットグルーヴプロモーションが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q106305196",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "つくば市竜巻災害",
+            "description": "2012年5月6日に発生した竜巻災害",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "つくば市竜巻災害",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "disaster",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11601541",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第61回黒鷲旗全日本男女選抜バレーボール大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC61%E5%9B%9E%E9%BB%92%E9%B7%B2%E6%97%97%E5%85%A8%E6%97%A5%E6%9C%AC%E7%94%B7%E5%A5%B3%E9%81%B8%E6%8A%9C%E3%83%90%E3%83%AC%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第61回黒鷲旗全日本男女選抜バレーボール大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11305382",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "サルチネス",
+            "description": "古谷実による日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%AB%E3%83%81%E3%83%8D%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "サルチネス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17225391",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "オー・ティー・ビー",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%BB%E3%83%93%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "オー・ティー・ビーが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11528673",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "東陽バス",
+            "description": "Japanese bus company",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E9%99%BD%E3%83%90%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "東陽バスが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q6471347",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "はつ恋",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%A4%E6%81%8B_(2012%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "はつ恋",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11317534",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ダンデライオン",
+            "description": "日本の東京都渋谷区にある芸能事務所",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%87%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3_(%E4%BC%81%E6%A5%AD)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ダンデライオンが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11248147",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "TAP-i",
+            "description": "electronic newspaper service in Japan",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/TAP-i",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "TAP-iが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q22129876",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ZUKKON/BAKKON",
+            "description": "日本のAVメーカー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/ZUKKON/BAKKON",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ZUKKON/BAKKONが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11612787",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "自治・連帯・エコロジーをめざす政治グループ・蒼生",
+            "description": "Japanese communist political organization (1996–2012)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E6%B2%BB%E3%83%BB%E9%80%A3%E5%B8%AF%E3%83%BB%E3%82%A8%E3%82%B3%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%92%E3%82%81%E3%81%96%E3%81%99%E6%94%BF%E6%B2%BB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%83%BB%E8%92%BC%E7%94%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "自治・連帯・エコロジーをめざす政治グループ・蒼生が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q30924729",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "西臼杵広域行政事務組合",
+            "description": "宮崎県の一部事務組合",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E8%87%BC%E6%9D%B5%E5%BA%83%E5%9F%9F%E8%A1%8C%E6%94%BF%E4%BA%8B%E5%8B%99%E7%B5%84%E5%90%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "西臼杵広域行政事務組合が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q97185372",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "きしたかの",
+            "description": "日本のお笑いコンビ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%97%E3%81%9F%E3%81%8B%E3%81%AE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "きしたかのが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11507228",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本似顔絵師協会",
+            "description": "Japanese business",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%BC%BC%E9%A1%94%E7%B5%B5%E5%B8%AB%E5%8D%94%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "日本似顔絵師協会が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11498325",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "探検バクモン",
+            "description": "日本のNHKのテレビ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%8E%A2%E6%A4%9C%E3%83%90%E3%82%AF%E3%83%A2%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "探検バクモン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11302826",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "コレカラ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AC%E3%82%AB%E3%83%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "コレカラ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11616230",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "若大将のゆうゆう散歩",
+            "description": "テレビ朝日系列の紀行番組 (2012 - 2015)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E5%A4%A7%E5%B0%86%E3%81%AE%E3%82%86%E3%81%86%E3%82%86%E3%81%86%E6%95%A3%E6%AD%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "若大将のゆうゆう散歩",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17230013",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ファイブエイス",
+            "description": "日本の東京都港区にある音楽プロダクション",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%96%E3%82%A8%E3%82%A4%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ファイブエイスが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133391658",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "新世界より",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%95%8C%E3%82%88%E3%82%8A_(%E6%BC%AB%E7%94%BB)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "新世界より",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11326459",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ハッピーエンド (テレビ番組)",
+            "description": "TBS系列のバラエティ番組 (2012-2013)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89_(%E3%83%86%E3%83%AC%E3%83%93%E7%95%AA%E7%B5%84)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ハッピーエンド (テレビ番組)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q38278346",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "SCHAFT",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/SCHAFT_(%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "SCHAFTが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11457295",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "富証券",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E8%A8%BC%E5%88%B8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "富証券が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11524183",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "東京スカイツリータウン MXご自慢ライブ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC%E3%82%BF%E3%82%A6%E3%83%B3_MX%E3%81%94%E8%87%AA%E6%85%A2%E3%83%A9%E3%82%A4%E3%83%96",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "東京スカイツリータウン MXご自慢ライブ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11227387",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "K012",
+            "description": "Japanese mobile phone",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/K012",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "K012が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q57165809",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第22回世界コンピュータ将棋選手権",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "第22回世界コンピュータ将棋選手権",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 8,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q10311431",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "Q10311431",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Q10311431",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17221742",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ドコモ・アニメストア",
+            "description": "日本の動画ストリーミングサービス",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Docomo_Anime_Store",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "ドコモ・アニメストアが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q26155255",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Force of Will Inc.",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Force of Will Inc.が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q60664108",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ツール・ド・熊野2012",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "ツール・ド・熊野2012",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63838948",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Long-Term Study of MP-214 in Patients With Chronic Phase or Elderly Schizophrenia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Long-Term Study of MP-214 in Patients With Chronic Phase or Elderly Schizophrenia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65373676",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Long-Term Study of MP-214 in Patients With Receiving Multiple Drugs Schizophrenia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Long-Term Study of MP-214 in Patients With Receiving Multiple Drugs Schizophrenia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65373685",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Pharmacokinetic Study of MP-214 in Patients With Schizophrenia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Pharmacokinetic Study of MP-214 in Patients With Schizophrenia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65368818",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Pharmacokinetic Study to Assess the Effect of Food in Healthy Male Participants Receiving TMC435",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Pharmacokinetic Study to Assess the Effect of Food in Healthy Male Participants Receiving TMC435",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63316319",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase III Study to Evaluate the Safety, Efficacy and Pharmacokinetics/Pharmacodynamics of BAYQ3939 in Patients With Bacterial Pneumonia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase III Study to Evaluate the Safety, Efficacy and Pharmacokinetics/Pharmacodynamics of BAYQ3939 in Patients With Bacterial Pneumonia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63842123",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Veliparib in Combination With Carboplatin and Paclitaxel in Japanese Subjects With Solid Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Veliparib in Combination With Carboplatin and Paclitaxel in Japanese Subjects With Solid Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66347484",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Unblinded Study of TAK-438 (20 mg) for Prevention of Recurrence of Gastric or Duodenal Ulcer During Long-Term Low-Dose Aspirin Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Unblinded Study of TAK-438 (20 mg) for Prevention of Recurrence of Gastric or Duodenal Ulcer During Long-Term Low-Dose Aspirin Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63842642",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ADOAIR250 Anti-inflammatory Effects in Japanese Subjects With Chronic Obstructive Pulmonary Disease",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ADOAIR250 Anti-inflammatory Effects in Japanese Subjects With Chronic Obstructive Pulmonary Disease",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64644522",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ARQ 197 Plus Erlotinib in Patient With Locally Advanced or Metastatic EGFR Mutation-positive Non-small-cell Lung Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ARQ 197 Plus Erlotinib in Patient With Locally Advanced or Metastatic EGFR Mutation-positive Non-small-cell Lung Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843082",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "AcrySof® IQ ReSTOR® +2.5 D Multifocal Intraocular Lens (IOL) Model SN6AD2 [SV25T0] in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "AcrySof® IQ ReSTOR® +2.5 D Multifocal Intraocular Lens (IOL) Model SN6AD2 [SV25T0] in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63842859",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Bioequivalence Study Comparing D961H Sachet and D961H Capsule in Japanese Healthy Male Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Bioequivalence Study Comparing D961H Sachet and D961H Capsule in Japanese Healthy Male Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65374005",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Clinical Implication of 3-vessel Fractional Flow Reserve (FFR)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Clinical Implication of 3-vessel Fractional Flow Reserve (FFR)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64643696",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Clinical Study of TA-650 in Patients With Refractory Kawasaki Disease",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Clinical Study of TA-650 in Patients With Refractory Kawasaki Disease",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63844319",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Collagenase Option for Reduction of Dupuytren's Contracture in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Collagenase Option for Reduction of Dupuytren's Contracture in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843203",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Dose Escalation Study of Nintedanib (BIBF 1120) in Japanese Patients With Hepatocellular Carcinoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Dose Escalation Study of Nintedanib (BIBF 1120) in Japanese Patients With Hepatocellular Carcinoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66347106",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Double Blind Comparative Study of TAK-875",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Double Blind Comparative Study of TAK-875",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64643412",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Double-blind Comparative Study of SYR-472",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Double-blind Comparative Study of SYR-472",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63841289",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Effects of 5-Aminolevulinic Acid on Glucose Metabolism",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Effects of 5-Aminolevulinic Acid on Glucose Metabolism",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843213",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Effects of Green Tea Consumption on Homocysteine Metabolism and Cognitive Dysfunction",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Effects of Green Tea Consumption on Homocysteine Metabolism and Cognitive Dysfunction",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66347151",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy and Safety of GSK1358820 (Botulinum Toxin Type A) in Patients With Strabismus",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy and Safety of GSK1358820 (Botulinum Toxin Type A) in Patients With Strabismus",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q61956384",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy and Safety of MP-424, Peginterferon Alfa-2b and Ribavirin in Relapser Genotype 2 Hepatitis C Infected Patients",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy and Safety of MP-424, Peginterferon Alfa-2b and Ribavirin in Relapser Genotype 2 Hepatitis C Infected Patients",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q61956440",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluating Long Term Safety of Lacosamide (LCM) to Carbamazepine Controlled-release (CBZ-CR); Initial Monotherapy in Epilepsy Subjects 16 Years and Older",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluating Long Term Safety of Lacosamide (LCM) to Carbamazepine Controlled-release (CBZ-CR); Initial Monotherapy in Epilepsy Subjects 16 Years and Older",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64644218",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "International Guillain-Barré Syndrome Outcome Study",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "International Guillain-Barré Syndrome Outcome Study",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843568",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase II Study of S-488410 to Treat Non-small Cell Lung Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase II Study of S-488410 to Treat Non-small Cell Lung Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66342921",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Prospective Randomized Controlled Study of Intravitreal Injection of Bevacizumab for Proliferative Diabetic Retinopathy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Prospective Randomized Controlled Study of Intravitreal Injection of Bevacizumab for Proliferative Diabetic Retinopathy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65366069",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Randomised Study Comparing Different Dosages of Rabbit ATG in Patients With SAA",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Randomised Study Comparing Different Dosages of Rabbit ATG in Patients With SAA",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63839324",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety and Efficacy of MP-214 in Patients With Schizophrenia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety and Efficacy of MP-214 in Patients With Schizophrenia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843283",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety and Tolerability and Efficacy of LCZ696 in Japanese Hypertensive Patients With Renal Dysfunction",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety and Tolerability and Efficacy of LCZ696 in Japanese Hypertensive Patients With Renal Dysfunction",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63317015",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Paliperidone Palmitate 3 Month and 1 Month Formulations for the Treatment of Patients With Schizophrenia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Paliperidone Palmitate 3 Month and 1 Month Formulations for the Treatment of Patients With Schizophrenia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63842120",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of a Single Dose of SP093 Typhoid Vi Polysaccharide Vaccine in Japanese Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of a Single Dose of SP093 Typhoid Vi Polysaccharide Vaccine in Japanese Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63844298",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Assess the Pharmacokinetics of AZD6140 After Single Dose in Healthy Japanese Male Volunteers",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Assess the Pharmacokinetics of AZD6140 After Single Dose in Healthy Japanese Male Volunteers",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63838769",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "To Characterize the Safety and Tolerability of Eculizumab in Two Japanese aHUS Patients",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "To Characterize the Safety and Tolerability of Eculizumab in Two Japanese aHUS Patients",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64601837",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Zilver Flex Post-Market Study in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Zilver Flex Post-Market Study in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125516417",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "CCCライフパートナーズ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "CCCライフパートナーズが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63840430",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Pharmacokinetic Study of Levocetirizine Oral Solution",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Pharmacokinetic Study of Levocetirizine Oral Solution",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63843765",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Valaciclovir Hydrochloride Phase III for Hematopoietic Stem Cell Transplantation Patients",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Valaciclovir Hydrochloride Phase III for Hematopoietic Stem Cell Transplantation Patients",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136701560",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ジョイ・コム",
+            "description": "Japanese nonprofit organisation",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ジョイ・コムが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66347243",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase I Study to Investigate the Safety, Tolerability and Pharmacokinetic Profile of of GSK2118436 in Japanese Subjects With BRAF Mutation Positive Solid Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase I Study to Investigate the Safety, Tolerability and Pharmacokinetic Profile of of GSK2118436 in Japanese Subjects With BRAF Mutation Positive Solid Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q107261125",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "社文化放送エクステンド",
+            "description": "Japanese video game publisher and developer",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "社文化放送エクステンドが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q61956183",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety, Efficacy and Pharmacokinetics of NNC-0156-0000-0009 in Previously Treated Children With Haemophilia B.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety, Efficacy and Pharmacokinetics of NNC-0156-0000-0009 in Previously Treated Children With Haemophilia B.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63838036",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "The Safety and Efficacy of Eculizumab in Japanese Patients With Atypical Hemolytic Uremic Syndrome (aHUS)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "The Safety and Efficacy of Eculizumab in Japanese Patients With Atypical Hemolytic Uremic Syndrome (aHUS)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64644788",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study With an Open-label Extension Phase to Evaluate the Efficacy and Safety of Perampanel (E2007) Administered as an Adjunctive Therapy in Subjects With Refractory Partial-onset Seizures",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study With an Open-label Extension Phase to Evaluate the Efficacy and Safety of Perampanel (E2007) Administered as an Adjunctive Therapy in Subjects With Refractory Partial-onset Seizures",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64650681",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Denosumab Compared to Zoledronic Acid in the Treatment of Bone Disease in Patients With Multiple Myeloma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Denosumab Compared to Zoledronic Acid in the Treatment of Bone Disease in Patients With Multiple Myeloma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q51954340",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2012 Tour of Japan",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2012 Tour of Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65371783",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate Long-term Safety and Efficacy of ASP1941 in Diabetes Patients",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate Long-term Safety and Efficacy of ASP1941 in Diabetes Patients",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124803338",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "仮面の忍者赤影Remains",
+            "description": "神崎将臣による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "仮面の忍者赤影Remains",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q112169278",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "はたらく魔王さま! ハイスクール!",
+            "description": "和ヶ原聡司による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "はたらく魔王さま! ハイスクール!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131862556",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "マブラヴ オルタネイティヴ トータル・イクリプス rising",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "マブラヴ オルタネイティヴ トータル・イクリプス rising",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130425644",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "俺がお嬢様学校に「庶民サンプル」として拉致られた件",
+            "description": "七月隆文による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "俺がお嬢様学校に「庶民サンプル」として拉致られた件が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64139658",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Xarelto [SPAF] Post-marketing Surveillance in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Xarelto [SPAF] Post-marketing Surveillance in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-05-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63841910",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Xarelto [SPAF-QOL] Post-marketing Surveillance in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Xarelto [SPAF-QOL] Post-marketing Surveillance in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [],
+        "北海道": [
+            {
+                "date": "2012-05-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11641003",
+                "latitude": 45.41725,
+                "longitude": 141.677361111,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "道の駅わっかない",
+                "description": "北海道稚内市にある国道40号の道の駅",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "道の駅わっかないが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [
+            {
+                "date": "2012-05-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q5306285",
+                "latitude": 35.894889,
+                "longitude": 139.630833,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "DREAM.18 & GLORY 4",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/DREAM.18_%26_GLORY_4",
+                "wikipedia_language": "ja",
+                "headline": "DREAM.18 & GLORY 4",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [
+            {
+                "date": "2012-05-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q11592006",
+                "latitude": 34.485861111,
+                "longitude": 133.362305555,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "福山ホテル火災",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B1%B1%E3%83%9B%E3%83%86%E3%83%AB%E7%81%AB%E7%81%BD",
+                "wikipedia_language": "ja",
+                "headline": "福山ホテル火災",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2012-05",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q17217521",
+                "latitude": 35.69675,
+                "longitude": 139.708194,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "新宿イーストサイドスクエア",
+                "description": "東京都新宿区の複合ビル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%AE%BF%E3%82%A4%E3%83%BC%E3%82%B9%E3%83%88%E3%82%B5%E3%82%A4%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2",
+                "wikipedia_language": "ja",
+                "headline": "新宿イーストサイドスクエアが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2012-05-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q11438100",
+                "latitude": 35.696944,
+                "longitude": 139.793333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "大相撲平成24年5月場所",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E5%B9%B3%E6%88%9024%E5%B9%B45%E6%9C%88%E5%A0%B4%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大相撲平成24年5月場所",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-05-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q7126175",
+                "latitude": 35.6845024,
+                "longitude": 139.7612295,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "パレスホテル東京",
+                "description": "東京都千代田区の高級ホテル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AC%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB%E6%9D%B1%E4%BA%AC",
+                "wikipedia_language": "ja",
+                "headline": "パレスホテル東京が開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q8134074",
+                "latitude": 35.709889,
+                "longitude": 139.809861,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "すみだ水族館",
+                "description": "東京都墨田区にある水族館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%99%E3%81%BF%E3%81%A0%E6%B0%B4%E6%97%8F%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "すみだ水族館が開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q57965",
+                "latitude": 35.710055555,
+                "longitude": 139.810722222,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "東京スカイツリー",
+                "description": "東京都墨田区の電波塔",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC",
+                "wikipedia_language": "ja",
+                "headline": "東京スカイツリーが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11524181",
+                "latitude": 35.709917,
+                "longitude": 139.809861,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "東京スカイツリータウン",
+                "description": "東京都墨田区の複合施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC%E3%82%BF%E3%82%A6%E3%83%B3",
+                "wikipedia_language": "ja",
+                "headline": "東京スカイツリータウンが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q117066302",
+                "latitude": 35.7102266,
+                "longitude": 139.810694,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "東京スカイツリー天望デッキ",
+                "description": "東京スカイツリーの第一展望台",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "東京スカイツリー天望デッキが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q117066320",
+                "latitude": 35.710256,
+                "longitude": 139.8107946,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "東京スカイツリー天望回廊",
+                "description": "東京スカイツリーの第二展望台",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "東京スカイツリー天望回廊が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2012-05-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11235194",
+                "latitude": 35.710333,
+                "longitude": 139.812222,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "東京ソラマチ",
+                "description": "東京都墨田区にあるショッピングセンター",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%82%BD%E3%83%A9%E3%83%9E%E3%83%81",
+                "wikipedia_language": "ja",
+                "headline": "東京ソラマチが開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            },
+            {
+                "date": "2012-05-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123980457",
+                "latitude": 35.6625,
+                "longitude": 139.485,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第79回東京優駿",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第79回東京優駿",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-05-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11226072",
+                "latitude": 35.67975,
+                "longitude": 139.764583,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "JPタワー",
+                "description": "東京都千代田区にある超高層ビル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/JP%E3%82%BF%E3%83%AF%E3%83%BC",
+                "wikipedia_language": "ja",
+                "headline": "JPタワーが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [
+            {
+                "date": "2012-05-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q111406625",
+                "latitude": 26.21205,
+                "longitude": 127.67514,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "DoubleTree by Hilton Hotel Naha",
+                "description": "hotel in Naha, Japan",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "DoubleTree by Hilton Hotel Nahaが開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2012-05-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q17209583",
+                "latitude": 26.52813,
+                "longitude": 127.93908,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "ザ・リッツ・カールトン沖縄",
+                "description": "沖縄県名護市にあるホテル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B6%E3%83%BB%E3%83%AA%E3%83%83%E3%83%84%E3%83%BB%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%88%E3%83%B3%E6%B2%96%E7%B8%84",
+                "wikipedia_language": "ja",
+                "headline": "ザ・リッツ・カールトン沖縄が開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            }
+        ],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2012-05-07",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11542907",
+                "latitude": 35.463167,
+                "longitude": 139.625,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "横浜三井ビルディング",
+                "description": "building in Nishi-ku, Kanagawa Prefecture, Japan",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E4%B8%89%E4%BA%95%E3%83%93%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
+                "wikipedia_language": "ja",
+                "headline": "横浜三井ビルディングが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2012-05-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q116243642",
+                "latitude": 33.583194444,
+                "longitude": 130.357722222,
+                "query_sources": [
+                    "P585:direct"
+                ],
+                "title": "サザエさん通り (福岡市)",
+                "description": "福岡市早良区の道路愛称",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "サザエさん通り (福岡市)",
+                "headline_category": "road_facility",
+                "headline_rule": "event.label"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [
+            {
+                "date": "2012-05-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99574512",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 J-GP3 Tsukuba Race",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 J-GP3 Tsukuba Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "長崎県": [
+            {
+                "date": "2012-05-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q11426128",
+                "latitude": 33.195611111,
+                "longitude": 129.661916666,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "城島健司ベースボール記念館",
+                "description": "former museum in Sasebo, Nagasaki, Japan (2001–2012)",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9F%8E%E5%B3%B6%E5%81%A5%E5%8F%B8%E3%83%99%E3%83%BC%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%AB%E8%A8%98%E5%BF%B5%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "城島健司ベースボール記念館が閉鎖",
+                "headline_category": "museum",
+                "headline_rule": "museum.close"
+            }
+        ],
+        "長野県": [
+            {
+                "date": "2012-05-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q97185006",
+                "latitude": 36.75855,
+                "longitude": 137.75843,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012年の白馬岳大量遭難事故",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4%E3%81%AE%E7%99%BD%E9%A6%AC%E5%B2%B3%E5%A4%A7%E9%87%8F%E9%81%AD%E9%9B%A3%E4%BA%8B%E6%95%85",
+                "wikipedia_language": "ja",
+                "headline": "2012年の白馬岳大量遭難事故",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "青森県": [],
+        "静岡県": [
+            {
+                "date": "2012-05-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q65228762",
+                "latitude": 35.012472222,
+                "longitude": 138.941888888,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "IZU VILLAGE",
+                "description": "静岡県伊豆の国市にあるリゾート施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/IZU_VILLAGE",
+                "wikipedia_language": "ja",
+                "headline": "IZU VILLAGEが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2012-05-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q11224475",
+                "latitude": 35.012306,
+                "longitude": 138.941333,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "IZU・WORLD みんなのHawaiians",
+                "description": "静岡県伊豆の国市にあった施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/IZU%E3%83%BBWORLD_%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEHawaiians",
+                "wikipedia_language": "ja",
+                "headline": "IZU・WORLD みんなのHawaiiansが閉鎖",
+                "headline_category": "building",
+                "headline_rule": "building.close"
+            }
+        ],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

@@ -1,0 +1,3402 @@
+{
+    "year": 2019,
+    "month": 6,
+    "generated_at": "2026-08-31T00:08:58Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 65,
+        "raw_rows_by_property": {
+            "P1619": 8,
+            "P3999": 4,
+            "P571": 11,
+            "P576": 5,
+            "P580": 11,
+            "P585": 26
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 47,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 4,
+            "closure": 4,
+            "event": 16,
+            "inception": 10,
+            "opening": 6,
+            "start": 7
+        },
+        "national_raw_rows": 108,
+        "national_raw_rows_by_property": {
+            "P1619": 6,
+            "P3999": 5,
+            "P571": 29,
+            "P576": 6,
+            "P580": 41,
+            "P585": 21
+        },
+        "national_query_candidate_count": 106,
+        "national_candidate_count": 62,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2019-06-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q64704656",
+            "latitude": 38.635,
+            "longitude": 139.454,
+            "query_sources": [
+                "P585:direct",
+                "P585:national"
+            ],
+            "title": "山形県沖地震",
+            "description": "2019年に山形県沖で発生した地震",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%BD%A2%E7%9C%8C%E6%B2%96%E5%9C%B0%E9%9C%87",
+            "wikipedia_language": "ja",
+            "headline": "山形県沖地震",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 7,
+            "category": "disaster",
+            "score": 65,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "山形県"
+        },
+        {
+            "date": "2019-06-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q960422",
+            "latitude": 35.73219444,
+            "longitude": 139.53877778,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "ジーベック",
+            "description": "かつて存在した日本のアニメ制作会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%BC%E3%83%99%E3%83%83%E3%82%AF_(%E3%82%A2%E3%83%8B%E3%83%A1%E5%88%B6%E4%BD%9C%E4%BC%9A%E7%A4%BE)",
+            "wikipedia_language": "ja",
+            "headline": "ジーベックが解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "sitelink_count": 21,
+            "category": "economy",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2019-06-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q79265502",
+            "latitude": 35.735527777,
+            "longitude": 139.651694444,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "元農水事務次官長男殺害事件",
+            "description": "2019年に東京都練馬区で発生した殺人事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%83%E8%BE%B2%E6%B0%B4%E4%BA%8B%E5%8B%99%E6%AC%A1%E5%AE%98%E9%95%B7%E7%94%B7%E6%AE%BA%E5%AE%B3%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "headline": "元農水事務次官長男殺害事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 2,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2019-06-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q65288814",
+            "latitude": 35.385833,
+            "longitude": 139.620556,
+            "query_sources": [
+                "P585:direct",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "金沢シーサイドライン新杉田駅逆走事故",
+            "description": "2019年6月1日に横浜市の新杉田駅で発生した鉄道事故",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%B2%A2%E3%82%B7%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3%E6%96%B0%E6%9D%89%E7%94%B0%E9%A7%85%E9%80%86%E8%B5%B0%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "headline": "金沢シーサイドライン新杉田駅逆走事故",
+            "headline_category": "railway_station",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "神奈川県"
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q30925084",
+            "latitude": 34.85708333,
+            "longitude": 136.82138889,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "愛知県国際展示場",
+            "description": "愛知県常滑市の中部国際空港島内にある国際展示場",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%9B%BD%E9%9A%9B%E5%B1%95%E7%A4%BA%E5%A0%B4",
+            "wikipedia_language": "ja",
+            "headline": "愛知県国際展示場が開業",
+            "headline_category": "airport",
+            "headline_rule": "airport.open",
+            "sitelink_count": 3,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "愛知県"
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11088792",
+            "latitude": 42.97583333,
+            "longitude": 144.4163889,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "春採駅",
+            "description": "廃駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%98%A5%E6%8E%A1%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "春採駅が廃止",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.abolish",
+            "sitelink_count": 3,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "北海道"
+        },
+        {
+            "date": "2019-06-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q114016973",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2019年青森県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2019%E5%B9%B4%E9%9D%92%E6%A3%AE%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2019年青森県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472272",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "死因究明等推進基本法",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%AD%BB%E5%9B%A0%E7%A9%B6%E6%98%8E%E7%AD%89%E6%8E%A8%E9%80%B2%E5%9F%BA%E6%9C%AC%E6%B3%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "死因究明等推進基本法が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q41795362",
+            "latitude": 35.601666666,
+            "longitude": 139.807777777,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "海の森水上競技場",
+            "description": "東京都江東区にある漕艇場",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E3%81%AE%E6%A3%AE%E6%B0%B4%E4%B8%8A%E7%AB%B6%E6%8A%80%E5%A0%B4",
+            "wikipedia_language": "ja",
+            "headline": "海の森水上競技場が開設",
+            "headline_category": "sports_facility",
+            "headline_rule": "sports_facility.open",
+            "sitelink_count": 11,
+            "category": "sports",
+            "score": 43,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2019-06-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q33038474",
+            "latitude": 34.637244,
+            "longitude": 135.418181,
+            "query_sources": [
+                "P580:national",
+                "P580:place",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "第14回20か国・地域首脳会合",
+            "description": "2019年に日本の大阪府大阪市で開催された首脳会合",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC14%E5%9B%9E20%E3%81%8B%E5%9B%BD%E3%83%BB%E5%9C%B0%E5%9F%9F%E9%A6%96%E8%84%B3%E4%BC%9A%E5%90%88",
+            "wikipedia_language": "ja",
+            "headline": "第14回20か国・地域首脳会合",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 19,
+            "category": "society",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "大阪府"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2019-06-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q85873447",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ブルータル 殺人警察官の告白",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%AB_%E6%AE%BA%E4%BA%BA%E8%AD%A6%E5%AF%9F%E5%AE%98%E3%81%AE%E5%91%8A%E7%99%BD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ブルータル 殺人警察官の告白",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q114016973",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2019年青森県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2019%E5%B9%B4%E9%9D%92%E6%A3%AE%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2019年青森県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472272",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "死因究明等推進基本法",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%AD%BB%E5%9B%A0%E7%A9%B6%E6%98%8E%E7%AD%89%E6%8E%A8%E9%80%B2%E5%9F%BA%E6%9C%AC%E6%B3%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "死因究明等推進基本法が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q65227274",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2019年堺市長選挙",
+            "description": "2019 Japanese election",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2019%E5%B9%B4%E5%A0%BA%E5%B8%82%E9%95%B7%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2019年堺市長選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q85879290",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "学校教育の情報化の推進に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E6%95%99%E8%82%B2%E3%81%AE%E6%83%85%E5%A0%B1%E5%8C%96%E3%81%AE%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "学校教育の情報化の推進に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q85880410",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "愛玩動物看護師法",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%8E%A9%E5%8B%95%E7%89%A9%E7%9C%8B%E8%AD%B7%E5%B8%AB%E6%B3%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "愛玩動物看護師法が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472277",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本語教育の推進に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E6%95%99%E8%82%B2%E3%81%AE%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "日本語教育の推進に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q85883725",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "視覚障害者等の読書環境の整備の推進に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A6%96%E8%A6%9A%E9%9A%9C%E5%AE%B3%E8%80%85%E7%AD%89%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%92%B0%E5%A2%83%E3%81%AE%E6%95%B4%E5%82%99%E3%81%AE%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "視覚障害者等の読書環境の整備の推進に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q71759127",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本の尊厳と国益を護る会",
+            "description": "自由民主党に所属する国会議員の議員連盟",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%B0%8A%E5%8E%B3%E3%81%A8%E5%9B%BD%E7%9B%8A%E3%82%92%E8%AD%B7%E3%82%8B%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "日本の尊厳と国益を護る会が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q85882100",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "渋谷駅周辺地域の安全で安心な環境の確保に関する条例",
+            "description": "東京都渋谷区の条例",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B8%8B%E8%B0%B7%E9%A7%85%E5%91%A8%E8%BE%BA%E5%9C%B0%E5%9F%9F%E3%81%AE%E5%AE%89%E5%85%A8%E3%81%A7%E5%AE%89%E5%BF%83%E3%81%AA%E7%92%B0%E5%A2%83%E3%81%AE%E7%A2%BA%E4%BF%9D%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%9D%A1%E4%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "渋谷駅周辺地域の安全で安心な環境の確保に関する条例が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97312290",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2.5次元の誘惑",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2.5%E6%AC%A1%E5%85%83%E3%81%AE%E8%AA%98%E6%83%91",
+            "wikipedia_language": "ja",
+            "sitelink_count": 16,
+            "headline": "2.5次元の誘惑",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q108478846",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "鬼人幻燈抄",
+            "description": "日本の小説、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AC%BC%E4%BA%BA%E5%B9%BB%E7%87%88%E6%8A%84",
+            "wikipedia_language": "ja",
+            "sitelink_count": 9,
+            "headline": "鬼人幻燈抄",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q84978056",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "DIALOGUE+",
+            "description": "日本の女性声優アーティストユニット",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/DIALOGUE%2B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 9,
+            "headline": "DIALOGUE+が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131348648",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "宇宙人ムームー",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E4%BA%BA%E3%83%A0%E3%83%BC%E3%83%A0%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "宇宙人ムームー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97179405",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "きたない君がいちばんかわいい",
+            "description": "まにおによる日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8D%E3%81%9F%E3%81%AA%E3%81%84%E5%90%9B%E3%81%8C%E3%81%84%E3%81%A1%E3%81%B0%E3%82%93%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "きたない君がいちばんかわいい",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q7675985",
+            "query_sources": [
+                "P3999:national"
+            ],
+            "title": "太平洋石炭販売輸送臨港線",
+            "description": "北海道の廃線",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9F%B3%E7%82%AD%E8%B2%A9%E5%A3%B2%E8%BC%B8%E9%80%81%E8%87%A8%E6%B8%AF%E7%B7%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "太平洋石炭販売輸送臨港線が閉鎖",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.close",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q56346810",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "大百科ニュース社",
+            "description": "かつて存在した日本の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%99%BE%E7%A7%91%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E7%A4%BE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "大百科ニュース社が解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q4411661",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ヨコモ",
+            "description": "radio controlled cars",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%82%B3%E3%83%A2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "ヨコモが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109601227",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Shrink〜精神科医ヨワイ〜",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Shrink%E3%80%9C%E7%B2%BE%E7%A5%9E%E7%A7%91%E5%8C%BB%E3%83%A8%E3%83%AF%E3%82%A4%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "Shrink〜精神科医ヨワイ〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65239978",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "スカム",
+            "description": "2019 Japanese-language television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AB%E3%83%A0_(2019%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "スカム",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109084177",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Dappi",
+            "description": "2019年に開設されたTwitterアカウント",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Dappi",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "Dappiが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q22125260",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "長閑の庭",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%96%91%E3%81%AE%E5%BA%AD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "長閑の庭",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472274",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "自殺対策の総合的かつ効果的な実施に資するための調査研究及びその成果の活用等の推進に関する法律",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "自殺対策の総合的かつ効果的な実施に資するための調査研究及びその成果の活用等の推進に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472275",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "成年被後見人等の権利の制限に係る措置の適正化等を図るための関係法律の整備に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "成年被後見人等の権利の制限に係る措置の適正化等を図るための関係法律の整備に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q108601580",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "音泉女子高生",
+            "description": "日本の声優のバラエティ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9F%B3%E6%B3%89%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "音泉女子高生",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109601693",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第13期マイナビ女子オープン",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC13%E6%9C%9F%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%93%E5%A5%B3%E5%AD%90%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第13期マイナビ女子オープン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q119197575",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "夢真",
+            "description": "建設技術者派遣事業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A2%E7%9C%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "夢真が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q86728515",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "架乃ゆらのLOVE昭和",
+            "description": "CS放送・エンタ!959で放送されている日本のバラエティ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9E%B6%E4%B9%83%E3%82%86%E3%82%89%E3%81%AELOVE%E6%98%AD%E5%92%8C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "架乃ゆらのLOVE昭和",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q135068082",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "がちキャラ",
+            "description": "田村淳の個人会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "がちキャラが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140795717",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "アイデジ",
+            "description": "株式会社アイクラウドが運営する法人向けデジタル研修スクール",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "アイデジが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q114691825",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "株式会社タストα",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "株式会社タストαが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q102117628",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "イオン所沢店",
+            "description": "かつて所沢市東町に所在していたショッピングモール。",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "イオン所沢店が廃止",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.abolish",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119020798",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "シンデレラクロゼット",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Cinderella_Closet",
+            "wikipedia_language": "en",
+            "sitelink_count": 3,
+            "headline": "シンデレラクロゼット",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q121076468",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ハロー、メランコリック！",
+            "description": "大沢やよいによる日本の連載漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Hello,_Melancholic!",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "ハロー、メランコリック！",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123509735",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "千紘くんは、あたし中毒。",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Chihiro-kun_Only_Has_Eyes_for_Me",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "千紘くんは、あたし中毒。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99472271",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "棚田地域振興法",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "棚田地域振興法が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126372495",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "かろりのつやごと",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Calorie_no_Tsuyagoto",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "かろりのつやごと",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64150735",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety Trial of OPC-61815 Injection in Patients With Congestive Heart Failure Who Have Difficulty With or Are Incapable of Oral Intake",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety Trial of OPC-61815 Injection in Patients With Congestive Heart Failure Who Have Difficulty With or Are Incapable of Oral Intake",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q137969017",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "オフィスモーリー",
+            "description": "モーリー・ロバートソンの個人事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "オフィスモーリーが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113888278",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Inclusive Invasive Physiological Assessment in Angina Syndromes Registry",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Inclusive Invasive Physiological Assessment in Angina Syndromes Registry",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64149963",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Tirzepatide (LY3298176) in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Tirzepatide (LY3298176) in Participants With Type 2 Diabetes Not Controlled With Diet and Exercise Alone",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130305468",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "最後にひとつだけお願いしてもよろしいでしょうか",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "最後にひとつだけお願いしてもよろしいでしょうか",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66387525",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Long-term Safety of Tezepelumab in Japanese Subjects With Inadequately Controlled Severe Asthma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Long-term Safety of Tezepelumab in Japanese Subjects With Inadequately Controlled Severe Asthma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63572977",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Apalutamide in Participants With High‑Risk, Localized or Locally Advanced Prostate Cancer Who Are Candidates for Radical Prostatectomy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Apalutamide in Participants With High‑Risk, Localized or Locally Advanced Prostate Cancer Who Are Candidates for Radical Prostatectomy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66064982",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Find the Best Dose of BI 836880 Alone and in Combination With BI 754091 in Japanese Patients With Different Types of Advanced Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Find the Best Dose of BI 836880 Alone and in Combination With BI 754091 in Japanese Patients With Different Types of Advanced Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q89776394",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "JKハルは異世界で娼婦になった",
+            "description": "平鳥コウによる日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "JKハルは異世界で娼婦になった",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66062676",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Innovative Liver Elasticity, Attenuation, and Dispersion Ultrasound Study",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Innovative Liver Elasticity, Attenuation, and Dispersion Ultrasound Study",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66065604",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase I Study of AZD4635 in Japanese Patients With Advanced Solid Malignancies",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase I Study of AZD4635 in Japanese Patients With Advanced Solid Malignancies",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66064333",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Research Study to Compare Two Doses of Semaglutide Taken Once Weekly in People With Type 2 Diabetes",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Research Study to Compare Two Doses of Semaglutide Taken Once Weekly in People With Type 2 Diabetes",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125291385",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "DMM Agri Innovation",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "DMM Agri Innovationが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q110823663",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "マーベラスアーク",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "マーベラスアークが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66066972",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase 2 Platform Study in Patients With Advanced Non-Small Lung Cancer Who Progressed on First-Line Osimertinib Therapy (ORCHARD)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase 2 Platform Study in Patients With Advanced Non-Small Lung Cancer Who Progressed on First-Line Osimertinib Therapy (ORCHARD)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65096088",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2019年エマニュエル・マクロンの日本訪問",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2019年エマニュエル・マクロンの日本訪問",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66063237",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of E7386 in Combination With Other Anticancer Drug in Participants With Solid Tumor",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of E7386 in Combination With Other Anticancer Drug in Participants With Solid Tumor",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q60464471",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2019 Japan National Road Cycling Championships - Women ITT",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2019 Japan National Road Cycling Championships - Women ITT",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130282833",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "リベリオ・マキナ",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "リベリオ・マキナ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65042018",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "7SEEDS",
+            "description": "Japanese original net animation series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "7SEEDS",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66064444",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Lasmiditan (LY573144) in Children Aged 6 to 17 With Migraine",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Lasmiditan (LY573144) in Children Aged 6 to 17 With Migraine",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63576684",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "LORA-PITA IV General Investigation",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "LORA-PITA IV General Investigation",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q60464469",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2019 Japan National Road Cycling Championships - Women RR",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2019 Japan National Road Cycling Championships - Women RR",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66067565",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluating Effectiveness and Long Term Safety of Damoctocog Alfa Pegol in Patients, Who Have Been Diagnosed With Hemophilia A",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluating Effectiveness and Long Term Safety of Damoctocog Alfa Pegol in Patients, Who Have Been Diagnosed With Hemophilia A",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2019-06-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140546421",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ベビーシッター・ギン!",
+            "description": "Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ベビーシッター・ギン!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q107612925",
+                "latitude": 34.970833333,
+                "longitude": 136.6255,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "東海道四日市宿資料館",
+                "description": "former museum in Yokkaichi, Mie, Japan",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B5%B7%E9%81%93%E5%9B%9B%E6%97%A5%E5%B8%82%E5%AE%BF%E8%B3%87%E6%96%99%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "東海道四日市宿資料館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            },
+            {
+                "date": "2019-06-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q107365620",
+                "latitude": 34.841666666,
+                "longitude": 136.538888888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2019 Asia Road Race Championship Round 4 Suzuka",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 Asia Road Race Championship Round 4 Suzuka",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "京都府": [
+            {
+                "date": "2019-06-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106339349",
+                "latitude": 35.011611111,
+                "longitude": 135.768111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2019 Symposium on VLSI Circuits, Kyoto, Japan, June 9-14, 2019",
+                "description": "academic conference",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 Symposium on VLSI Circuits, Kyoto, Japan, June 9-14, 2019",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2019-06-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q108661883",
+                "latitude": 35.005462777,
+                "longitude": 135.774505,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "Wooden and bamboo facades of dwellings with sudare in a cobbled street of Gion, perspective effect with vanishing point, Kyoto, Japan",
+                "description": "photograph by Basile Morin",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Wooden and bamboo facades of dwellings with sudare in a cobbled street of Gion, perspective effect with vanishing point, Kyoto, Japanが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q65028699",
+                "latitude": 35.605175,
+                "longitude": 134.896243,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "京丹後市立久美浜図書室",
+                "description": "京都府京丹後市の公共図書館",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "京丹後市立久美浜図書室が廃止",
+                "headline_category": "museum",
+                "headline_rule": "museum.abolish"
+            }
+        ],
+        "佐賀県": [
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q64239450",
+                "latitude": 33.176944444,
+                "longitude": 130.196055555,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "道の駅しろいし",
+                "description": "佐賀県杵島郡白石町にある佐賀県道36号武雄福富線の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E3%81%97%E3%82%8D%E3%81%84%E3%81%97",
+                "wikipedia_language": "ja",
+                "headline": "道の駅しろいしが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "兵庫県": [
+            {
+                "date": "2019-06-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q66737407",
+                "latitude": 34.781083333,
+                "longitude": 135.363,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第60回宝塚記念",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC60%E5%9B%9E%E5%AE%9D%E5%A1%9A%E8%A8%98%E5%BF%B5",
+                "wikipedia_language": "ja",
+                "headline": "第60回宝塚記念",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "北海道": [
+            {
+                "date": "2019-06",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q11402569",
+                "latitude": 43.771833333,
+                "longitude": 142.3085,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "北海道伝統美術工芸村",
+                "description": "北海道旭川市にあった企業・美術館群",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%B5%B7%E9%81%93%E4%BC%9D%E7%B5%B1%E7%BE%8E%E8%A1%93%E5%B7%A5%E8%8A%B8%E6%9D%91",
+                "wikipedia_language": "ja",
+                "headline": "北海道伝統美術工芸村が閉鎖",
+                "headline_category": "museum",
+                "headline_rule": "museum.close"
+            },
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q78620619",
+                "latitude": 44.022138888,
+                "longitude": 143.496555555,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅遠軽 森のオホーツク",
+                "description": "北海道紋別郡遠軽町にある道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E9%81%A0%E8%BB%BD_%E6%A3%AE%E3%81%AE%E3%82%AA%E3%83%9B%E3%83%BC%E3%83%84%E3%82%AF",
+                "wikipedia_language": "ja",
+                "headline": "道の駅遠軽 森のオホーツクが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            },
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11088792",
+                "latitude": 42.97583333,
+                "longitude": 144.4163889,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "春採駅",
+                "description": "廃駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%98%A5%E6%8E%A1%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "春採駅が廃止",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.abolish"
+            },
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11584506",
+                "latitude": 42.96944444,
+                "longitude": 144.3716667,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "知人駅",
+                "description": "廃駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%9F%A5%E4%BA%BA%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "知人駅が廃止",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.abolish"
+            }
+        ],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [],
+        "大分県": [],
+        "大阪府": [
+            {
+                "date": "2019-06-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q86743720",
+                "latitude": 34.759472222,
+                "longitude": 135.516833333,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "吹田警察署千里山交番警察官襲撃事件",
+                "description": "日本の警察署襲撃・強盗殺人未遂事件",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%90%B9%E7%94%B0%E8%AD%A6%E5%AF%9F%E7%BD%B2%E5%8D%83%E9%87%8C%E5%B1%B1%E4%BA%A4%E7%95%AA%E8%AD%A6%E5%AF%9F%E5%AE%98%E8%A5%B2%E6%92%83%E4%BA%8B%E4%BB%B6",
+                "wikipedia_language": "ja",
+                "headline": "吹田警察署千里山交番警察官襲撃事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q65096059",
+                "latitude": 34.69375,
+                "longitude": 135.502111111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Q65096059",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Q65096059",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q33038474",
+                "latitude": 34.637244,
+                "longitude": 135.418181,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "第14回20か国・地域首脳会合",
+                "description": "2019年に日本の大阪府大阪市で開催された首脳会合",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC14%E5%9B%9E20%E3%81%8B%E5%9B%BD%E3%83%BB%E5%9C%B0%E5%9F%9F%E9%A6%96%E8%84%B3%E4%BC%9A%E5%90%88",
+                "wikipedia_language": "ja",
+                "headline": "第14回20か国・地域首脳会合",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [
+            {
+                "date": "2019-06-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q64704656",
+                "latitude": 38.635,
+                "longitude": 139.454,
+                "query_sources": [
+                    "P585:direct"
+                ],
+                "title": "山形県沖地震",
+                "description": "2019年に山形県沖で発生した地震",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%BD%A2%E7%9C%8C%E6%B2%96%E5%9C%B0%E9%9C%87",
+                "wikipedia_language": "ja",
+                "headline": "山形県沖地震",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "山梨県": [
+            {
+                "date": "2019-06",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q85882484",
+                "latitude": 35.85,
+                "longitude": 138.816666666,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "甲武信ユネスコエコパーク",
+                "description": "日本の山梨県、埼玉県、長野県、東京都に跨る生物圏保存地域",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%94%B2%E6%AD%A6%E4%BF%A1%E3%83%A6%E3%83%8D%E3%82%B9%E3%82%B3%E3%82%A8%E3%82%B3%E3%83%91%E3%83%BC%E3%82%AF",
+                "wikipedia_language": "ja",
+                "headline": "甲武信ユネスコエコパークが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [
+            {
+                "date": "2019-06-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q11236340",
+                "latitude": 39.696666666,
+                "longitude": 141.156388888,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "Nanak",
+                "description": "かつて岩手県盛岡市にあった百貨店",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/Nanak",
+                "wikipedia_language": "ja",
+                "headline": "Nanakが閉鎖",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.close"
+            }
+        ],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [
+            {
+                "date": "2019-06",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q30925084",
+                "latitude": 34.85708333,
+                "longitude": 136.82138889,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "愛知県国際展示場",
+                "description": "愛知県常滑市の中部国際空港島内にある国際展示場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%9B%BD%E9%9A%9B%E5%B1%95%E7%A4%BA%E5%A0%B4",
+                "wikipedia_language": "ja",
+                "headline": "愛知県国際展示場が開業",
+                "headline_category": "airport",
+                "headline_rule": "airport.open"
+            },
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q87735329",
+                "latitude": 34.928753055,
+                "longitude": 136.994888888,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "刈谷豊田総合病院高浜分院",
+                "description": "hospital",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "刈谷豊田総合病院高浜分院が閉鎖",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.close"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2019-06",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q104636940",
+                "latitude": 35.701881591,
+                "longitude": 139.629553084,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "スタジオKAI",
+                "description": "日本の東京都中野区にあるアニメ制作会社",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AAKAI",
+                "wikipedia_language": "ja",
+                "headline": "スタジオKAIが設立",
+                "headline_category": "company",
+                "headline_rule": "company.open"
+            },
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q960422",
+                "latitude": 35.73219444,
+                "longitude": 139.53877778,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "ジーベック",
+                "description": "かつて存在した日本のアニメ制作会社",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%BC%E3%83%99%E3%83%83%E3%82%AF_(%E3%82%A2%E3%83%8B%E3%83%A1%E5%88%B6%E4%BD%9C%E4%BC%9A%E7%A4%BE)",
+                "wikipedia_language": "ja",
+                "headline": "ジーベックが解散",
+                "headline_category": "company",
+                "headline_rule": "company.dissolve"
+            },
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q79265502",
+                "latitude": 35.735527777,
+                "longitude": 139.651694444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "元農水事務次官長男殺害事件",
+                "description": "2019年に東京都練馬区で発生した殺人事件",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%83%E8%BE%B2%E6%B0%B4%E4%BA%8B%E5%8B%99%E6%AC%A1%E5%AE%98%E9%95%B7%E7%94%B7%E6%AE%BA%E5%AE%B3%E4%BA%8B%E4%BB%B6",
+                "wikipedia_language": "ja",
+                "headline": "元農水事務次官長男殺害事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q86731723",
+                "latitude": 35.6625,
+                "longitude": 139.485,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第69回安田記念",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC69%E5%9B%9E%E5%AE%89%E7%94%B0%E8%A8%98%E5%BF%B5",
+                "wikipedia_language": "ja",
+                "headline": "第69回安田記念",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q67935178",
+                "latitude": 35.658611111,
+                "longitude": 139.701388888,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "香港の自由と民主主義を守る緊急行動",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E3%81%AE%E8%87%AA%E7%94%B1%E3%81%A8%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%82%92%E5%AE%88%E3%82%8B%E7%B7%8A%E6%80%A5%E8%A1%8C%E5%8B%95",
+                "wikipedia_language": "ja",
+                "headline": "香港の自由と民主主義を守る緊急行動",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q41795362",
+                "latitude": 35.601666666,
+                "longitude": 139.807777777,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "海の森水上競技場",
+                "description": "東京都江東区にある漕艇場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E3%81%AE%E6%A3%AE%E6%B0%B4%E4%B8%8A%E7%AB%B6%E6%8A%80%E5%A0%B4",
+                "wikipedia_language": "ja",
+                "headline": "海の森水上競技場が開設",
+                "headline_category": "sports_facility",
+                "headline_rule": "sports_facility.open"
+            },
+            {
+                "date": "2019-06-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q22120359",
+                "latitude": 35.56722222,
+                "longitude": 139.45111111,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "町田市立博物館",
+                "description": "former museum in Machida, Tokyo, Japan",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%94%BA%E7%94%B0%E5%B8%82%E7%AB%8B%E5%8D%9A%E7%89%A9%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "町田市立博物館が閉鎖",
+                "headline_category": "museum",
+                "headline_rule": "museum.close"
+            },
+            {
+                "date": "2019-06-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q61100330",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2019 Asian TV Cup",
+                "description": "2019 go competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 Asian TV Cup",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2019-06-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q64907042",
+                "latitude": 35.673,
+                "longitude": 139.743,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "日仏共同記者会見",
+                "description": "2019年に東京で安倍晋三とエマニュエル・マクロンが行った会見",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "日仏共同記者会見",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "栃木県": [
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q92575295",
+                "latitude": 36.632666666,
+                "longitude": 140.053194444,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅たかねざわ 元気あっぷむら",
+                "description": "栃木県塩谷郡高根沢町にある町道の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E3%81%9F%E3%81%8B%E3%81%AD%E3%81%96%E3%82%8F_%E5%85%83%E6%B0%97%E3%81%82%E3%81%A3%E3%81%B7%E3%82%80%E3%82%89",
+                "wikipedia_language": "ja",
+                "headline": "道の駅たかねざわ 元気あっぷむらが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q64347128",
+                "latitude": 32.545583333,
+                "longitude": 130.130527777,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "道の駅天草市イルカセンター",
+                "description": "熊本県天草市にある国道324号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E5%A4%A9%E8%8D%89%E5%B8%82%E3%82%A4%E3%83%AB%E3%82%AB%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC",
+                "wikipedia_language": "ja",
+                "headline": "道の駅天草市イルカセンターが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2019-06-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q65288814",
+                "latitude": 35.385833,
+                "longitude": 139.620556,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "金沢シーサイドライン新杉田駅逆走事故",
+                "description": "2019年6月1日に横浜市の新杉田駅で発生した鉄道事故",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%B2%A2%E3%82%B7%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3%E6%96%B0%E6%9D%89%E7%94%B0%E9%A7%85%E9%80%86%E8%B5%B0%E4%BA%8B%E6%95%85",
+                "wikipedia_language": "ja",
+                "headline": "金沢シーサイドライン新杉田駅逆走事故",
+                "headline_category": "railway_station",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q140195761",
+                "latitude": 35.324672,
+                "longitude": 139.554932,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "鎌倉文華館鶴岡ミュージアム",
+                "description": "museum in Kamakura, Kanagawa, Japan",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "鎌倉文華館鶴岡ミュージアムが開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q93730986",
+                "latitude": 33.467055555,
+                "longitude": 130.624555555,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅筑前みなみの里",
+                "description": "福岡県朝倉郡筑前町にある福岡県道77号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E7%AD%91%E5%89%8D%E3%81%BF%E3%81%AA%E3%81%BF%E3%81%AE%E9%87%8C",
+                "wikipedia_language": "ja",
+                "headline": "道の駅筑前みなみの里が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            },
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q65277585",
+                "latitude": 33.584506,
+                "longitude": 130.465717,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第103回日本陸上競技選手権大会",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC103%E5%9B%9E%E6%97%A5%E6%9C%AC%E9%99%B8%E4%B8%8A%E7%AB%B6%E6%8A%80%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第103回日本陸上競技選手権大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q85884013",
+                "latitude": 36.323111111,
+                "longitude": 139.993472222,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅グランテラス筑西",
+                "description": "茨城県筑西市にある国道50号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%86%E3%83%A9%E3%82%B9%E7%AD%91%E8%A5%BF",
+                "wikipedia_language": "ja",
+                "headline": "道の駅グランテラス筑西が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            },
+            {
+                "date": "2019-06-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106726615",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2019 All Japan Road Race Championship Round 4 Tsukuba",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 All Japan Road Race Championship Round 4 Tsukuba",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2019-06-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100135020",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 J-GP2 Tsukuba Race 1",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 J-GP2 Tsukuba Race 1",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100151622",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 J-GP3 Tsukuba Race 1",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 J-GP3 Tsukuba Race 1",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99844551",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 ST600 Tsukuba Race 1",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 ST600 Tsukuba Race 1",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100135171",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 J-GP2 Tsukuba Race 2",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 J-GP2 Tsukuba Race 2",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100151626",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 J-GP3 Tsukuba Race 2",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 J-GP3 Tsukuba Race 2",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2019-06-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99844692",
+                "latitude": 36.15166667,
+                "longitude": 139.92138889,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2019 ST600 Tsukuba Race 2",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2019 ST600 Tsukuba Race 2",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "長崎県": [],
+        "長野県": [
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q67144920",
+                "latitude": 36.960111111,
+                "longitude": 138.447916666,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅野沢温泉",
+                "description": "長野県下高井郡野沢温泉村にある国道117号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E9%87%8E%E6%B2%A2%E6%B8%A9%E6%B3%89",
+                "wikipedia_language": "ja",
+                "headline": "道の駅野沢温泉が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "青森県": [],
+        "静岡県": [
+            {
+                "date": "2019-06-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q85884014",
+                "latitude": 34.922805555,
+                "longitude": 138.930527777,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅伊豆月ケ瀬",
+                "description": "静岡県伊豆市にある国道414号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E4%BC%8A%E8%B1%86%E6%9C%88%E3%82%B1%E7%80%AC",
+                "wikipedia_language": "ja",
+                "headline": "道の駅伊豆月ケ瀬が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [
+            {
+                "date": "2019-06-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q64999732",
+                "latitude": 35.497472222,
+                "longitude": 134.053027777,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "道の駅西いなば気楽里",
+                "description": "鳥取県鳥取市にある県道32号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E8%A5%BF%E3%81%84%E3%81%AA%E3%81%B0%E6%B0%97%E6%A5%BD%E9%87%8C",
+                "wikipedia_language": "ja",
+                "headline": "道の駅西いなば気楽里が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "鹿児島県": [
+            {
+                "date": "2019-06-07",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q125148226",
+                "latitude": 27.333555555,
+                "longitude": 128.573694444,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "4th Symposium Risk Analysis and Risk Management in Coastal Areas of China, Qingdao, China (2019)",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "4th Symposium Risk Analysis and Risk Management in Coastal Areas of China, Qingdao, China (2019)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2019-06-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q125148328",
+                "latitude": 27.333555555,
+                "longitude": 128.573694444,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "3rd International Conference Education Culture Social Development, Guilin, China (2019)",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "3rd International Conference Education Culture Social Development, Guilin, China (2019)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ]
+    }
+}

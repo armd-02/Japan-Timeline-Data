@@ -1,0 +1,4309 @@
+{
+    "year": 2012,
+    "month": 11,
+    "generated_at": "2026-08-30T15:15:54Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 78,
+        "raw_rows_by_property": {
+            "P1619": 6,
+            "P571": 15,
+            "P580": 27,
+            "P585": 30
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 41,
+        "event_counts_by_type": {
+            "event": 11,
+            "inception": 11,
+            "opening": 4,
+            "start": 15
+        },
+        "national_raw_rows": 144,
+        "national_raw_rows_by_property": {
+            "P1619": 4,
+            "P571": 42,
+            "P576": 7,
+            "P580": 71,
+            "P585": 20
+        },
+        "national_query_candidate_count": 136,
+        "national_candidate_count": 96,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2012-11-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q11639487",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "逗子ストーカー殺人事件",
+            "description": "2012年に日本の神奈川県逗子市で発生した殺人事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%80%97%E5%AD%90%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AB%E3%83%BC%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "逗子ストーカー殺人事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11523819",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "地域的な包括的経済連携協定",
+            "description": "東南アジア諸国連合加盟国ほか15カ国間で提案されている自由貿易協定",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F%E7%9A%84%E3%81%AA%E5%8C%85%E6%8B%AC%E7%9A%84%E7%B5%8C%E6%B8%88%E9%80%A3%E6%90%BA%E5%8D%94%E5%AE%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 37,
+            "headline": "地域的な包括的経済連携協定が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q17217104",
+            "latitude": 35.042444444,
+            "longitude": 140.020638888,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "道の駅和田浦WA・O!",
+            "description": "千葉県南房総市にある国道128号の道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E5%92%8C%E7%94%B0%E6%B5%A6WA%E3%83%BBO!",
+            "wikipedia_language": "ja",
+            "headline": "道の駅和田浦WA・O!が開業",
+            "headline_category": "roadside_station",
+            "headline_rule": "roadside_station.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "千葉県"
+        },
+        {
+            "date": "2012-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q10936313",
+            "latitude": 42.007,
+            "longitude": 140.622333333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "大沼公園インターチェンジ",
+            "description": "北海道茅部郡森町にある道央自動車道のインターチェンジ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%BC%E5%85%AC%E5%9C%92%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "大沼公園インターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 1,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "北海道"
+        },
+        {
+            "date": "2012-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17994697",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "年金生活者支援給付金の支給に関する法律",
+            "description": "課税 非課税",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B9%B4%E9%87%91%E7%94%9F%E6%B4%BB%E8%80%85%E6%94%AF%E6%8F%B4%E7%B5%A6%E4%BB%98%E9%87%91%E3%81%AE%E6%94%AF%E7%B5%A6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "年金生活者支援給付金の支給に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q11187061",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2012年栃木県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4%E6%A0%83%E6%9C%A8%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2012年栃木県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135705",
+            "latitude": 38.337566,
+            "longitude": 140.952938,
+            "query_sources": [
+                "P580:national",
+                "P580:place",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "2012年NHK杯国際フィギュアスケート競技大会",
+            "description": "フィギュアスケート競技会",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4NHK%E6%9D%AF%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "headline": "2012年NHK杯国際フィギュアスケート競技大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 8,
+            "category": "sports",
+            "score": 43,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "宮城県"
+        },
+        {
+            "date": "2012-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q84836242",
+            "latitude": 35.724916666,
+            "longitude": 139.760666666,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "文京区立森鷗外記念館",
+            "description": "東京都文京区にある文学館",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%AC%E5%8C%BA%E7%AB%8B%E6%A3%AE%E9%B7%97%E5%A4%96%E8%A8%98%E5%BF%B5%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "文京区立森鷗外記念館が開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "sitelink_count": 2,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2012-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17191979",
+            "latitude": 36.078,
+            "longitude": 139.661333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "アリオ鷲宮",
+            "description": "埼玉県久喜市にある商業施設",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%82%AA%E9%B7%B2%E5%AE%AE",
+            "wikipedia_language": "ja",
+            "headline": "アリオ鷲宮が開業",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.open",
+            "sitelink_count": 1,
+            "category": "economy",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "埼玉県"
+        },
+        {
+            "date": "2012-11-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11448382",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "学校法人吉田学園",
+            "description": "北海道にある学校法人",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E6%B3%95%E4%BA%BA%E5%90%89%E7%94%B0%E5%AD%A6%E5%9C%92_(%E5%8C%97%E6%B5%B7%E9%81%93)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "学校法人吉田学園が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2012-11-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q11639487",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "逗子ストーカー殺人事件",
+            "description": "2012年に日本の神奈川県逗子市で発生した殺人事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%80%97%E5%AD%90%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AB%E3%83%BC%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "逗子ストーカー殺人事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11523819",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "地域的な包括的経済連携協定",
+            "description": "東南アジア諸国連合加盟国ほか15カ国間で提案されている自由貿易協定",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F%E7%9A%84%E3%81%AA%E5%8C%85%E6%8B%AC%E7%9A%84%E7%B5%8C%E6%B8%88%E9%80%A3%E6%90%BA%E5%8D%94%E5%AE%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 37,
+            "headline": "地域的な包括的経済連携協定が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q16958608",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "citrus",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Citrus_(%E6%BC%AB%E7%94%BB)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 21,
+            "headline": "citrus",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17994697",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "年金生活者支援給付金の支給に関する法律",
+            "description": "課税 非課税",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B9%B4%E9%87%91%E7%94%9F%E6%B4%BB%E8%80%85%E6%94%AF%E6%8F%B4%E7%B5%A6%E4%BB%98%E9%87%91%E3%81%AE%E6%94%AF%E7%B5%A6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "年金生活者支援給付金の支給に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q11187061",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2012年栃木県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4%E6%A0%83%E6%9C%A8%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2012年栃木県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11570719",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%89%B9%E4%BE%8B%E5%85%AC%E5%82%B5%E6%B3%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11373730",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "井笠鉄道",
+            "description": "岡山県笠岡市に本社を置き、かつて鉄道やバス事業を中心に展開した会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%95%E7%AC%A0%E9%89%84%E9%81%93",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "井笠鉄道が廃止",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.abolish",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q17210063",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "逃げるは恥だが役に立つ",
+            "description": "海野つなみによる日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%80%83%E3%81%92%E3%82%8B%E3%81%AF%E6%81%A5%E3%81%A0%E3%81%8C%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4",
+            "wikipedia_language": "ja",
+            "sitelink_count": 13,
+            "headline": "逃げるは恥だが役に立つ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q45353422",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "魔法少女 俺",
+            "description": "日本の漫画作品、テレビアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3_%E4%BF%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 9,
+            "headline": "魔法少女 俺",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q17240149",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "太陽の党",
+            "description": "かつて存在した日本の政党",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%99%BD%E3%81%AE%E5%85%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 8,
+            "headline": "太陽の党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q16558217",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ドラゴンズ ライデン",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA_%E3%83%A9%E3%82%A4%E3%83%87%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "ドラゴンズ ライデン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q194683",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本未来の党",
+            "description": "日本の政党 (2012)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%85%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "日本未来の党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q1353524",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "たちあがれ日本",
+            "description": "日本の政党 (2010-2012)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%A1%E3%81%82%E3%81%8C%E3%82%8C%E6%97%A5%E6%9C%AC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "たちあがれ日本が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11328123",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "バリュークリエイト",
+            "description": "東京都の外食産業企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BF%BA%E3%81%AE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "バリュークリエイトが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q877090",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "イオンクレジットサービス",
+            "description": "日本の金融会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "イオンクレジットサービスが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q20042798",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Gunosy",
+            "description": "日本の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Gunosy",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Gunosyが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q131393815",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "寛一商店",
+            "description": "日本の調剤薬局運営企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%9B%E4%B8%80%E5%95%86%E5%BA%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "寛一商店が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q501943",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "みどりの風",
+            "description": "2012年から2013年にかけて活動した日本の政党",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%BF%E3%81%A9%E3%82%8A%E3%81%AE%E9%A2%A8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "みどりの風が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q5151782",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "コミックヴァルキリー",
+            "description": "日本のウェブ漫画雑誌",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%B4%E3%82%A1%E3%83%AB%E3%82%AD%E3%83%AA%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "コミックヴァルキリー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11389533",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "全国繊維化学食品流通サービス一般労働組合同盟",
+            "description": "パートタイマーなど非正規労働者が構成員の半数以上を占めている複合産別労組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9B%BD%E7%B9%8A%E7%B6%AD%E5%8C%96%E5%AD%A6%E9%A3%9F%E5%93%81%E6%B5%81%E9%80%9A%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E4%B8%80%E8%88%AC%E5%8A%B4%E5%83%8D%E7%B5%84%E5%90%88%E5%90%8C%E7%9B%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "全国繊維化学食品流通サービス一般労働組合同盟が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q2279177",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "新党きづな",
+            "description": "かつて存在した日本の政党",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%85%9A%E3%81%8D%E3%81%A5%E3%81%AA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "新党きづなが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q5513481",
+            "query_sources": [
+                "P571:national",
+                "P576:national"
+            ],
+            "title": "減税日本・反TPP・脱原発を実現する党",
+            "description": "日本の政治団体 (2012)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B8%9B%E7%A8%8E%E6%97%A5%E6%9C%AC%E3%83%BB%E5%8F%8DTPP%E3%83%BB%E8%84%B1%E5%8E%9F%E7%99%BA%E3%82%92%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E5%85%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "減税日本・反TPP・脱原発を実現する党が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11448382",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "学校法人吉田学園",
+            "description": "北海道にある学校法人",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E6%A0%A1%E6%B3%95%E4%BA%BA%E5%90%89%E7%94%B0%E5%AD%A6%E5%9C%92_(%E5%8C%97%E6%B5%B7%E9%81%93)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "学校法人吉田学園が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q86743193",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ブラウニーズ",
+            "description": "Japanese video game developer",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%8B%E3%83%BC%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ブラウニーズが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11503907",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "新米婦警キルコさん",
+            "description": "平方昌宏による日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%B1%B3%E5%A9%A6%E8%AD%A6%E3%82%AD%E3%83%AB%E3%82%B3%E3%81%95%E3%82%93",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "新米婦警キルコさん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q44434",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "電撃大王ジェネシス",
+            "description": "日本の雑誌",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9B%BB%E6%92%83%E5%A4%A7%E7%8E%8B%E3%82%B8%E3%82%A7%E3%83%8D%E3%82%B7%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "電撃大王ジェネシスが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q17212124",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "富士山さんは思春期",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%95%E3%82%93%E3%81%AF%E6%80%9D%E6%98%A5%E6%9C%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "富士山さんは思春期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11300323",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "グランドスラム・東京2012",
+            "description": "judo competition",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B9%E3%83%A9%E3%83%A0%E3%83%BB%E6%9D%B1%E4%BA%AC2012",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "グランドスラム・東京2012",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114343379",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アベノミクス景気",
+            "description": "日本の好景気",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%99%E3%83%8E%E3%83%9F%E3%82%AF%E3%82%B9%E6%99%AF%E6%B0%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "アベノミクス景気",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q112957531",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "全国男性看護師会",
+            "description": "日本の男性看護師による職能団体",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9B%BD%E7%94%B7%E6%80%A7%E7%9C%8B%E8%AD%B7%E5%B8%AB%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "全国男性看護師会が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q18456127",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "スマホドック24",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9E%E3%83%9B%E3%83%89%E3%83%83%E3%82%AF24",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "スマホドック24が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11422564",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国際興業",
+            "description": "東京の総合商社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E8%88%88%E6%A5%AD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "国際興業が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11238090",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "P-01E",
+            "description": "Japanese mobile phone",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/P-01E",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "P-01Eが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11330568",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ビジネスフラッシュ (千葉テレビ放送)",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5_(%E5%8D%83%E8%91%89%E3%83%86%E3%83%AC%E3%83%93%E6%94%BE%E9%80%81)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ビジネスフラッシュ (千葉テレビ放送)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11452889",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "実験刑事トトリ",
+            "description": "television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%9F%E9%A8%93%E5%88%91%E4%BA%8B%E3%83%88%E3%83%88%E3%83%AA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "実験刑事トトリ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11236645",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "NexT",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/NexT",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "NexT",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11198522",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "eveのすべて",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Eve%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "eveのすべて",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11514328",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "時代劇ニュース オニワバン!",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%99%82%E4%BB%A3%E5%8A%87%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_%E3%82%AA%E3%83%8B%E3%83%AF%E3%83%90%E3%83%B3!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "時代劇ニュース オニワバン!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11491766",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋するハエ女",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%99%E3%82%8B%E3%83%8F%E3%82%A8%E5%A5%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "恋するハエ女",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11329063",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "パテナの神様!",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%86%E3%83%8A%E3%81%AE%E7%A5%9E%E6%A7%98!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "パテナの神様!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11228302",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "KYL21",
+            "description": "Japanese mobile phone",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/KYL21",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "KYL21が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11198640",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "F-01E",
+            "description": "Japanese device (mobile network)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/F-01E",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "F-01Eが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q97190116",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "UEVO",
+            "description": "Japanese swimwear company",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/UEVO",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "UEVOが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q28682781",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本報道検証機構",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E5%A0%B1%E9%81%93%E6%A4%9C%E8%A8%BC%E6%A9%9F%E6%A7%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "日本報道検証機構が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q22130783",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ガールズちゃんねる",
+            "description": "日本のウェブサイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ガールズちゃんねるが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11234153",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "N-01E",
+            "description": "Japanese mobile phone",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/N-01E",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "N-01Eが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11253964",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "WX07K",
+            "description": "Japanese mobile phone",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/WX07K",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "WX07Kが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11193528",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "COLLEGE×SPORT GREEN GENERATION",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/COLLEGE%C3%97SPORT_GREEN_GENERATION",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "COLLEGE×SPORT GREEN GENERATION",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11257954",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "あなたの知識をフル解放! クイズ ハキダセ!!",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%9F%A5%E8%AD%98%E3%82%92%E3%83%95%E3%83%AB%E8%A7%A3%E6%94%BE!_%E3%82%AF%E3%82%A4%E3%82%BA_%E3%83%8F%E3%82%AD%E3%83%80%E3%82%BB!!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "あなたの知識をフル解放! クイズ ハキダセ!!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q24863121",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "領土・主権対策企画調整室",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%A0%98%E5%9C%9F%E3%83%BB%E4%B8%BB%E6%A8%A9%E5%AF%BE%E7%AD%96%E4%BC%81%E7%94%BB%E8%AA%BF%E6%95%B4%E5%AE%A4",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "領土・主権対策企画調整室が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q24875772",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "お茶ガシとおハナシ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E8%8C%B6%E3%82%AC%E3%82%B7%E3%81%A8%E3%81%8A%E3%83%8F%E3%83%8A%E3%82%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "お茶ガシとおハナシ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q27017119",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "イオンリート投資法人",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC%E3%83%88%E6%8A%95%E8%B3%87%E6%B3%95%E4%BA%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "イオンリート投資法人が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11290293",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "エデュカチオ!",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%87%E3%83%A5%E3%82%AB%E3%83%81%E3%82%AA!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "エデュカチオ!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q41806822",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第45期衆議院",
+            "description": "第45回衆議院議員総選挙で決定した衆議院の開催期",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "第45期衆議院が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11328256",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "バレーボール2012/13Vプレミアリーグ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "バレーボール2012/13Vプレミアリーグ",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 8,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133835429",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "古町と団五郎",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "古町と団五郎",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64638937",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase 3, Comparative Study of Asunaprevir and Daclatasvir Combination Therapy Versus Telaprevir Therapy in Japanese HCV Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase 3, Comparative Study of Asunaprevir and Daclatasvir Combination Therapy Versus Telaprevir Therapy in Japanese HCV Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64638901",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study in Participants With Moderate to Severe Rheumatoid Arthritis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study in Participants With Moderate to Severe Rheumatoid Arthritis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64641132",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of CNTO 136 (Sirukumab) Administered Subcutaneously in Japanese Patients With Active Rheumatoid Arthritis Unresponsive to Methotrexate or Sulfasalazine",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of CNTO 136 (Sirukumab) Administered Subcutaneously in Japanese Patients With Active Rheumatoid Arthritis Unresponsive to Methotrexate or Sulfasalazine",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65370654",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ARB and CCB Longest Combination Treatment on Ambulatory and Home BP in Hypertension With Atrial Fibrillation -Multicenter Study on Time of Dosing (ACROBAT)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ARB and CCB Longest Combination Treatment on Ambulatory and Home BP in Hypertension With Atrial Fibrillation -Multicenter Study on Time of Dosing (ACROBAT)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63840362",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "An Open-label, Randomized Phase II Study to Evaluate the Efficacy of AUY922 vs Pemetrexed or Docetaxel in NSCLC Patients With EGFR Mutations",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "An Open-label, Randomized Phase II Study to Evaluate the Efficacy of AUY922 vs Pemetrexed or Docetaxel in NSCLC Patients With EGFR Mutations",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65367746",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Cardiac Biomarker in Pediatric Heart Disease",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Cardiac Biomarker in Pediatric Heart Disease",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64638809",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Clinical Experience Investigation of Symbicort Turbuhaler as Maintenance Therapy and Reliever Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Clinical Experience Investigation of Symbicort Turbuhaler as Maintenance Therapy and Reliever Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63840410",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Comparison of Absorbability Between Calcium Tablet and Calcium Ion Water",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Comparison of Absorbability Between Calcium Tablet and Calcium Ion Water",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65361390",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Dasatinib for Patients Achieving Complete Molecular Response for Cure D-NewS Trial",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Dasatinib for Patients Achieving Complete Molecular Response for Cure D-NewS Trial",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64029643",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluate the Safety and Tolerability of Vandetanib in Japanese Patients With Medullary Thyroid Carcinoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluate the Safety and Tolerability of Vandetanib in Japanese Patients With Medullary Thyroid Carcinoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65356377",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluation of Effectiveness and Safety of Xa Inhibitor for the Prevention of Stroke And Systemic Embolism in a Nationwide Cohort of Japanese Patients Diagnosed as Non-valvular Atrial Fibrillation",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluation of Effectiveness and Safety of Xa Inhibitor for the Prevention of Stroke And Systemic Embolism in a Nationwide Cohort of Japanese Patients Diagnosed as Non-valvular Atrial Fibrillation",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66345223",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Multiple Oral Administration of ASP7991 to Non-elderly Male Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Multiple Oral Administration of ASP7991 to Non-elderly Male Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63838422",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Observational Study of Optical Coherence Tomography (OCT) in Patients Undergoing Fractional Flow Reserve (FFR) and Percutaneous Coronary Intervention",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Observational Study of Optical Coherence Tomography (OCT) in Patients Undergoing Fractional Flow Reserve (FFR) and Percutaneous Coronary Intervention",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66346312",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Open-label Study to Evaluate the Effectiveness of an Intramuscular Formulation of Aripiprazole (OPC-14597) as Maintenance Treatment in Patients With Bipolar I Disorder",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Open-label Study to Evaluate the Effectiveness of an Intramuscular Formulation of Aripiprazole (OPC-14597) as Maintenance Treatment in Patients With Bipolar I Disorder",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64635017",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase 1/1b Study of Rilotumumab in Japanese Subjects With Advanced Solid Tumors or Advanced or Metastatic Gastric or GEJ",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase 1/1b Study of Rilotumumab in Japanese Subjects With Advanced Solid Tumors or Advanced or Metastatic Gastric or GEJ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64640825",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase 2 Study in Japanese Patients With Intermediate-2 or High Risk Primary Myelofibrosis, Post-Polycythemia Vera Myelofibrosis, Post-Essential Thrombocythemia Myelofibrosis With Splenomegaly",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase 2 Study in Japanese Patients With Intermediate-2 or High Risk Primary Myelofibrosis, Post-Polycythemia Vera Myelofibrosis, Post-Essential Thrombocythemia Myelofibrosis With Splenomegaly",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63844972",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety and Efficacy of MT-4666",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety and Efficacy of MT-4666",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64638195",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of KW-0761 Versus Vorinostat in Relapsed/Refractory CTCL",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of KW-0761 Versus Vorinostat in Relapsed/Refractory CTCL",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63571618",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of LGX818 and Cetuximab or LGX818, BYL719, and Cetuximab in BRAF Mutant Metastatic Colorectal Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of LGX818 and Cetuximab or LGX818, BYL719, and Cetuximab in BRAF Mutant Metastatic Colorectal Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65373284",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of LY2157299 in Japanese Participants With Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of LY2157299 in Japanese Participants With Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64638590",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Symbicort Turbuhaler 30/60 Special Clinical Experience Investigation for Long-term Use for Chronic Obstructive Pulmonary Disease (COPD) Patients",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Symbicort Turbuhaler 30/60 Special Clinical Experience Investigation for Long-term Use for Chronic Obstructive Pulmonary Disease (COPD) Patients",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63838015",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "The EVOLVE II Clinical Trial To Assess the SYNERGY Stent System for the Treatment of Atherosclerotic Lesion(s)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "The EVOLVE II Clinical Trial To Assess the SYNERGY Stent System for the Treatment of Atherosclerotic Lesion(s)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q28686209",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ナレッジシステムズ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ナレッジシステムズが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114342982",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第16循環",
+            "description": "日本の景気循環",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "第16循環",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137736105",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "幸せの時間",
+            "description": "Japanese television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "幸せの時間",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130455999",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アウトブレイク・カンパニー 萌える侵略者",
+            "description": "榊一郎による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "アウトブレイク・カンパニー 萌える侵略者",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65374234",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Frontline Therapy Trial in Participants With Advanced Classical Hodgkin Lymphoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Frontline Therapy Trial in Participants With Advanced Classical Hodgkin Lymphoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130456192",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "対魔導学園35試験小隊",
+            "description": "柳実冬貴による2012年の日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "対魔導学園35試験小隊",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64156905",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "彩百合",
+            "description": "manga",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "彩百合",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64637842",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase 2 Study of Lenalidomide in Patients With Relapsed or Recurrent Adult T-cell Leukemia-lymphoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase 2 Study of Lenalidomide in Patients With Relapsed or Recurrent Adult T-cell Leukemia-lymphoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136701190",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "輝ＨＩＫＡＲＩ",
+            "description": "Japanese nonprofit organisation",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "輝ＨＩＫＡＲＩが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q112619735",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "Miyagi 1st District in the 2012 Japanese general election",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Miyagi 1st District in the 2012 Japanese general election",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140482160",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "償い",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "償い",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q104254607",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ココロコネクト ミチランダム",
+            "description": "Japanese OVA series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ココロコネクト ミチランダム",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136701554",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ネクスト",
+            "description": "Japanese nonprofit organisation",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ネクストが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64647960",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Survey Collecting Data on Adult Height in Patients With Achondroplasia Treated With Somatropin",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Survey Collecting Data on Adult Height in Patients With Achondroplasia Treated With Somatropin",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140179529",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "トモダチログイン",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "トモダチログイン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q60580852",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "ツール・ド・おきなわ2012",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ツール・ド・おきなわ2012",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65370774",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "LDK378 in Adult Patients With ALK-activated NSCLC Previously Treated With Chemotherapy and Crizotinib",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "LDK378 in Adult Patients With ALK-activated NSCLC Previously Treated With Chemotherapy and Crizotinib",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2012-11-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65372577",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Assess the Impact of Vaccination on Hospitalizations and Outpatient Visits Due to Rotavirus Gastroenteritis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Assess the Impact of Vaccination on Hospitalizations and Outpatient Visits Due to Rotavirus Gastroenteritis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [
+            {
+                "date": "2012-11-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106087545",
+                "latitude": 35.011611111,
+                "longitude": 135.768111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Formal Methods and Software Engineering - 14th International Conference on Formal Engineering Methods, ICFEM 2012, Kyoto, Japan, November 12-16, 2012",
+                "description": "academic conference",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Formal Methods and Software Engineering - 14th International Conference on Formal Engineering Methods, ICFEM 2012, Kyoto, Japan, November 12-16, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "佐賀県": [],
+        "兵庫県": [
+            {
+                "date": "2012-11-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11542451",
+                "latitude": 34.708472,
+                "longitude": 135.213389,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "横尾忠則現代美術館",
+                "description": "兵庫県神戸市灘区にある美術館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B0%BE%E5%BF%A0%E5%89%87%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "横尾忠則現代美術館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            },
+            {
+                "date": "2012-11-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106336286",
+                "latitude": 34.815166666,
+                "longitude": 134.685388888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2012 Fifth International Conference on Emerging Trends in Engineering and Technology, Himeji, Japan, November 5-7, 2012",
+                "description": "academic conference",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 Fifth International Conference on Emerging Trends in Engineering and Technology, Himeji, Japan, November 5-7, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q10892551",
+                "latitude": 35.391388888,
+                "longitude": 134.747138888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "八鹿氷ノ山インターチェンジ",
+                "description": "兵庫県養父市にある北近畿豊岡自動車道のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%AB%E9%B9%BF%E6%B0%B7%E3%83%8E%E5%B1%B1%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "八鹿氷ノ山インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "北海道": [
+            {
+                "date": "2012-11-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q10936313",
+                "latitude": 42.007,
+                "longitude": 140.622333333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "大沼公園インターチェンジ",
+                "description": "北海道茅部郡森町にある道央自動車道のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%BC%E5%85%AC%E5%9C%92%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "大沼公園インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            },
+            {
+                "date": "2012-11-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q28268424",
+                "latitude": 42.021111111,
+                "longitude": 140.612055555,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "大沼公園本線料金所",
+                "description": "日本の北海道茅部郡森町にある道央自動車道の本線料金所",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%BC%E5%85%AC%E5%9C%92%E6%9C%AC%E7%B7%9A%E6%96%99%E9%87%91%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大沼公園本線料金所が開通",
+                "headline_category": "road_facility",
+                "headline_rule": "road_facility.open"
+            }
+        ],
+        "千葉県": [
+            {
+                "date": "2012-11-07",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q17217104",
+                "latitude": 35.042444444,
+                "longitude": 140.020638888,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "道の駅和田浦WA・O!",
+                "description": "千葉県南房総市にある国道128号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E5%92%8C%E7%94%B0%E6%B5%A6WA%E3%83%BBO!",
+                "wikipedia_language": "ja",
+                "headline": "道の駅和田浦WA・O!が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "和歌山県": [],
+        "埼玉県": [
+            {
+                "date": "2012-11-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q17191979",
+                "latitude": 36.078,
+                "longitude": 139.661333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "アリオ鷲宮",
+                "description": "埼玉県久喜市にある商業施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%82%AA%E9%B7%B2%E5%AE%AE",
+                "wikipedia_language": "ja",
+                "headline": "アリオ鷲宮が開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "大分県": [
+            {
+                "date": "2012-11-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q11600985",
+                "latitude": 33.564117,
+                "longitude": 131.197349,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第36回全国地域サッカーリーグ決勝大会",
+                "description": "2012年に開催された全国地域リーグ決勝大会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC36%E5%9B%9E%E5%85%A8%E5%9B%BD%E5%9C%B0%E5%9F%9F%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B0%E6%B1%BA%E5%8B%9D%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第36回全国地域サッカーリーグ決勝大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            }
+        ],
+        "大阪府": [
+            {
+                "date": "2012-11-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q3335339",
+                "latitude": 34.69352778,
+                "longitude": 135.49675,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "中之島フェスティバルタワー",
+                "description": "大阪市北区の超高層ビル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E4%B9%8B%E5%B3%B6%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB%E3%82%BF%E3%83%AF%E3%83%BC",
+                "wikipedia_language": "ja",
+                "headline": "中之島フェスティバルタワーが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "奈良県": [
+            {
+                "date": "2012-11-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106246694",
+                "latitude": 34.685,
+                "longitude": 135.804777777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "ACM multimedia 2012 workshop on Multimedia for cooking and eating activities, CEA@ACM Multimedia 2012, Nara, Japan, November 2, 2012",
+                "description": "academic workshop",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "ACM multimedia 2012 workshop on Multimedia for cooking and eating activities, CEA@ACM Multimedia 2012, Nara, Japan, November 2, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "宮城県": [
+            {
+                "date": "2012-11-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q135705",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2012年NHK杯国際フィギュアスケート競技大会",
+                "description": "フィギュアスケート競技会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2012%E5%B9%B4NHK%E6%9D%AF%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "2012年NHK杯国際フィギュアスケート競技大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q62051371",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ice dancing",
+                "description": "part of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ice dancing",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051372",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ice dancing short dance",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ice dancing short dance",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q62051370",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ladies' singles",
+                "description": "part of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ladies' singles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051368",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ladies' singles short program",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ladies' singles short program",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q56556661",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - men's singles",
+                "description": "part of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - men's singles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051363",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - men's singles short program",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - men's singles short program",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051373",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ice dancing free dance",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ice dancing free dance",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051369",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - ladies' singles free skating",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - ladies' singles free skating",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051364",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - men's singles free skating",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - men's singles free skating",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q62051375",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - pair skating",
+                "description": "part of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - pair skating",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051374",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - pair skating short program",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - pair skating short program",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2012-11-25",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q62051376",
+                "latitude": 38.337566,
+                "longitude": 140.952938,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2012 NHK Trophy - pair skating free skating",
+                "description": "segment of a figure skating competition",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2012 NHK Trophy - pair skating free skating",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [
+            {
+                "date": "2012-11-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11286027",
+                "latitude": 35.538333333,
+                "longitude": 136.909472222,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "イオンタウン美濃",
+                "description": "岐阜県美濃市にあるショッピングセンター",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3%E7%BE%8E%E6%BF%83",
+                "wikipedia_language": "ja",
+                "headline": "イオンタウン美濃が開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [],
+        "新潟県": [
+            {
+                "date": "2012-11-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106330806",
+                "latitude": 37.916194444,
+                "longitude": 139.036388888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "21st IEEE Asian Test Symposium, ATS 2012, Niigata, Japan, November 19-22, 2012",
+                "description": "academic conference",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "21st IEEE Asian Test Symposium, ATS 2012, Niigata, Japan, November 19-22, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "東京都": [
+            {
+                "date": "2012-11-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q84836242",
+                "latitude": 35.724916666,
+                "longitude": 139.760666666,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "文京区立森鷗外記念館",
+                "description": "東京都文京区にある文学館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%AC%E5%8C%BA%E7%AB%8B%E6%A3%AE%E9%B7%97%E5%A4%96%E8%A8%98%E5%BF%B5%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "文京区立森鷗外記念館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            },
+            {
+                "date": "2012-11-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q28312009",
+                "latitude": 35.70983611,
+                "longitude": 139.76663889,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "国立近現代建築資料館",
+                "description": "日本の文化庁が運営する資料館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E7%AB%8B%E8%BF%91%E7%8F%BE%E4%BB%A3%E5%BB%BA%E7%AF%89%E8%B3%87%E6%96%99%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "国立近現代建築資料館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            },
+            {
+                "date": "2012-11-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q26882789",
+                "latitude": 35.683889,
+                "longitude": 139.774444,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Q26882789",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Q26882789",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-25",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q11600892",
+                "latitude": 35.6625,
+                "longitude": 139.485,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第32回ジャパンカップ",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC32%E5%9B%9E%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97",
+                "wikipedia_language": "ja",
+                "headline": "第32回ジャパンカップ",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "栃木県": [
+            {
+                "date": "2012-11",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q31204003",
+                "latitude": 36.560916944,
+                "longitude": 139.882598888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "宇都宮ブルワリー",
+                "description": "日本のクラフトビール醸造所／会社",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "宇都宮ブルワリーが設立",
+                "headline_category": "company",
+                "headline_rule": "company.open"
+            }
+        ],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2012-11-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11306866",
+                "latitude": 35.507972,
+                "longitude": 139.676806,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "シァル鶴見",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/CIAL%E9%B6%B4%E8%A6%8B",
+                "wikipedia_language": "ja",
+                "headline": "シァル鶴見が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2012-11-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q125216815",
+                "latitude": 35.416666666,
+                "longitude": 139.351388888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "愛甲東",
+                "description": "神奈川県厚木市の地名",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "愛甲東が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2012-11-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q125216855",
+                "latitude": 35.424166666,
+                "longitude": 139.336111111,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "愛甲西",
+                "description": "神奈川県厚木市の地名",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "愛甲西が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2012-11-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q599736",
+                "latitude": 35.450333333,
+                "longitude": 139.634222222,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2012 Keio Challenger",
+                "description": "tennis tournament",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/2012_Keio_Challenger",
+                "wikipedia_language": "en",
+                "headline": "2012 Keio Challenger",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q3387733",
+                "latitude": 35.4739,
+                "longitude": 139.59,
+                "query_sources": [
+                    "P580:direct"
+                ],
+                "title": "第49回全国大学ラグビーフットボール選手権大会",
+                "description": "日本のラグビー大会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC49%E5%9B%9E%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E3%83%95%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第49回全国大学ラグビーフットボール選手権大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2012-11-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q11438096",
+                "latitude": 33.603167,
+                "longitude": 130.401333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "大相撲平成24年11月場所",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E5%B9%B3%E6%88%9024%E5%B9%B411%E6%9C%88%E5%A0%B4%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大相撲平成24年11月場所",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q11601402",
+                "latitude": 33.871972,
+                "longitude": 130.887667,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第54回朝日新聞社杯競輪祭",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC54%E5%9B%9E%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E7%A4%BE%E6%9D%AF%E7%AB%B6%E8%BC%AA%E7%A5%AD",
+                "wikipedia_language": "ja",
+                "headline": "第54回朝日新聞社杯競輪祭",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [
+            {
+                "date": "2012-11-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106246219",
+                "latitude": 36.083472222,
+                "longitude": 140.076444444,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Simulation, Modeling, and Programming for Autonomous Robots - Third International Conference, SIMPAR 2012, Tsukuba, Japan, November 5-8, 2012",
+                "description": "academic conference",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Simulation, Modeling, and Programming for Autonomous Robots - Third International Conference, SIMPAR 2012, Tsukuba, Japan, November 5-8, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2012-11-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106243696",
+                "latitude": 36.083472222,
+                "longitude": 140.076444444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Multimodal Pattern Recognition of Social Signals in Human-Computer-Interaction - First IAPR TC3 Workshop, MPRSS 2012, Tsukuba, Japan, November 11, 2012",
+                "description": "academic workshop",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Multimodal Pattern Recognition of Social Signals in Human-Computer-Interaction - First IAPR TC3 Workshop, MPRSS 2012, Tsukuba, Japan, November 11, 2012",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "長崎県": [],
+        "長野県": [],
+        "青森県": [
+            {
+                "date": "2012-11-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11392261",
+                "latitude": 40.9715,
+                "longitude": 141.264777777,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "六ヶ所インターチェンジ",
+                "description": "日本の青森県上北郡六ヶ所村にある下北半島縦貫道路のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%AD%E3%83%B6%E6%89%80%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "六ヶ所インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

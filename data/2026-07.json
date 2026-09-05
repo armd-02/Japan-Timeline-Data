@@ -1,0 +1,4550 @@
+{
+    "year": 2026,
+    "month": 7,
+    "generated_at": "2026-08-31T17:18:47Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 62,
+        "raw_rows_by_property": {
+            "P1619": 1,
+            "P571": 6,
+            "P576": 4,
+            "P580": 16,
+            "P585": 35
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 47,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 1,
+            "event": 30,
+            "inception": 2,
+            "opening": 1,
+            "start": 13
+        },
+        "national_raw_rows": 145,
+        "national_raw_rows_by_property": {
+            "P1619": 1,
+            "P571": 10,
+            "P576": 2,
+            "P580": 100,
+            "P585": 32
+        },
+        "national_query_candidate_count": 145,
+        "national_candidate_count": 100,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2026-07-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140735282",
+            "latitude": 32.6,
+            "longitude": 130.7,
+            "query_sources": [
+                "P585:direct",
+                "P585:national"
+            ],
+            "title": "令和8年熊本地震",
+            "description": "2026年7月28日に熊本県を震源として発生した地震",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%86%8A%E6%9C%AC%E5%9C%B0%E9%9C%87_(2026%E5%B9%B4)",
+            "wikipedia_language": "ja",
+            "headline": "令和8年熊本地震",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 27,
+            "category": "disaster",
+            "score": 75,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "熊本県"
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140598198",
+            "latitude": 35.673333333,
+            "longitude": 139.740833333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "国家情報局",
+            "description": "日本の内閣官房に属する情報機関",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E5%B1%80_(%E6%97%A5%E6%9C%AC)",
+            "wikipedia_language": "ja",
+            "headline": "国家情報局が設置",
+            "headline_category": "government",
+            "headline_rule": "national.government.establish",
+            "sitelink_count": 9,
+            "category": "politics",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11630025",
+            "latitude": 33.86638333,
+            "longitude": 130.7622722,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "西黒崎駅",
+            "description": "福岡県北九州市八幡西区にあった筑豊電気鉄道の駅（廃駅）",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E9%BB%92%E5%B4%8E%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "西黒崎駅が廃止",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.abolish",
+            "sitelink_count": 5,
+            "category": "infrastructure",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福岡県"
+        },
+        {
+            "date": "2026-07-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140753324",
+            "latitude": 32.738188888,
+            "longitude": 130.743569444,
+            "query_sources": [
+                "P585:direct",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "イオンモール熊本爆発事故",
+            "description": "2026年7月28日にイオンモール熊本で発生した爆発事故と建物崩落事故",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E7%86%8A%E6%9C%AC%E7%88%86%E7%99%BA%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "headline": "イオンモール熊本爆発事故",
+            "headline_category": "commercial_facility",
+            "headline_rule": "event.label",
+            "sitelink_count": 4,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "熊本県"
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140005422",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国家情報会議",
+            "description": "内閣に置かれている情報機関",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E4%BC%9A%E8%AD%B0_(%E6%97%A5%E6%9C%AC)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "国家情報会議が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139913913",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "大空港～GATE24～",
+            "description": "日本のテレビドラマ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A9%BA%E6%B8%AF%E3%80%9CGATE24%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "大空港～GATE24～が開業",
+            "headline_category": "airport",
+            "headline_rule": "airport.open",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126095177",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "攻殻機動隊 THE GHOST IN THE SHELL",
+            "description": "2026 Japanese anime television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A_THE_GHOST_IN_THE_SHELL",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "攻殻機動隊 THE GHOST IN THE SHELL",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11287585",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "インテック",
+            "description": "かつて存在した日本のIT企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%83%E3%82%AF",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "インテックが解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140518455",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第13回全国高等学校7人制ラグビーフットボール大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC13%E5%9B%9E%E5%85%A8%E5%9B%BD%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A17%E4%BA%BA%E5%88%B6%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E3%83%95%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第13回全国高等学校7人制ラグビーフットボール大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140757797",
+            "latitude": 35.664279,
+            "longitude": 139.697642,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "渋谷エンタメ祭2026",
+            "description": "2026年7月11日と7月12日に LINE CUBE SHIBUYAと代々木公園で開催されたイベント",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "headline": "渋谷エンタメ祭2026が開園",
+            "headline_category": "park",
+            "headline_rule": "park.open",
+            "sitelink_count": 1,
+            "category": "culture",
+            "score": 15,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140005422",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国家情報会議",
+            "description": "内閣に置かれている情報機関",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E4%BC%9A%E8%AD%B0_(%E6%97%A5%E6%9C%AC)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "国家情報会議が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136555690",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国旗の損壊等の処罰に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%97%97%E3%81%AE%E6%90%8D%E5%A3%8A%E7%AD%89%E3%81%AE%E5%87%A6%E7%BD%B0%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "国旗の損壊等の処罰に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140467920",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2026年滋賀県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E6%BB%8B%E8%B3%80%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2026年滋賀県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140697508",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "防災庁設置法",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%98%B2%E7%81%BD%E5%BA%81%E8%A8%AD%E7%BD%AE%E6%B3%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "防災庁設置法が設置",
+            "headline_category": "government",
+            "headline_rule": "national.government.establish",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140690910",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E7%A4%BE%E4%BC%9A%E6%A9%9F%E8%83%BD%E7%B6%99%E7%B6%9A%E6%80%A7%E7%A2%BA%E4%BF%9D%E6%96%BD%E7%AD%96%E5%8F%8A%E3%81%B3%E5%89%AF%E9%A6%96%E9%83%BD%E3%81%AE%E6%95%B4%E5%82%99%E3%81%AB%E4%BF%82%E3%82%8B%E6%96%BD%E7%AD%96%E3%81%AE%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140478742",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2026年れいわ新選組代表選挙",
+            "description": "第3回れいわ新選組代表選出選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E3%82%8C%E3%81%84%E3%82%8F%E6%96%B0%E9%81%B8%E7%B5%84%E4%BB%A3%E8%A1%A8%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2026年れいわ新選組代表選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139913913",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "大空港～GATE24～",
+            "description": "日本のテレビドラマ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A9%BA%E6%B8%AF%E3%80%9CGATE24%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "大空港～GATE24～が開業",
+            "headline_category": "airport",
+            "headline_rule": "airport.open",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126095177",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "攻殻機動隊 THE GHOST IN THE SHELL",
+            "description": "2026 Japanese anime television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A_THE_GHOST_IN_THE_SHELL",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "攻殻機動隊 THE GHOST IN THE SHELL",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136735821",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ガス人間",
+            "description": "2026 Japanese TV series or program",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E4%BA%BA%E9%96%93",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "ガス人間",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125975705",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "さよならララ",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E3%83%A9%E3%83%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "さよならララ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135315535",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "グロウアップショウ 〜ひまわりのサーカス団〜",
+            "description": "日本のテレビアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AD%E3%82%A6%E3%82%A2%E3%83%83%E3%83%97%E3%82%B7%E3%83%A7%E3%82%A6_%E3%80%9C%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%AE%E3%82%B5%E3%83%BC%E3%82%AB%E3%82%B9%E5%9B%A3%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "グロウアップショウ 〜ひまわりのサーカス団〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138793112",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "メビウス・ダスト",
+            "description": "日本のテレビアニメ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%93%E3%82%A6%E3%82%B9%E3%83%BB%E3%83%80%E3%82%B9%E3%83%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "メビウス・ダスト",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140450818",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "角醒ハンター オメガホーン",
+            "description": "日本の特撮テレビドラマ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A7%92%E9%86%92%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_%E3%82%AA%E3%83%A1%E3%82%AC%E3%83%9B%E3%83%BC%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "角醒ハンター オメガホーン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11287585",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "インテック",
+            "description": "かつて存在した日本のIT企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%83%E3%82%AF",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "インテックが解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140518455",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第13回全国高等学校7人制ラグビーフットボール大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC13%E5%9B%9E%E5%85%A8%E5%9B%BD%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A17%E4%BA%BA%E5%88%B6%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E3%83%95%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第13回全国高等学校7人制ラグビーフットボール大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140737838",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2026年のプロ野球オールスターゲーム",
+            "description": "2026年の7月28日に東京、7月29日に富山で開催のプロ野球オールスターゲーム",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0_(%E6%97%A5%E6%9C%AC%E3%83%97%E3%83%AD%E9%87%8E%E7%90%83)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2026年のプロ野球オールスターゲーム",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139249731",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ウルトラマンテオ",
+            "description": "日本の円谷プロ制作の特撮テレビ番組、およびその作品に登場する巨大変身ヒーローの名称",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%83%9E%E3%83%B3%E3%83%86%E3%82%AA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "ウルトラマンテオ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131580163",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+            "description": "セブン・アークス制作による日本のテレビアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%83%AA%E3%83%AA%E3%82%AB%E3%83%AB%E3%81%AA%E3%81%AE%E3%81%AF_EXCEEDS_Gun_Blaze_Vengeance",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139928769",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tシャツが乾くまで",
+            "description": "日本のテレビドラマ (2026)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/T%E3%82%B7%E3%83%A3%E3%83%84%E3%81%8C%E4%B9%BE%E3%81%8F%E3%81%BE%E3%81%A7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "Tシャツが乾くまで",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440132",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "親愛なる夫へ〜完璧な妻の嘘〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A6%AA%E6%84%9B%E3%81%AA%E3%82%8B%E5%A4%AB%E3%81%B8%E3%80%9C%E5%AE%8C%E7%92%A7%E3%81%AA%E5%A6%BB%E3%81%AE%E5%98%98%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "親愛なる夫へ〜完璧な妻の嘘〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440750",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ストレンジ -伊藤潤二の夜も眠れぬ奇妙な話-",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%B3%E3%82%B8_-%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C%E3%81%AE%E5%A4%9C%E3%82%82%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A5%87%E5%A6%99%E3%81%AA%E8%A9%B1-",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ストレンジ -伊藤潤二の夜も眠れぬ奇妙な話-",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139890359",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "クロスロード 〜救命救急の約束〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%89_%E3%80%9C%E6%95%91%E5%91%BD%E6%95%91%E6%80%A5%E3%81%AE%E7%B4%84%E6%9D%9F%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "クロスロード 〜救命救急の約束〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140029954",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ラストノート",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%B9%E3%83%88%E3%83%8E%E3%83%BC%E3%83%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ラストノート",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139890520",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "告白-25年目の秘密-",
+            "description": "日本のテレビドラマ (2026)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%91%8A%E7%99%BD-25%E5%B9%B4%E7%9B%AE%E3%81%AE%E7%A7%98%E5%AF%86-",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "告白-25年目の秘密-",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139936666",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ブラックトリック〜裁きを操る弁護人〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%80%9C%E8%A3%81%E3%81%8D%E3%82%92%E6%93%8D%E3%82%8B%E5%BC%81%E8%AD%B7%E4%BA%BA%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ブラックトリック〜裁きを操る弁護人〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140690909",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "皇室典範等の一部を改正する法律",
+            "description": "日本の法律",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "皇室典範等の一部を改正する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140640101",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "GTO",
+            "description": "2026年の日本のテレビドラマ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/GTO_(2026%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%83%89%E3%83%A9%E3%83%9E)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "GTO",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140774356",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ひろゆき&いずみ新党(仮)",
+            "description": "日本の政治団体 (2026-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B2%E3%82%8D%E3%82%86%E3%81%8D%26%E3%81%84%E3%81%9A%E3%81%BF%E6%96%B0%E5%85%9A(%E4%BB%AE)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ひろゆき&いずみ新党(仮)が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140819769",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "iiONDO",
+            "description": "日本の8人組ボーカルダンスグループ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/IiONDO",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "iiONDOが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136141472",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "バンドリ！ ゆめ∞みた",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 3,
+            "headline": "バンドリ！ ゆめ∞みた",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140403748",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2026 Badminton Asia Junior Championships – Men's doubles",
+            "description": "badminton competition",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Badminton_Asia_Junior_Championships_%E2%80%93_Boys%27_doubles",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "2026 Badminton Asia Junior Championships – Men's doubles",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140428207",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2026 Badminton Asia Junior Championships – Mixed doubles",
+            "description": "badminton competition",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Badminton_Asia_Junior_Championships_%E2%80%93_Mixed_doubles",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "2026 Badminton Asia Junior Championships – Mixed doubles",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140403730",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2026 Badminton Asia Junior Championships – Women's doubles",
+            "description": "badminton competition",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Badminton_Asia_Junior_Championships_%E2%80%93_Girls%27_doubles",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "2026 Badminton Asia Junior Championships – Women's doubles",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140399275",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2026 Badminton Asia Junior Championships – Women's singles",
+            "description": "badminton competition",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Badminton_Asia_Junior_Championships_%E2%80%93_Girls%27_singles",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "2026 Badminton Asia Junior Championships – Women's singles",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136527943",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "君のことが大大大大大好きな100人の彼女 第3期",
+            "description": "season of The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_100_Girlfriends_Who_Really,_Really,_Really,_Really,_Really_Love_You_season_3",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "君のことが大大大大大好きな100人の彼女 第3期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126947894",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "無職転生 III 〜異世界行ったら本気だす〜",
+            "description": "season of Mushoku Tensei",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Mushoku_Tensei_season_3",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "無職転生 III 〜異世界行ったら本気だす〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q120127131",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs, season 2",
+            "description": "season of Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs, season 2",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136316625",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "クレバテス-魔獣の王と赤子と屍の勇者- 第2期",
+            "description": "season of Clevatess",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "クレバテス-魔獣の王と赤子と屍の勇者- 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q120134810",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "幼女戦記II",
+            "description": "season of The Saga of Tanya the Evil",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "幼女戦記II",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q120142393",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "探偵はもう、死んでいる。 第2期",
+            "description": "season of The Detective is Already Dead",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "探偵はもう、死んでいる。 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130443591",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "逃げ上手の若君 第2期",
+            "description": "season of The Elusive Samurai",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "逃げ上手の若君 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131448108",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "骸骨騎士様、只今異世界へお出掛け中 第2期",
+            "description": "season of Skeleton Knight in Another World",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "骸骨騎士様、只今異世界へお出掛け中 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133455035",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "これ描いて死ね",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Draw_This,_Then_Die!_(TV_series)",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "これ描いて死ね",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133868998",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "天幕のジャードゥーガル",
+            "description": "Japanese anime television series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Jaadugar:_A_Witch_in_Mongolia",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "天幕のジャードゥーガル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136644014",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "二十世紀電氣目録",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Sparks_of_Tomorrow",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "二十世紀電氣目録",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138821500",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "正反対な君と僕 第2期",
+            "description": "season of You and I Are Polar Opposites",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "正反対な君と僕 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136343457",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "花織さんは転生しても喧嘩がしたい",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Hanaori-san_Still_Wants_to_Fight_in_the_Next_Life_(TV_series)",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "花織さんは転生しても喧嘩がしたい",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q141014754",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "YAPPARI",
+            "description": "日本を扱うフランス語のニュースサイト",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "YAPPARIが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135409809",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "スーパーの裏でヤニ吸うふたり",
+            "description": "日本のTVアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "スーパーの裏でヤニ吸うふたり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138806985",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 第2期",
+            "description": "season of Hell Mode",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135004957",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "片田舎のおっさん、剣聖になる 〜ただの田舎の剣術師範だったのに、大成した弟子たちが俺を放ってくれない件〜 第2期",
+            "description": "season of From Old Country Bumpkin to Master Swordsman",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "片田舎のおっさん、剣聖になる 〜ただの田舎の剣術師範だったのに、大成した弟子たちが俺を放ってくれない件〜 第2期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138854385",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "身代わり令嬢を救ったのは冷酷無慈悲な氷の王子の愛でした",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "身代わり令嬢を救ったのは冷酷無慈悲な氷の王子の愛でした",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140324827",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "今夜もシリアルキラーと待ち合わせ",
+            "description": "Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "今夜もシリアルキラーと待ち合わせ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135917437",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "LV999の村人",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "LV999の村人",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137837395",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ワールド イズ ダンシング",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ワールド イズ ダンシング",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137345898",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和のダラさん",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "令和のダラさん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138356402",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "落第賢者の学院無双 ～二度目の転生、Ｓランクチート魔術師冒険録～",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "落第賢者の学院無双 ～二度目の転生、Ｓランクチート魔術師冒険録～が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137971300",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ヤニねこ",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ヤニねこ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137534207",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "乙女怪獣キャラメリゼ",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "乙女怪獣キャラメリゼ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140469553",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "夫婦と16歳〜狂気の隣人〜",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "夫婦と16歳〜狂気の隣人〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q128758407",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "追放された転生重騎士はゲーム知識で無双する",
+            "description": "日本のアニメテレビシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "追放された転生重騎士はゲーム知識で無双する",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133208324",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "BLACK TORCH",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "BLACK TORCH",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138260644",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "うしろの正面カムイさん",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "うしろの正面カムイさん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137225115",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "うちの弟どもがすみません",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "うちの弟どもがすみません",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137796097",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "岩元先輩ノ推薦",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "岩元先輩ノ推薦",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132651824",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "猫と竜",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "猫と竜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138447829",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "「きみを愛する気はない」と言った次期公爵様がなぜか溺愛してきます",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136477216",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "レッツゴー怪奇組",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "レッツゴー怪奇組",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440746",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "一次元の挿し木",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "一次元の挿し木",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136160155",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "世界最強の後衛 ～迷宮国の新人探索者～",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "世界最強の後衛 ～迷宮国の新人探索者～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140073173",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "同じゼミの染谷さんがセクシー女優だった話。",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "同じゼミの染谷さんがセクシー女優だった話。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136674397",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様（生活能力皆無）を陰ながらお世話することになりました",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "才女のお世話 高嶺の花だらけな名門校で、学院一のお嬢様（生活能力皆無）を陰ながらお世話することになりましたが設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137392211",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "鉄鍋のジャン!",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "鉄鍋のジャン!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q134783546",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "鬼の花嫁",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "鬼の花嫁",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136417251",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135900621",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440757",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "夫を殺したはずなのに",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "夫を殺したはずなのに",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138713565",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122794927",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "最強出涸らし皇子の暗躍帝位争い 無能を演じるSSランク皇子は皇位継承戦を影から支配する",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "最強出涸らし皇子の暗躍帝位争い 無能を演じるSSランク皇子は皇位継承戦を影から支配する",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135272272",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "炎の闘球女 ドッジ弾子",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "炎の闘球女 ドッジ弾子",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122794948",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136780002",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "透明な夜に駆ける君と、目に見えない恋をした。",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "透明な夜に駆ける君と、目に見えない恋をした。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132860612",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "きみが死ぬまで恋をしたい",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "きみが死ぬまで恋をしたい",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440220",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "もう1度夫婦になりますか?〜カモフラージュ夫婦〜",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "もう1度夫婦になりますか?〜カモフラージュ夫婦〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115768910",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "対ありでした。 〜お嬢さまは格闘ゲームなんてしない〜",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "対ありでした。 〜お嬢さまは格闘ゲームなんてしない〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135438272",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "いびってこない義母と義姉",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "いびってこない義母と義姉",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138306781",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "天は赤い河のほとり",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "天は赤い河のほとり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440218",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "幸せになりたいマサムネ君",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "幸せになりたいマサムネ君",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136230033",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "手札が多めのビクトリア",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "手札が多めのビクトリア",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138006359",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "サンダー3",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "サンダー3",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140457665",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ドライな同期の溺愛癖",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ドライな同期の溺愛癖",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135414627",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "領民0人スタートの辺境領主様",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "領民0人スタートの辺境領主様",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133300331",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140757004",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "うま塩ガーリックソース",
+            "description": "日本マクドナルドが期間限定で発売した商品",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "うま塩ガーリックソース",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140756976",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "チーズカレーソース",
+            "description": "日本マクドナルドが期間限定で発売した商品",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "チーズカレーソース",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140440221",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "名探偵のままでいて",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "名探偵のままでいて",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139254514",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "櫻坂46 「全国アリーナツアー2026」",
+            "description": "櫻坂46が2026年7月から8月に開催予定の全国アリーナツアー",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "櫻坂46 「全国アリーナツアー2026」",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140718796",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "夏休み特別企画！日向坂46と過ごす大納涼会！【全員集合】",
+            "description": "2026年7月27日に日向坂46が日向坂ちゃんねるで配信した番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "夏休み特別企画！日向坂46と過ごす大納涼会！【全員集合】",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q140757708",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2026年7月29日の『catch the dream NEO!!』",
+            "description": "令和8年（2026年）7月29日に渋谷クロスFMで収録された『catch the dream NEO!!』",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2026年7月29日の『catch the dream NEO!!』",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2026-07-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140774710",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "追放された商人は金の力で世界を救う",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "追放された商人は金の力で世界を救う",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [
+            {
+                "date": "2026-07-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q138721431",
+                "latitude": 34.841666666,
+                "longitude": 136.538888888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026年の鈴鹿8時間耐久ロードレース",
+                "description": "endurance motorcycle race",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2026%E5%B9%B4%E3%81%AE%E9%88%B4%E9%B9%BF8%E6%99%82%E9%96%93%E8%80%90%E4%B9%85%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AC%E3%83%BC%E3%82%B9",
+                "wikipedia_language": "ja",
+                "headline": "2026年の鈴鹿8時間耐久ロードレース",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [
+            {
+                "date": "2026-07-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139895136",
+                "latitude": 34.682444,
+                "longitude": 135.195972,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Choom World Tour - Kobe (8 July)",
+                "description": "Choom World Tour concert in Kobe",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Choom World Tour - Kobe (8 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139895137",
+                "latitude": 34.682444,
+                "longitude": 135.195972,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Choom World Tour - Kobe (9 July)",
+                "description": "Choom World Tour concert in Kobe",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Choom World Tour - Kobe (9 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139255030",
+                "latitude": 34.664167,
+                "longitude": 135.210278,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "櫻坂46 「全国アリーナツアー2026」",
+                "description": "櫻坂46が2026年7月28日に神戸ワールド記念ホールで開催予定の全国アリーナツアーのライブ",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "櫻坂46 「全国アリーナツアー2026」",
+                "headline_category": "museum",
+                "headline_rule": "event.label"
+            }
+        ],
+        "北海道": [
+            {
+                "date": "2026-07-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140620078",
+                "latitude": 41.78063889,
+                "longitude": 140.77533333,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第58回函館２歳ステークス",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第58回函館２歳ステークス",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "千葉県": [
+            {
+                "date": "2026-07-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140469299",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月8日の千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "description": "2026年7月8日に千葉マリンスタジアム(ZOZOマリンスタジアム)で開催された千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月8日の千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140478547",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月10日のBLACK SUMMER WEEK 2026での櫻坂46山﨑天",
+                "description": "令和8年（2026年）7月10日に千葉マリンスタジアム（ZOZOマリンスタジアム）で開催の千葉ロッテマリーンズ対オリックス・バファローズの公式戦（【パーソル パ・リーグ公式戦】 千葉ロッテマリーンズ vs オリックス・バファローズ 12回戦）での「BLACK SUMMER WEEK 2026 supported by クーリッシュ」でゲストとして参加した際の櫻坂46山﨑天",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月10日のBLACK SUMMER WEEK 2026での櫻坂46山﨑天",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140469332",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月10日の千葉ロッテマリーンズ対オリックス・バファローズの公式戦",
+                "description": "2026年7月10日に開催された千葉マリンスタジアム(ZOZOマリンスタジアム)で開催された千葉ロッテマリーンズ対オリックス・バファローズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月10日の千葉ロッテマリーンズ対オリックス・バファローズの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140469353",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月10日の山﨑天の始球式",
+                "description": "2026年7月10日に櫻坂46の山﨑天が千葉マリンスタジアム(ZOZOマリンスタジアム)での千葉ロッテマリーンズ対オリックス・バファローズの公式戦の前に開催した始球式",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月10日の山﨑天の始球式",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q139564535",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "BLACK SUMMER WEEK 2026",
+                "description": "2026年に千葉ロッテマリーンズが開催するイベント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "BLACK SUMMER WEEK 2026",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139898396",
+                "latitude": 35.683611111,
+                "longitude": 139.989444444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Exo Planet 6 – Exhorizon - Tokyo (11 July)",
+                "description": "Exo Planet 6 – Exhorizon concert in Tokyo",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Exo Planet 6 – Exhorizon - Tokyo (11 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139898397",
+                "latitude": 35.683611111,
+                "longitude": 139.989444444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Exo Planet 6 – Exhorizon - Tokyo (12 July)",
+                "description": "Exo Planet 6 – Exhorizon concert in Tokyo",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Exo Planet 6 – Exhorizon - Tokyo (12 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "和歌山県": [],
+        "埼玉県": [
+            {
+                "date": "2026-07-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140678633",
+                "latitude": 35.7685,
+                "longitude": 139.4205,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月22日のVARZAR×LIONSコラボレーションシリーズでのCUTIE STREET",
+                "description": "令和8年（2026年）7月22日に西武ドーム（ベルーナドーム）で開催の埼玉西武ライオンズ対北海道日本ハムファイターズの公式戦（【パーソル パ・リーグ公式戦】 埼玉西武ライオンズ vs 北海道日本ハムファイターズ 16回戦）での「VARZAR×LIONSコラボレーションシリーズ」に来場した際のCUTIE STREET",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月22日のVARZAR×LIONSコラボレーションシリーズでのCUTIE STREET",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140626568",
+                "latitude": 35.7685,
+                "longitude": 139.4205,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月22日の埼玉西武ライオンズ対北海道日本ハムファイターズの公式戦",
+                "description": "2026年7月22日に西武ドーム(ベルーナドーム)で開催された埼玉西武ライオンズ対北海道日本ハムファイターズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月22日の埼玉西武ライオンズ対北海道日本ハムファイターズの公式戦",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q138715197",
+                "latitude": 35.7685,
+                "longitude": 139.4205,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "VARZAR×LIONSコラボレーションシリーズ",
+                "description": "2026年7月22日から7月26日まで西武ドームで開催された埼玉西武ライオンズとVARZARのコラボレーションイベント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "VARZAR×LIONSコラボレーションシリーズ",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [
+            {
+                "date": "2026-07-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140701000",
+                "latitude": 35.06673611,
+                "longitude": 136.98944444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第43回 東海ステークス",
+                "description": "horse race season",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第43回 東海ステークス",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "新潟県": [
+            {
+                "date": "2026-07-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140701123",
+                "latitude": 37.947638,
+                "longitude": 139.186452,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第61回関屋記念",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第61回関屋記念",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "東京都": [
+            {
+                "date": "2026-07-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140465972",
+                "latitude": 35.674572,
+                "longitude": 139.717136,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月4日の東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "description": "2026年7月4日に明治神宮野球場で開催された東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月4日の東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140469291",
+                "latitude": 35.674572,
+                "longitude": 139.717136,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月5日の東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "description": "2026年7月5日に明治神宮野球場で開催された東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月5日の東京ヤクルトスワローズ対横浜DeNAベイスターズの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q140067005",
+                "latitude": 35.676725,
+                "longitude": 139.763775,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "有楽町ミュージアム",
+                "description": "museum in Chiyoda, Tokyo, Japan",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "有楽町ミュージアムが開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2026-07-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q140757797",
+                "latitude": 35.664279,
+                "longitude": 139.697642,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "渋谷エンタメ祭2026",
+                "description": "2026年7月11日と7月12日に LINE CUBE SHIBUYAと代々木公園で開催されたイベント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "渋谷エンタメ祭2026が開園",
+                "headline_category": "park",
+                "headline_rule": "park.open"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123047486",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026 Japan Open Badminton Championships – Men's doubles",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026 Japan Open Badminton Championships – Men's doubles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123047496",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026 Japan Open Badminton Championships – Men's singles",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026 Japan Open Badminton Championships – Men's singles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123047524",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026 Japan Open Badminton Championships – Mixed doubles",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026 Japan Open Badminton Championships – Mixed doubles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123047507",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026 Japan Open Badminton Championships – Women's doubles",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026 Japan Open Badminton Championships – Women's doubles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123047515",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2026 Japan Open Badminton Championships – Women's singles",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026 Japan Open Badminton Championships – Women's singles",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140626540",
+                "latitude": 35.674572,
+                "longitude": 139.717136,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月14日の東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "description": "2026年7月14日に明治神宮野球場で開催された東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月14日の東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q111201788",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "ダイハツ・ヨネックスジャパンオープン2026バドミントン選手権大会",
+                "description": "バドミントン・トーナメント",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/2026_Japan_Open",
+                "wikipedia_language": "en",
+                "headline": "ダイハツ・ヨネックスジャパンオープン2026バドミントン選手権大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-15",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140626551",
+                "latitude": 35.674572,
+                "longitude": 139.717136,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月15日の東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "description": "2026年7月15日に明治神宮野球場で開催された東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月15日の東京ヤクルトスワローズ対読売ジャイアンツの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140620923",
+                "latitude": 35.65138889,
+                "longitude": 139.70944444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "るんちゃんとハニーななかまたち",
+                "description": "2026年7月20日に恵比寿CreAtoにて開催された豊田ルナの生誕イベント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "るんちゃんとハニーななかまたち",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140621022",
+                "latitude": 35.65138889,
+                "longitude": 139.70944444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "開運！ルナ神様のおな〜り〜♡",
+                "description": "2026年7月20日に恵比寿CreAtoにて開催されたAND CaaaLL豊田ルナの生誕イベント",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "開運！ルナ神様のおな〜り〜♡",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q140737603",
+                "latitude": 35.697152777,
+                "longitude": 139.757741666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "一風堂 神保町店",
+                "description": "一風堂の神保町店",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "一風堂 神保町店",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140737890",
+                "latitude": 35.705555555,
+                "longitude": 139.751944444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年プロ野球オールスターゲーム第1戦",
+                "description": "2026年7月28日に東京ドームで開催されたプロ野球オールスターゲームの第1戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年プロ野球オールスターゲーム第1戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q140851046",
+                "latitude": 35.620125,
+                "longitude": 139.778865,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "TOKYO IDOL FESTIVAL 2026",
+                "description": "2026年7月31日から8月2日に開催された『TOKYO IDOL FESTIVAL 2026』",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "TOKYO IDOL FESTIVAL 2026",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2026-07-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q140598198",
+                "latitude": 35.673333333,
+                "longitude": 139.740833333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "国家情報局",
+                "description": "日本の内閣官房に属する情報機関",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E6%83%85%E5%A0%B1%E5%B1%80_(%E6%97%A5%E6%9C%AC)",
+                "wikipedia_language": "ja",
+                "headline": "国家情報局が発足",
+                "headline_category": "organization",
+                "headline_rule": "organization.open"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [
+            {
+                "date": "2026-07-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140753324",
+                "latitude": 32.738188888,
+                "longitude": 130.743569444,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "イオンモール熊本爆発事故",
+                "description": "2026年7月28日にイオンモール熊本で発生した爆発事故と建物崩落事故",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E7%86%8A%E6%9C%AC%E7%88%86%E7%99%BA%E4%BA%8B%E6%95%85",
+                "wikipedia_language": "ja",
+                "headline": "イオンモール熊本爆発事故",
+                "headline_category": "commercial_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140735282",
+                "latitude": 32.6,
+                "longitude": 130.7,
+                "query_sources": [
+                    "P585:direct"
+                ],
+                "title": "令和8年熊本地震",
+                "description": "2026年7月28日に熊本県を震源として発生した地震",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%86%8A%E6%9C%AC%E5%9C%B0%E9%9C%87_(2026%E5%B9%B4)",
+                "wikipedia_language": "ja",
+                "headline": "令和8年熊本地震",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2026-07-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140509307",
+                "latitude": 35.443428,
+                "longitude": 139.6401,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2026年7月11日の横浜DeNAベイスターズ対読売ジャイアンツの公式戦",
+                "description": "2026年7月11日に横浜スタジアムで開催された横浜DeNAベイスターズ対読売ジャイアンツの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2026年7月11日の横浜DeNAベイスターズ対読売ジャイアンツの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-15",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q139833556",
+                "latitude": 35.455722222,
+                "longitude": 139.628527777,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "日向坂46「五期生 LIVE」",
+                "description": "2026年7月15日、7月16日にぴあアリーナMMで開催予定の日向坂46五期生のライブ",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "日向坂46「五期生 LIVE」",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2026-07-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140438864",
+                "latitude": 33.843,
+                "longitude": 130.87275,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第61回北九州記念",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第61回北九州記念",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140620148",
+                "latitude": 33.843,
+                "longitude": 130.87275,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第62回小倉記念",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第62回小倉記念",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139895138",
+                "latitude": 33.607333333,
+                "longitude": 130.402194444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Choom World Tour - Fukuoka (28 July)",
+                "description": "Choom World Tour concert in Fukuoka",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Choom World Tour - Fukuoka (28 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139895139",
+                "latitude": 33.607333333,
+                "longitude": 130.402194444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Choom World Tour - Fukuoka (29 July)",
+                "description": "Choom World Tour concert in Fukuoka",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Choom World Tour - Fukuoka (29 July)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11630025",
+                "latitude": 33.86638333,
+                "longitude": 130.7622722,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "西黒崎駅",
+                "description": "福岡県北九州市八幡西区にあった筑豊電気鉄道の駅（廃駅）",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E9%BB%92%E5%B4%8E%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "西黒崎駅が廃止",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.abolish"
+            }
+        ],
+        "福島県": [
+            {
+                "date": "2026-07-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140601634",
+                "latitude": 37.76455556,
+                "longitude": 140.48252778,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Fukushima 7R 3yoMaiden, 4 July, 2026",
+                "description": "Japanese horse race",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Fukushima 7R 3yoMaiden, 4 July, 2026",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2026-07-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140520965",
+                "latitude": 37.76455556,
+                "longitude": 140.48252778,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第62回七夕賞",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第62回七夕賞",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "秋田県": [
+            {
+                "date": "2026-07-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q140626768",
+                "latitude": 39.295416666,
+                "longitude": 140.549,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "横手市立体育館",
+                "description": "秋田県横手市にある体育館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%89%8B%E5%B8%82%E7%AB%8B%E4%BD%93%E8%82%B2%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "横手市立体育館が開設",
+                "headline_category": "sports_facility",
+                "headline_rule": "sports_facility.open"
+            }
+        ],
+        "群馬県": [],
+        "茨城県": [],
+        "長崎県": [],
+        "長野県": [],
+        "青森県": [],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

@@ -1,0 +1,3361 @@
+{
+    "year": 2021,
+    "month": 2,
+    "generated_at": "2026-08-31T02:25:42Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 20,
+        "raw_rows_by_property": {
+            "P571": 4,
+            "P576": 2,
+            "P580": 6,
+            "P585": 8
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 14,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 1,
+            "event": 5,
+            "inception": 4,
+            "start": 4
+        },
+        "national_raw_rows": 100,
+        "national_raw_rows_by_property": {
+            "P3999": 1,
+            "P571": 21,
+            "P576": 3,
+            "P580": 66,
+            "P585": 9
+        },
+        "national_query_candidate_count": 98,
+        "national_candidate_count": 84,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2021-02-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q105477226",
+            "latitude": 37.494583333,
+            "longitude": 141.000722222,
+            "query_sources": [
+                "P580:national",
+                "P580:place",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "福島県沖地震",
+            "description": "2021年2月13日に福島県沖を震源として発生した地震",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B3%B6%E7%9C%8C%E6%B2%96%E5%9C%B0%E9%9C%87_(2021%E5%B9%B4)",
+            "wikipedia_language": "ja",
+            "headline": "福島県沖地震",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 18,
+            "category": "disaster",
+            "score": 65,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福島県"
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109357880",
+            "query_sources": [
+                "P580:national",
+                "P585:national"
+            ],
+            "title": "令和3年足利市山林火災",
+            "description": "2021年に栃木県足利市で発生した火災",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C3%E5%B9%B4%E8%B6%B3%E5%88%A9%E5%B8%82%E5%B1%B1%E6%9E%97%E7%81%AB%E7%81%BD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "令和3年足利市山林火災",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q103839881",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年千葉県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E5%8D%83%E8%91%89%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2021年千葉県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q2648500",
+            "latitude": 31.4915,
+            "longitude": 131.0856,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "志布志インターチェンジ",
+            "description": "鹿児島県志布志市にある東九州自動車道・都城志布志道路のインターチェンジ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BF%97%E5%B8%83%E5%BF%97%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "志布志インターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "鹿児島県"
+        },
+        {
+            "date": "2021-02-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11672326",
+            "latitude": 33.565142,
+            "longitude": 133.574739,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "高知中央インターチェンジ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E7%9F%A5%E4%B8%AD%E5%A4%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "高知中央インターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "高知県"
+        },
+        {
+            "date": "2021-02-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q104151359",
+            "latitude": 35.861388888,
+            "longitude": 139.645555555,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "FUJI XEROX SUPER CUP2021",
+            "description": "日本のサッカーのスーパーカップ戦",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E3%81%AE%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AB%E3%83%83%E3%83%97_(%E6%97%A5%E6%9C%AC%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC)",
+            "wikipedia_language": "ja",
+            "headline": "FUJI XEROX SUPER CUP2021",
+            "headline_category": "sports_event",
+            "headline_rule": "event.label",
+            "sitelink_count": 7,
+            "category": "sports",
+            "score": 43,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "埼玉県"
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q249033",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "カワサキモータース",
+            "description": "日本のモビリティ企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AF%E3%82%B5%E3%82%AD%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 16,
+            "headline": "カワサキモータースが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106430745",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ウィッチウォッチ",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 16,
+            "headline": "ウィッチウォッチ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139311468",
+            "latitude": 35.163842,
+            "longitude": 136.901022,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "「写真の都」物語",
+            "description": "2021年に名古屋市美術館で開催された展覧会",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%80%8C%E5%86%99%E7%9C%9F%E3%81%AE%E9%83%BD%E3%80%8D%E7%89%A9%E8%AA%9E_%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%86%99%E7%9C%9F%E9%81%8B%E5%8B%95%E5%8F%B2:1911-1972",
+            "wikipedia_language": "ja",
+            "headline": "「写真の都」物語が開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "sitelink_count": 2,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "愛知県"
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q11189181",
+            "query_sources": [
+                "P3999:national"
+            ],
+            "title": "ALBi",
+            "description": "かつて大阪駅高架下に存在した専門店街",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/ALBi",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ALBiが閉鎖",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.close",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109357880",
+            "query_sources": [
+                "P580:national",
+                "P585:national"
+            ],
+            "title": "令和3年足利市山林火災",
+            "description": "2021年に栃木県足利市で発生した火災",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C3%E5%B9%B4%E8%B6%B3%E5%88%A9%E5%B8%82%E5%B1%B1%E6%9E%97%E7%81%AB%E7%81%BD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "令和3年足利市山林火災",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q103839881",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年千葉県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E5%8D%83%E8%91%89%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2021年千葉県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q249033",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "カワサキモータース",
+            "description": "日本のモビリティ企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AF%E3%82%B5%E3%82%AD%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 16,
+            "headline": "カワサキモータースが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q11189181",
+            "query_sources": [
+                "P3999:national"
+            ],
+            "title": "ALBi",
+            "description": "かつて大阪駅高架下に存在した専門店街",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/ALBi",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ALBiが閉鎖",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.close",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q104301610",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2021年のJ1リーグ",
+            "description": "J1リーグの27シーズン目",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E3%81%AEJ1%E3%83%AA%E3%83%BC%E3%82%B0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 13,
+            "headline": "2021年のJ1リーグ",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 38,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106430745",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ウィッチウォッチ",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 16,
+            "headline": "ウィッチウォッチ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106093781",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "女神のカフェテラス",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E7%A5%9E%E3%81%AE%E3%82%AB%E3%83%95%E3%82%A7%E3%83%86%E3%83%A9%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "女神のカフェテラス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114592263",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "忍者と殺し屋のふたりぐらし",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E3%81%A8%E6%AE%BA%E3%81%97%E5%B1%8B%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%90%E3%82%89%E3%81%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "忍者と殺し屋のふたりぐらし",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q102368919",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "トロピカル〜ジュ！プリキュア",
+            "description": "日本のテレビアニメ番組、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AD%E3%83%94%E3%82%AB%E3%83%AB%E3%80%9C%E3%82%B8%E3%83%A5!%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "トロピカル〜ジュ！プリキュア",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q79397488",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ぶらどらぶ",
+            "description": "Japanese original net animation series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B6%E3%82%89%E3%81%A9%E3%82%89%E3%81%B6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "ぶらどらぶ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q67207191",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "青天を衝け",
+            "description": "2021年NHK大河ドラマ第60作",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E5%A4%A9%E3%82%92%E8%A1%9D%E3%81%91",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "青天を衝け",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131432619",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "岩元先輩ノ推薦",
+            "description": "椎橋寛による日本の連載漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%85%83%E5%85%88%E8%BC%A9%E3%83%8E%E6%8E%A8%E8%96%A6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "岩元先輩ノ推薦",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q108876599",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "丹鶴ホール",
+            "description": "日本の和歌山県新宮市にある複合施設",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%B9%E9%B6%B4%E3%83%9B%E3%83%BC%E3%83%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "丹鶴ホールが開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "category": "culture",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q139985604",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Qzil.la",
+            "description": "日本の東京都千代田区にあるアニメ制作会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Qzil.la",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Qzil.laが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109364247",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "JFA 第26回全日本フットサル選手権大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/JFA_%E7%AC%AC26%E5%9B%9E%E5%85%A8%E6%97%A5%E6%9C%AC%E3%83%95%E3%83%83%E3%83%88%E3%82%B5%E3%83%AB%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "JFA 第26回全日本フットサル選手権大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q130259585",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "BreakingDown",
+            "description": "日本のアマチュアキックボクシング及び総合格闘技大会",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/BreakingDown",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "BreakingDownが設立",
+            "headline_category": "sports_event",
+            "headline_rule": "sports_event.inception_fallback",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130341436",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "人妻の唇は缶チューハイの味がして",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%A6%BB%E3%81%AE%E5%94%87%E3%81%AF%E7%BC%B6%E3%83%81%E3%83%A5%E3%83%BC%E3%83%8F%E3%82%A4%E3%81%AE%E5%91%B3%E3%81%8C%E3%81%97%E3%81%A6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "人妻の唇は缶チューハイの味がして",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124496833",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "大蛇に嫁いだ娘",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%9B%87%E3%81%AB%E5%AB%81%E3%81%84%E3%81%A0%E5%A8%98",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "大蛇に嫁いだ娘",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136108698",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Q136108698",
+            "description": "A children's makeup brand from the Pretty Cure franchise",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Pretty_Holic",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "Q136108698",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11325361",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ネコ・パブリッシング",
+            "description": "カルチュア・エンタテインメントのブランドおよび社内カンパニー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%B3%E3%83%BB%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ネコ・パブリッシングが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115309494",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第46期棋聖戦 (囲碁)",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC46%E6%9C%9F%E6%A3%8B%E8%81%96%E6%88%A6_(%E5%9B%B2%E7%A2%81)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "第46期棋聖戦 (囲碁)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11240658",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "REBELS",
+            "description": "キックボクシングとムエタイを主とした日本の格闘技プロモーション",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/REBELS",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "REBELSが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111983546",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "アルディ",
+            "description": "日本の東京都豊島区にある芸能事務所",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%87%E3%82%A3_(%E8%8A%B8%E8%83%BD%E4%BA%8B%E5%8B%99%E6%89%80)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "アルディが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q124633417",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "レモンジャム",
+            "description": "日本の芸能事務所",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%A2%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%A0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "レモンジャムが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11522881",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "村上給食",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E7%B5%A6%E9%A3%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "村上給食が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11402283",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "アルヘイムフードサービス",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%98%E3%82%A4%E3%83%A0%E3%83%95%E3%83%BC%E3%83%89%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "アルヘイムフードサービスが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q136298840",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "森喜朗の女性蔑視発言",
+            "description": "2021年に日本オリンピック委員会の会合で行われた発言",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A3%AE%E5%96%9C%E6%9C%97%E3%81%AE%E5%A5%B3%E6%80%A7%E8%94%91%E8%A6%96%E7%99%BA%E8%A8%80",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "森喜朗の女性蔑視発言",
+            "headline_category": "organization",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105638005",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "緊急事態宣言及びまん延防止等重点措置",
+            "description": "新型インフルエンザ等対策特別措置法に基づいて取られる措置",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%B7%8A%E6%80%A5%E4%BA%8B%E6%85%8B%E5%AE%A3%E8%A8%80%E5%8F%8A%E3%81%B3%E3%81%BE%E3%82%93%E5%BB%B6%E9%98%B2%E6%AD%A2%E7%AD%89%E9%87%8D%E7%82%B9%E6%8E%AA%E7%BD%AE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "緊急事態宣言及びまん延防止等重点措置",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138690959",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "六畳間のピアノマン",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%AD%E7%95%B3%E9%96%93%E3%81%AE%E3%83%94%E3%82%A2%E3%83%8E%E3%83%9E%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "六畳間のピアノマン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109364727",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ハルカの光",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AB%E3%82%AB%E3%81%AE%E5%85%89",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ハルカの光",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q106967072",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ワクチン接種円滑化システム",
+            "description": "システムの一つ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E6%8E%A5%E7%A8%AE%E5%86%86%E6%BB%91%E5%8C%96%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ワクチン接種円滑化システムが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q117828293",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "MCCマネジメント",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/MCC%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "MCCマネジメントが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q134520764",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "北斗の拳 世紀末ドラマ撮影伝",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%96%97%E3%81%AE%E6%8B%B3_%E4%B8%96%E7%B4%80%E6%9C%AB%E3%83%89%E3%83%A9%E3%83%9E%E6%92%AE%E5%BD%B1%E4%BC%9D",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "北斗の拳 世紀末ドラマ撮影伝",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109360673",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "コミックノヴァ",
+            "description": "日本のウェブコミック配信サイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%8E%E3%83%B4%E3%82%A1",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "コミックノヴァが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q105753776",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "小江戸FM",
+            "description": "日本の埼玉県川越市のコミュニティラジオ放送局",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%B1%9F%E6%88%B8FM",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "小江戸FMが発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q110966204",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "SPACE SHOWER FUGA",
+            "description": "日本の音楽会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "SPACE SHOWER FUGAが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q132454918",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ぷ",
+            "description": "日本の映像制作会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ぷが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q138658350",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "第38回フェブラリーステークス",
+            "description": "競馬大会のシーズン",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "第38回フェブラリーステークス",
+            "headline_category": "sports_event",
+            "headline_rule": "event.label",
+            "category": "sports",
+            "score": 8,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135218704",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "朱色の仮面",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Vermilion_Mask",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "朱色の仮面",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137996633",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Burger POLICE",
+            "description": "日本のハンバーガー店",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Burger POLICE",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126923374",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "魔女ノ結婚",
+            "description": "漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Witches%27_Marriage",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "魔女ノ結婚",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q127162614",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "踏んだり、蹴ったり、愛したり",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Stomp,_Kick,_Love",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "踏んだり、蹴ったり、愛したり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99957381",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Randomized, Double-blind Study to Evaluate Efficacy and Safety of Cenobamate Adjunctive Therapy in Partial Onset Seizures",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Randomized, Double-blind Study to Evaluate Efficacy and Safety of Cenobamate Adjunctive Therapy in Partial Onset Seizures",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q134493837",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "エレメンタルクラフト",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "エレメンタルクラフトが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898874",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase III Long Term Study of K-877 Extended Release Tablet",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase III Long Term Study of K-877 Extended Release Tablet",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q137895925",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ウィンドワードオーシャンクラブ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ウィンドワードオーシャンクラブが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898176",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Research Study Looking at How the Medicine NNC0194-0499 Behaves in Japanese and Non-Asian Men",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Research Study Looking at How the Medicine NNC0194-0499 Behaves in Japanese and Non-Asian Men",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106138997",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "HERTHENA-Lung01: Patritumab Deruxtecan in Subjects With Metastatic or Locally Advanced EGFR-mutated Non-Small Cell Lung Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "HERTHENA-Lung01: Patritumab Deruxtecan in Subjects With Metastatic or Locally Advanced EGFR-mutated Non-Small Cell Lung Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113894628",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate Rozanolixizumab in Study Participants With Generalized Myasthenia Gravis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate Rozanolixizumab in Study Participants With Generalized Myasthenia Gravis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113939486",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Trial to Learn Whether Regorafenib in Combination With Nivolumab Can Improve Tumor Responses and How Safe it is for Participants With Solid Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Trial to Learn Whether Regorafenib in Combination With Nivolumab Can Improve Tumor Responses and How Safe it is for Participants With Solid Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106975678",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Regorafenib Plus Pembrolizumab in Patients With Advanced or Spreading Liver Cancer Who Have Been Previously Treated With PD-1/PD-L1 Immune Checkpoint Inhibitors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Regorafenib Plus Pembrolizumab in Patients With Advanced or Spreading Liver Cancer Who Have Been Previously Treated With PD-1/PD-L1 Immune Checkpoint Inhibitors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113913963",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Evaluate Overall Survival in Japanese Patients With HR+/HER2- Advanced Breast Cancer Treated With Palbociclib Plus Letrozole",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Evaluate Overall Survival in Japanese Patients With HR+/HER2- Advanced Breast Cancer Treated With Palbociclib Plus Letrozole",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113916193",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "To Assess the Safety, Tolerability and Pharmacokinetics of INCB086550",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "To Assess the Safety, Tolerability and Pharmacokinetics of INCB086550",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113892002",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Relatlimab in Combination With Nivolumab in Participants With Advanced Liver Cancer Who Have Never Been Treated With Immuno-oncology Therapy After Prior Treatment With Tyrosine Kinase Inhibitors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Relatlimab in Combination With Nivolumab in Participants With Advanced Liver Cancer Who Have Never Been Treated With Immuno-oncology Therapy After Prior Treatment With Tyrosine Kinase Inhibitors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113896352",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate the Esophageal Stenosis Inhibition Effects of CLS2702C/CLS2702D After Endoscopic Submucosal Dissection (ESD) in Patients With Superficial Esophageal Cancer in the Steroid Administration Risk Group",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate the Esophageal Stenosis Inhibition Effects of CLS2702C/CLS2702D After Endoscopic Submucosal Dissection (ESD) in Patients With Superficial Esophageal Cancer in the Steroid Administration Risk Group",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105788690",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety, Tolerability, and Immunogenicity of a Polyvalent Pneumococcal Conjugate Vaccine (pPCV) in Japanese Adults (pPCV-002)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety, Tolerability, and Immunogenicity of a Polyvalent Pneumococcal Conjugate Vaccine (pPCV) in Japanese Adults (pPCV-002)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139731122",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "察知されない最強職",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "察知されない最強職",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113911998",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluating the Pharmacodynamic Noninferiority of Efgartigimod PH20 SC Administered Subcutaneously as Compared to Efgartigimod Administered Intravenously in Patients With Generalized Myasthenia Gravis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluating the Pharmacodynamic Noninferiority of Efgartigimod PH20 SC Administered Subcutaneously as Compared to Efgartigimod Administered Intravenously in Patients With Generalized Myasthenia Gravis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131604528",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "フシノカミ～辺境から始める文明再生記～",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "フシノカミ～辺境から始める文明再生記～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137784136",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "マリッジグレー",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "マリッジグレー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111286578",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "配信映像審査ネットワーク",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "配信映像審査ネットワークが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105789150",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of TAK-536 in Pediatric Participants From 2 to Less Than 6 Years of Age With Hypertension",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of TAK-536 in Pediatric Participants From 2 to Less Than 6 Years of Age With Hypertension",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113897859",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy Confirmation Study of NPC-09",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy Confirmation Study of NPC-09",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113895394",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy and Safety of Mepolizumab in Adults With Chronic Rhinosinusitis With Nasal Polyps (CRSwNP)/ Eosinophilic Chronic Rhinosinusitis (ECRS)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy and Safety of Mepolizumab in Adults With Chronic Rhinosinusitis With Nasal Polyps (CRSwNP)/ Eosinophilic Chronic Rhinosinusitis (ECRS)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136411353",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113913742",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Long-term Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD) With Venglustat",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Long-term Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD) With Venglustat",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898019",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of the Efficacy and Safety of Somatropin in Japanese Participants With PWS",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of the Efficacy and Safety of Somatropin in Japanese Participants With PWS",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137828639",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "泥酔彼女",
+            "description": "日本のライトノベルシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "泥酔彼女",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113927166",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Assess Adverse Events and Change in Disease State in Adult Participants Being Treated With Humira in Participants Diagnosed With Pyoderma Gangrenosum (PG)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Assess Adverse Events and Change in Disease State in Adult Participants Being Treated With Humira in Participants Diagnosed With Pyoderma Gangrenosum (PG)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113913402",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Assess the Efficacy, Safety, and Tolerability of SAR440340/REGN3500/Itepekimab in Chronic Obstructive Pulmonary Disease (COPD) (AERIFY-2)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Assess the Efficacy, Safety, and Tolerability of SAR440340/REGN3500/Itepekimab in Chronic Obstructive Pulmonary Disease (COPD) (AERIFY-2)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113917011",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Optimal Duration of Anticoagulation Therapy for Low-risk Pulmonary Embolism Patients With Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Optimal Duration of Anticoagulation Therapy for Low-risk Pulmonary Embolism Patients With Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113896760",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety and Efficacy Study of OPC-415 in Patients With Relapsed and/or Refractory Multiple Myeloma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety and Efficacy Study of OPC-415 in Patients With Relapsed and/or Refractory Multiple Myeloma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106133180",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Intravenous (IV) ABBV-637 Alone or in Combination With IV Docetaxel to Assess Adverse Events and Change in Disease Activity in Adult Participants With Relapsed/Refractory (R/R) Solid Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Intravenous (IV) ABBV-637 Alone or in Combination With IV Docetaxel to Assess Adverse Events and Change in Disease Activity in Adult Participants With Relapsed/Refractory (R/R) Solid Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105789075",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Japan Expanded Access Program With Lanadelumab for Japanese Patients With Hereditary Angioedema",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Japan Expanded Access Program With Lanadelumab for Japanese Patients With Hereditary Angioedema",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106230741",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ももいろ あんずいろ さくらいろ",
+            "description": "Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ももいろ あんずいろ さくらいろ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113897181",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Teclistamab in Japanese Participants With Relapsed or Refractory Multiple Myeloma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Teclistamab in Japanese Participants With Relapsed or Refractory Multiple Myeloma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898491",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate the Efficacy and Safety of CC-93538 in Adult and Adolescent Participants With Eosinophilic Esophagitis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate the Efficacy and Safety of CC-93538 in Adult and Adolescent Participants With Eosinophilic Esophagitis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898045",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tisotumab Vedotin vs Chemotherapy in Recurrent or Metastatic Cervical Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Tisotumab Vedotin vs Chemotherapy in Recurrent or Metastatic Cervical Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115520368",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "転生したらあかりだけスライムだった件",
+            "description": "ゆるゆりのスピンオフ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "転生したらあかりだけスライムだった件",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113909436",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Clinical Pharmacology Study of TS-142 in Patients With Obstructive Sleep Apnea Hypopnea.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Clinical Pharmacology Study of TS-142 in Patients With Obstructive Sleep Apnea Hypopnea.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113919255",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of TAK-019 in Healthy Japanese Adults (COVID-19)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of TAK-019 in Healthy Japanese Adults (COVID-19)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113938444",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Evaluate Patient Reported Outcome (PRO) and Physical Activity in Japanese Patients With HR+/HER2- Advanced Breast Cancer Treated With Palbociclib Plus Endocrine Therapy or Endocrine Monotherapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Evaluate Patient Reported Outcome (PRO) and Physical Activity in Japanese Patients With HR+/HER2- Advanced Breast Cancer Treated With Palbociclib Plus Endocrine Therapy or Endocrine Monotherapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q100317090",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "舞妓さんちのまかないさん",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "舞妓さんちのまかないさん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-02-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106642467",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Comparative Bioavailability Study of Oral Edaravone Administered Orally and Via a Nasogastric Tube",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Comparative Bioavailability Study of Oral Edaravone Administered Orally and Via a Nasogastric Tube",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [],
+        "北海道": [
+            {
+                "date": "2021-02",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q120732146",
+                "latitude": 45.415638888,
+                "longitude": 141.673083333,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2021 Japan Curling Championships",
+                "description": "held in Wakkanai, Hokkaido, Japan",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/2021_Japan_Curling_Championships",
+                "wikipedia_language": "en",
+                "headline": "2021 Japan Curling Championships",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [
+            {
+                "date": "2021-02-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q104151359",
+                "latitude": 35.861388888,
+                "longitude": 139.645555555,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "FUJI XEROX SUPER CUP2021",
+                "description": "日本のサッカーのスーパーカップ戦",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E3%81%AE%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AB%E3%83%83%E3%83%97_(%E6%97%A5%E6%9C%AC%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC)",
+                "wikipedia_language": "ja",
+                "headline": "FUJI XEROX SUPER CUP2021",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [
+            {
+                "date": "2021-02-15",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q106128932",
+                "latitude": 32.073127777,
+                "longitude": 131.491838888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "いちご宮崎新富サッカー場",
+                "description": "宮崎県新富町にある球技場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%84%E3%81%A1%E3%81%94%E5%AE%AE%E5%B4%8E%E6%96%B0%E5%AF%8C%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E5%A0%B4",
+                "wikipedia_language": "ja",
+                "headline": "いちご宮崎新富サッカー場が設立",
+                "headline_category": "sports_event",
+                "headline_rule": "sports_event.inception_fallback"
+            }
+        ],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [
+            {
+                "date": "2021-02-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q139311468",
+                "latitude": 35.163842,
+                "longitude": 136.901022,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "「写真の都」物語",
+                "description": "2021年に名古屋市美術館で開催された展覧会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%80%8C%E5%86%99%E7%9C%9F%E3%81%AE%E9%83%BD%E3%80%8D%E7%89%A9%E8%AA%9E_%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%86%99%E7%9C%9F%E9%81%8B%E5%8B%95%E5%8F%B2:1911-1972",
+                "wikipedia_language": "ja",
+                "headline": "「写真の都」物語が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2021-02-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q137996661",
+                "latitude": 35.621327777,
+                "longitude": 139.685975,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Burger POLICE 碑文谷",
+                "description": "Burger POLICEの1号店",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Burger POLICE 碑文谷",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-02-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q109360093",
+                "latitude": 35.621111,
+                "longitude": 139.673056,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第75回毎日映画コンクール",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC75%E5%9B%9E%E6%AF%8E%E6%97%A5%E6%98%A0%E7%94%BB%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%BC%E3%83%AB",
+                "wikipedia_language": "ja",
+                "headline": "第75回毎日映画コンクール",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2021-02-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123679269",
+                "latitude": 35.672603,
+                "longitude": 139.718169,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2021 Top League Toshiba Brave Lupus vs Kubota Spears",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2021 Top League Toshiba Brave Lupus vs Kubota Spears",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [
+            {
+                "date": "2021-02-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11392159",
+                "latitude": 32.93222222,
+                "longitude": 130.54972222,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "公立玉名中央病院",
+                "description": "熊本県玉名市にあった病院",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%AC%E7%AB%8B%E7%8E%89%E5%90%8D%E4%B8%AD%E5%A4%AE%E7%97%85%E9%99%A2",
+                "wikipedia_language": "ja",
+                "headline": "公立玉名中央病院が廃止",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.abolish"
+            }
+        ],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2021-02-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q109362154",
+                "latitude": 35.52833333,
+                "longitude": 139.71083333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第36回読売新聞社杯全日本選抜競輪",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC36%E5%9B%9E%E8%AA%AD%E5%A3%B2%E6%96%B0%E8%81%9E%E7%A4%BE%E6%9D%AF%E5%85%A8%E6%97%A5%E6%9C%AC%E9%81%B8%E6%8A%9C%E7%AB%B6%E8%BC%AA",
+                "wikipedia_language": "ja",
+                "headline": "第36回読売新聞社杯全日本選抜競輪",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2021-02-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q137441981",
+                "latitude": 33.58727,
+                "longitude": 130.41941,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "博多深見パークビルディング",
+                "description": "福岡市博多区にある事務所建築",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "博多深見パークビルディングが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "福島県": [
+            {
+                "date": "2021-02-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q105477226",
+                "latitude": 37.494583333,
+                "longitude": 141.000722222,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "福島県沖地震",
+                "description": "2021年2月13日に福島県沖を震源として発生した地震",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B3%B6%E7%9C%8C%E6%B2%96%E5%9C%B0%E9%9C%87_(2021%E5%B9%B4)",
+                "wikipedia_language": "ja",
+                "headline": "福島県沖地震",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [],
+        "長崎県": [],
+        "長野県": [],
+        "青森県": [
+            {
+                "date": "2021-02-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q105729550",
+                "latitude": 40.828194444,
+                "longitude": 140.774027777,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第14回日本ミックスダブルスカーリング選手権大会",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC14%E5%9B%9E%E6%97%A5%E6%9C%AC%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%80%E3%83%96%E3%83%AB%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第14回日本ミックスダブルスカーリング選手権大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            }
+        ],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [
+            {
+                "date": "2021-02-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11672326",
+                "latitude": 33.565142,
+                "longitude": 133.574739,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "高知中央インターチェンジ",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E7%9F%A5%E4%B8%AD%E5%A4%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "高知中央インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "鳥取県": [],
+        "鹿児島県": [
+            {
+                "date": "2021-02-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q2648500",
+                "latitude": 31.4915,
+                "longitude": 131.0856,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "志布志インターチェンジ",
+                "description": "鹿児島県志布志市にある東九州自動車道・都城志布志道路のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BF%97%E5%B8%83%E5%BF%97%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "志布志インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ]
+    }
+}

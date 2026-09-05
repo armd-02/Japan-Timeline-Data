@@ -1,0 +1,2735 @@
+{
+    "year": 2023,
+    "month": 9,
+    "generated_at": "2026-08-31T12:03:08Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 37,
+        "raw_rows_by_property": {
+            "P1619": 2,
+            "P3999": 2,
+            "P571": 8,
+            "P576": 2,
+            "P580": 8,
+            "P585": 15
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 25,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 2,
+            "closure": 1,
+            "event": 10,
+            "inception": 5,
+            "opening": 2,
+            "start": 5
+        },
+        "national_raw_rows": 81,
+        "national_raw_rows_by_property": {
+            "P1619": 2,
+            "P3999": 1,
+            "P571": 22,
+            "P576": 7,
+            "P580": 35,
+            "P585": 14
+        },
+        "national_query_candidate_count": 81,
+        "national_candidate_count": 56,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2023-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122243969",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和5年台風第13号",
+            "description": "2023年に発生した13番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC13%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "令和5年台風第13号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q113462430",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第2次岸田第1次改造内閣",
+            "description": "日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3_(%E7%AC%AC1%E6%AC%A1%E6%94%B9%E9%80%A0)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 8,
+            "headline": "第2次岸田第1次改造内閣が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q122359425",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "第2次岸田第2次改造内閣",
+            "description": "日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3_(%E7%AC%AC2%E6%AC%A1%E6%94%B9%E9%80%A0)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "第2次岸田第2次改造内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q122167427",
+            "latitude": 34.482777777,
+            "longitude": 132.492833333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "広島市豪雨災害伝承館",
+            "description": "facility in Hiroshima, Hiroshima, Japan",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B3%B6%E5%B8%82%E8%B1%AA%E9%9B%A8%E7%81%BD%E5%AE%B3%E4%BC%9D%E6%89%BF%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "広島市豪雨災害伝承館が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "sitelink_count": 2,
+            "category": "disaster",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "広島県"
+        },
+        {
+            "date": "2023-09-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115480409",
+            "latitude": 34.881972222,
+            "longitude": 136.584166666,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "2023年日本グランプリ (4輪)",
+            "description": "Formula One motor race",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA_(4%E8%BC%AA)",
+            "wikipedia_language": "ja",
+            "headline": "2023年日本グランプリ (4輪)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "sitelink_count": 25,
+            "category": "society",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "三重県"
+        },
+        {
+            "date": "2023-09-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q139713245",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "尼子山トンネル火災事故",
+            "description": "トンネル火災",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%BC%E5%AD%90%E5%B1%B1%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB%E7%81%AB%E7%81%BD%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "尼子山トンネル火災事故",
+            "headline_category": "road_facility",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q109598537",
+            "latitude": 37.322777777,
+            "longitude": 136.909722222,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "のと三井インターチェンジ",
+            "description": "石川県輪島市にある能越自動車道のインターチェンジ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%AE%E3%81%A8%E4%B8%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "のと三井インターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "石川県"
+        },
+        {
+            "date": "2023-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q121075197",
+            "latitude": 34.128277777,
+            "longitude": 135.170111111,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "道の駅海南サクアス",
+            "description": "和歌山県海南市にある国道42号の道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E6%B5%B7%E5%8D%97%E3%82%B5%E3%82%AF%E3%82%A2%E3%82%B9",
+            "wikipedia_language": "ja",
+            "headline": "道の駅海南サクアスが開業",
+            "headline_category": "roadside_station",
+            "headline_rule": "roadside_station.open",
+            "sitelink_count": 1,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "和歌山県"
+        },
+        {
+            "date": "2023-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q28693175",
+            "latitude": 38.91524444,
+            "longitude": 139.84170278,
+            "query_sources": [
+                "P3999:direct",
+                "P3999:national"
+            ],
+            "title": "酒田市立資料館",
+            "description": "山形県酒田市にある資料館",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%85%92%E7%94%B0%E5%B8%82%E7%AB%8B%E8%B3%87%E6%96%99%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "酒田市立資料館が閉鎖",
+            "headline_category": "museum",
+            "headline_rule": "museum.close",
+            "sitelink_count": 2,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "山形県"
+        },
+        {
+            "date": "2023-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q123119470",
+            "latitude": 33.62575,
+            "longitude": 130.44825,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "青森トライアル",
+            "description": "日本のスーパーマーケット",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E6%A3%AE%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB",
+            "wikipedia_language": "ja",
+            "headline": "青森トライアルが開業",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.open",
+            "sitelink_count": 1,
+            "category": "economy",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福岡県"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2023-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122243969",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和5年台風第13号",
+            "description": "2023年に発生した13番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC13%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "令和5年台風第13号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q113462430",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第2次岸田第1次改造内閣",
+            "description": "日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3_(%E7%AC%AC1%E6%AC%A1%E6%94%B9%E9%80%A0)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 8,
+            "headline": "第2次岸田第1次改造内閣が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q122359425",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "第2次岸田第2次改造内閣",
+            "description": "日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3_(%E7%AC%AC2%E6%AC%A1%E6%94%B9%E9%80%A0)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "第2次岸田第2次改造内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q139713245",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "尼子山トンネル火災事故",
+            "description": "トンネル火災",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%BC%E5%AD%90%E5%B1%B1%E3%83%88%E3%83%B3%E3%83%8D%E3%83%AB%E7%81%AB%E7%81%BD%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "尼子山トンネル火災事故",
+            "headline_category": "road_facility",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q122363236",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2023年国民民主党代表選挙",
+            "description": "2023年9月2日に行われた国民民主党の代表を選出するための選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "2023年国民民主党代表選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q122149836",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "内閣感染症危機管理統括庁",
+            "description": "日本の行政機関",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%86%85%E9%96%A3%E6%84%9F%E6%9F%93%E7%97%87%E5%8D%B1%E6%A9%9F%E7%AE%A1%E7%90%86%E7%B5%B1%E6%8B%AC%E5%BA%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "内閣感染症危機管理統括庁が設置",
+            "headline_category": "government",
+            "headline_rule": "national.government.establish",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q121643719",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2023年岩手県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "2023年岩手県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11327708",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "バスネット",
+            "description": "鳥取県全域の鉄道・バス時刻表サイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%B9%E3%83%8D%E3%83%83%E3%83%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "バスネットが廃止",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.abolish",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122713274",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "カグラバチ",
+            "description": "外薗健による日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B0%E3%83%A9%E3%83%90%E3%83%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 18,
+            "headline": "カグラバチ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q122639399",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本保守党",
+            "description": "日本の政党",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%BF%9D%E5%AE%88%E5%85%9A_(2023-)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 12,
+            "headline": "日本保守党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124496857",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "真夜中ハートチューン",
+            "description": "五十嵐正邦による日本の連載ラブコメディ漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E5%A4%9C%E4%B8%AD%E3%83%8F%E3%83%BC%E3%83%88%E3%83%81%E3%83%A5%E3%83%BC%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 12,
+            "headline": "真夜中ハートチューン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q118592563",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "仮面ライダーガッチャード",
+            "description": "日本のテレビドラマシリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%AC%E3%83%83%E3%83%81%E3%83%A3%E3%83%BC%E3%83%89",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "仮面ライダーガッチャード",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115792176",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "葬送のフリーレン",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%91%AC%E9%80%81%E3%81%AE%E3%83%95%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%B3_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "葬送のフリーレン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q130633304",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "SP.LINKS",
+            "description": "日本の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/SP.LINKS",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "SP.LINKSが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11279941",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "りらいあコミュニケーションズ",
+            "description": "日本の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%8A%E3%82%89%E3%81%84%E3%81%82%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "りらいあコミュニケーションズが解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q122879155",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アジアリーグアイスホッケー2023-2024",
+            "description": "2023-2024のアジアリーグアイスホッケーのシーズン",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B8%E3%82%A2%E3%83%AA%E3%83%BC%E3%82%B0%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%9B%E3%83%83%E3%82%B1%E3%83%BC2023-2024",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "アジアリーグアイスホッケー2023-2024",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q124482143",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "加藤浩次&中居正広の歴代日本代表256人が選ぶ『この日本代表がスゴい!』ベスト20",
+            "description": "日本テレビのスポーツバラエティ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%97%A4%E6%B5%A9%E6%AC%A1%26%E4%B8%AD%E5%B1%85%E6%AD%A3%E5%BA%83%E3%81%AE%E6%AD%B4%E4%BB%A3%E6%97%A5%E6%9C%AC%E4%BB%A3%E8%A1%A8256%E4%BA%BA%E3%81%8C%E9%81%B8%E3%81%B6%E3%80%8E%E3%81%93%E3%81%AE%E6%97%A5%E6%9C%AC%E4%BB%A3%E8%A1%A8%E3%81%8C%E3%82%B9%E3%82%B4%E3%81%84!%E3%80%8F%E3%83%99%E3%82%B9%E3%83%8820",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "加藤浩次&中居正広の歴代日本代表256人が選ぶ『この日本代表がスゴい!』ベスト20が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124474735",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "魔々勇々",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E3%80%85%E5%8B%87%E3%80%85",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "魔々勇々",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137802464",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "本なら売るほど",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9C%AC%E3%81%AA%E3%82%89%E5%A3%B2%E3%82%8B%E3%81%BB%E3%81%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "本なら売るほど",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q124482142",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "伊集院光&佐久間宣行の勝手にテレ東批評",
+            "description": "テレビ東京のテレビ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E5%85%89%26%E4%BD%90%E4%B9%85%E9%96%93%E5%AE%A3%E8%A1%8C%E3%81%AE%E5%8B%9D%E6%89%8B%E3%81%AB%E3%83%86%E3%83%AC%E6%9D%B1%E6%89%B9%E8%A9%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "伊集院光&佐久間宣行の勝手にテレ東批評が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124482172",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ひとりメシ 〜ひとりだけどひとりじゃない〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B2%E3%81%A8%E3%82%8A%E3%83%A1%E3%82%B7_%E3%80%9C%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A0%E3%81%91%E3%81%A9%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ひとりメシ 〜ひとりだけどひとりじゃない〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q120336054",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "姪のメイ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A7%AA%E3%81%AE%E3%83%A1%E3%82%A4",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "姪のメイ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136796344",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ゼッテリア",
+            "description": "日本のハンバーガー店チェーン",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%83%E3%83%86%E3%83%AA%E3%82%A2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ゼッテリアが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130297445",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ブラ恋〜よせてあげてもズレてる二人〜",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E6%81%8B%E3%80%9C%E3%82%88%E3%81%9B%E3%81%A6%E3%81%82%E3%81%92%E3%81%A6%E3%82%82%E3%82%BA%E3%83%AC%E3%81%A6%E3%82%8B%E4%BA%8C%E4%BA%BA%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ブラ恋〜よせてあげてもズレてる二人〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11221820",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "Goo地図",
+            "description": "defunct Japanese web map service",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Goo%E5%9C%B0%E5%9B%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Goo地図が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125130829",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "最強の詩",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E3%81%AE%E8%A9%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "最強の詩",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109972549",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "内閣府特命担当大臣（地方創生担当）",
+            "description": "cabinet position in Japan",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "内閣府特命担当大臣（地方創生担当）が設置",
+            "headline_category": "government",
+            "headline_rule": "national.government.establish",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q112224668",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "かささぎ",
+            "description": "九州旅客鉄道の特別急行列車",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "かささぎが開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "category": "infrastructure",
+            "score": 20,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140936778",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "株式会社HRFreaks",
+            "description": "日本の採用コンサルティング会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "株式会社HRFreaksが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q141114740",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "都築商店",
+            "description": "都築拓紀の個人会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "都築商店が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140998204",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "株式会社ディバイン",
+            "description": "埼玉県川口市の探偵業を営む日本の企業。屋号は総合探偵社R.A.D",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "株式会社ディバインが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q134284289",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "VortexWolf",
+            "description": "日本のeスポーツチーム",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "VortexWolfが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "sports",
+            "score": 8,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q123615673",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2023年9月26日のオリックス・バファローズのファーム対富山GRNサンダーバーズの交流戦",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "2023年9月26日のオリックス・バファローズのファーム対富山GRNサンダーバーズの交流戦",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130349607",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "テリヤキ・パイン ツキミバーガー",
+            "description": "日本のバーガーキングが期間限定で発売した「テリヤキ・パイン ツキミバーガー」",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "テリヤキ・パイン ツキミバーガー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q141164247",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "君を忘れる恋がしたい",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/My_First_Love_With_You_Again",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "君を忘れる恋がしたい",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135932248",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "「あのとき助けていただいたモンスター娘です。」異世界おっさん教師 突然のモテ期に困惑する",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/I%27m_That_Monster_Girl_You_Once_Helped_Out",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "「あのとき助けていただいたモンスター娘です。」異世界おっさん教師 突然のモテ期に困惑する",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135409840",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "嘘つき花嫁と同性結婚論",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Lying_Bride_and_the_Same-Sex_Marriage_Debate",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "嘘つき花嫁と同性結婚論",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137636888",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "林檎の国のジョナ",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Ringo_no_Kuni_no_Jona",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "林檎の国のジョナ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130377145",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "葬送のフリーレン 第1期",
+            "description": "season of Frieren",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "葬送のフリーレン 第1期",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q139883219",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "AIアライメントネットワーク",
+            "description": "AIアライメントの研究・コミュニティ・アウトリーチを推進する日本の一般社団法人",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "AIアライメントネットワークが発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136699492",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ポンデローサ メイ ブルーム",
+            "description": "アイドルグループ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ポンデローサ メイ ブルームが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q126010716",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "大江健三郎文庫",
+            "description": "小説家の大江健三郎に関する多彩な資料を有する文庫",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "大江健三郎文庫が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130404269",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "神隠しの楽園",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "神隠しの楽園",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q117829450",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "SORA-Q Flagship Model",
+            "description": "Japanese toy robot",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "SORA-Q Flagship Modelが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138910842",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "かくも小さき世界にて",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "かくも小さき世界にて",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q110823353",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "フォーサイドフィナンシャルサービス",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "フォーサイドフィナンシャルサービスが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119155227",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2023 Tour de Hokkaido",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2023 Tour de Hokkaido",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138006523",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "魔入りました!入間くん if Episode of 魔フィア",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "魔入りました!入間くん if Episode of 魔フィア",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125125542",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ダディデバディ",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ダディデバディ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q116737814",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "満天のゴール",
+            "description": "日本の小説を原作にしたテレビドラマ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "満天のゴール",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136777381",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tune In to the Midnight Heart universe",
+            "description": "narrative universe of the Tune In to the Midnight Heart manga and anime series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Tune In to the Midnight Heart universe",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135932233",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ギャル嫁の秘密",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ギャル嫁の秘密",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124703924",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "パリピ孔明",
+            "description": "2023 Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "パリピ孔明",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114568888",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "お嬢と番犬くん",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "お嬢と番犬くん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115698621",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "め組の大吾 救国のオレンジ",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "め組の大吾 救国のオレンジ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2023-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125662095",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "日本ナウル協会",
+            "description": "日本とナウルの友好を目的とする団体",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "日本ナウル協会が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [
+            {
+                "date": "2023-09-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q115480409",
+                "latitude": 34.881972222,
+                "longitude": 136.584166666,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2023年日本グランプリ (4輪)",
+                "description": "Formula One motor race",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA_(4%E8%BC%AA)",
+                "wikipedia_language": "ja",
+                "headline": "2023年日本グランプリ (4輪)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [
+            {
+                "date": "2023-09-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123641282",
+                "latitude": 34.680658,
+                "longitude": 135.073417,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月5日のオリックス・バファローズ対埼玉西武ライオンズの公式戦",
+                "description": "2023年9月5日に神戸総合運動公園野球場(ほっともっとフィールド神戸)で開催されたオリックス・バファローズ対埼玉西武ライオンズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月5日のオリックス・バファローズ対埼玉西武ライオンズの公式戦",
+                "headline_category": "park",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123636292",
+                "latitude": 34.721388888,
+                "longitude": 135.361666666,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月8日の阪神タイガース対広島東洋カープの公式戦",
+                "description": "2023年9月8日に阪神甲子園球場(甲子園)で開催された阪神タイガース対広島東洋カープの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月8日の阪神タイガース対広島東洋カープの公式戦",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "北海道": [],
+        "千葉県": [
+            {
+                "date": "2023-09-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q122741074",
+                "latitude": 35.648333,
+                "longitude": 140.034722,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "東京ゲームショウ2023",
+                "description": "2023 trade fair",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "東京ゲームショウ2023",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2023-09-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123633955",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月24日の千葉ロッテマリーンズ対福岡ソフトバンクホークスの公式戦",
+                "description": "2023年9月24日に千葉マリンスタジアム(ZOZOマリンスタジアム)で開催された千葉ロッテマリーンズ対福岡ソフトバンクホークスの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月24日の千葉ロッテマリーンズ対福岡ソフトバンクホークスの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            }
+        ],
+        "和歌山県": [
+            {
+                "date": "2023-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q121075197",
+                "latitude": 34.128277777,
+                "longitude": 135.170111111,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅海南サクアス",
+                "description": "和歌山県海南市にある国道42号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E6%B5%B7%E5%8D%97%E3%82%B5%E3%82%AF%E3%82%A2%E3%82%B9",
+                "wikipedia_language": "ja",
+                "headline": "道の駅海南サクアスが開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "埼玉県": [
+            {
+                "date": "2023-09-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q127416813",
+                "latitude": 35.8603,
+                "longitude": 139.406175,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "そよら武蔵狭山",
+                "description": "埼玉県狭山市にある都市型ショッピングセンター",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%82%88%E3%82%89%E6%AD%A6%E8%94%B5%E7%8B%AD%E5%B1%B1",
+                "wikipedia_language": "ja",
+                "headline": "そよら武蔵狭山が開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "大分県": [],
+        "大阪府": [
+            {
+                "date": "2023-09-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123641283",
+                "latitude": 34.62983333,
+                "longitude": 135.43222222,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月6日の大阪ゼロロクブルズ対堺シュライクスの公式戦",
+                "description": "2023年9月6日に大阪市南港中央野球場で開催された大阪ゼロロクブルズ対堺シュライクスの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月6日の大阪ゼロロクブルズ対堺シュライクスの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123645120",
+                "latitude": 34.62983333,
+                "longitude": 135.43222222,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月8日の兵庫ブレイバーズ対堺シュライクスの公式戦",
+                "description": "2023年9月8日に大阪市南港中央野球場で開催された兵庫ブレイバーズ対堺シュライクスの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月8日の兵庫ブレイバーズ対堺シュライクスの公式戦",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123645118",
+                "latitude": 34.76647222,
+                "longitude": 135.46994444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月6日の兵庫ブレイバーズ対大阪ゼロロクブルズの公式戦",
+                "description": "2023年9月6日に豊中市豊島公園野球場(豊中ローズ球場)で開催された兵庫ブレイバーズ対大阪ゼロロクブルズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月6日の兵庫ブレイバーズ対大阪ゼロロクブルズの公式戦",
+                "headline_category": "park",
+                "headline_rule": "event.label"
+            }
+        ],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [
+            {
+                "date": "2023-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q28693175",
+                "latitude": 38.91524444,
+                "longitude": 139.84170278,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "酒田市立資料館",
+                "description": "山形県酒田市にある資料館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%85%92%E7%94%B0%E5%B8%82%E7%AB%8B%E8%B3%87%E6%96%99%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "酒田市立資料館が閉鎖",
+                "headline_category": "museum",
+                "headline_rule": "museum.close"
+            }
+        ],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [
+            {
+                "date": "2023-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q118173844",
+                "latitude": 34.656805555,
+                "longitude": 133.929138888,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "岡山芸術創造劇場",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A1%E5%B1%B1%E8%8A%B8%E8%A1%93%E5%89%B5%E9%80%A0%E5%8A%87%E5%A0%B4",
+                "wikipedia_language": "ja",
+                "headline": "岡山芸術創造劇場が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [
+            {
+                "date": "2023-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q122167427",
+                "latitude": 34.482777777,
+                "longitude": 132.492833333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "広島市豪雨災害伝承館",
+                "description": "facility in Hiroshima, Hiroshima, Japan",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B3%B6%E5%B8%82%E8%B1%AA%E9%9B%A8%E7%81%BD%E5%AE%B3%E4%BC%9D%E6%89%BF%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "広島市豪雨災害伝承館が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [
+            {
+                "date": "2023-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q122150487",
+                "latitude": 35.171144882,
+                "longitude": 136.882394559,
+                "query_sources": [
+                    "P580:direct",
+                    "P580:place"
+                ],
+                "title": "世界の山ちゃん 名古屋駅1番線店",
+                "description": "名古屋市中村区の飲食店",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "世界の山ちゃん 名古屋駅1番線店が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2023-09-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q127418718",
+                "latitude": 35.63,
+                "longitude": 139.775,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Ultra Japan 2023",
+                "description": "2023 edition of Ultra Japan in Odaiba, Tokyo",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Ultra Japan 2023",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2023-09-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q131785337",
+                "latitude": 35.6434,
+                "longitude": 139.7943,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Kenshiro Teraji vs. Hekkie Budler",
+                "description": "Boxing match",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Kenshiro Teraji vs. Hekkie Budler",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q117360551",
+                "latitude": 35.7062416,
+                "longitude": 139.6764123,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "ナウル共和国政府観光局日本事務所",
+                "description": "ナウル共和国の政府機関",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "ナウル共和国政府観光局日本事務所が解散",
+                "headline_category": "organization",
+                "headline_rule": "organization.dissolve"
+            }
+        ],
+        "栃木県": [
+            {
+                "date": "2023-09-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q116041300",
+                "latitude": 36.533611,
+                "longitude": 140.2275,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2023年の日本グランプリ (ロードレース)",
+                "description": "14th round of the 2023 Grand Prix motorcycle racing season",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2023%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA_(%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AC%E3%83%BC%E3%82%B9)",
+                "wikipedia_language": "ja",
+                "headline": "2023年の日本グランプリ (ロードレース)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [
+            {
+                "date": "2023-09-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q109598537",
+                "latitude": 37.322777777,
+                "longitude": 136.909722222,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "のと三井インターチェンジ",
+                "description": "石川県輪島市にある能越自動車道のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%AE%E3%81%A8%E4%B8%89%E4%BA%95%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "のと三井インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "神奈川県": [
+            {
+                "date": "2023-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q123689063",
+                "latitude": 35.507758,
+                "longitude": 139.612524,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月17日の北海道ワイルズ対横浜GRITSの交流戦",
+                "description": "2023年9月17日にKOSE新横浜スケートセンターにて開催された北海道ワイルズ対横浜GRITSの交流戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月17日の北海道ワイルズ対横浜GRITSの交流戦",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125542487",
+                "latitude": 35.443428,
+                "longitude": 139.6401,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023年9月23日の横浜DeNAベイスターズ対中日ドラゴンズの公式戦",
+                "description": "2023年9月23日に横浜スタジアムで開催された横浜DeNAベイスターズ対中日ドラゴンズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2023年9月23日の横浜DeNAベイスターズ対中日ドラゴンズの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2023-09-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q117074483",
+                "latitude": 35.464579973,
+                "longitude": 139.630588269,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "Kアリーナ横浜",
+                "description": "横浜市西区にある音楽アリーナ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C",
+                "wikipedia_language": "ja",
+                "headline": "Kアリーナ横浜が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2023-09-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q123119470",
+                "latitude": 33.62575,
+                "longitude": 130.44825,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "青森トライアル",
+                "description": "日本のスーパーマーケット",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9D%92%E6%A3%AE%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB",
+                "wikipedia_language": "ja",
+                "headline": "青森トライアルが開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "福島県": [
+            {
+                "date": "2023-09-15",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11593297",
+                "latitude": 37.722694,
+                "longitude": 140.45,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "福島県立相馬農業高等学校飯舘校",
+                "description": "福島県飯舘村にある高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B3%B6%E7%9C%8C%E7%AB%8B%E7%9B%B8%E9%A6%AC%E8%BE%B2%E6%A5%AD%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E9%A3%AF%E8%88%98%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "福島県立相馬農業高等学校飯舘校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [],
+        "長崎県": [],
+        "長野県": [],
+        "青森県": [],
+        "静岡県": [
+            {
+                "date": "2023-09-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q120829282",
+                "latitude": 35.371666666,
+                "longitude": 138.926666666,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2023 6 Hours of Fuji",
+                "description": "endurance sports car race of Japan",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/2023_6_Hours_of_Fuji",
+                "wikipedia_language": "en",
+                "headline": "2023 6 Hours of Fuji",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

@@ -1,0 +1,3419 @@
+{
+    "year": 2021,
+    "month": 11,
+    "generated_at": "2026-08-31T03:17:49Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 42,
+        "raw_rows_by_property": {
+            "P1619": 8,
+            "P3999": 1,
+            "P571": 8,
+            "P580": 13,
+            "P585": 12
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 22,
+        "event_counts_by_type": {
+            "closure": 1,
+            "event": 6,
+            "inception": 5,
+            "opening": 4,
+            "start": 6
+        },
+        "national_raw_rows": 105,
+        "national_raw_rows_by_property": {
+            "P1619": 6,
+            "P3999": 1,
+            "P571": 20,
+            "P576": 3,
+            "P580": 64,
+            "P585": 11
+        },
+        "national_query_candidate_count": 102,
+        "national_candidate_count": 80,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q108756771",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第1次岸田内閣",
+            "description": "2021年10月に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC1%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "第1次岸田内閣が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109342903",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "第2次岸田内閣",
+            "description": "2021年11月に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "第2次岸田内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q111375735",
+            "latitude": 35.101194444,
+            "longitude": 136.758694444,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "愛知県弥富市中学校内刺殺事件",
+            "description": "2021年に愛知県弥富市で発生した殺人事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%BC%A5%E5%AF%8C%E5%B8%82%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%86%85%E5%88%BA%E6%AE%BA%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "headline": "愛知県弥富市中学校内刺殺事件",
+            "headline_category": "school",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "愛知県"
+        },
+        {
+            "date": "2021-11-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q110907659",
+            "latitude": 33.616944444,
+            "longitude": 130.381388888,
+            "query_sources": [
+                "P585:direct",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "博多港防波堤貨物船衝突事故 (2021)",
+            "description": "博多港で貨物船が防波堤に衝突し、油流出を起こした事故",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8D%9A%E5%A4%9A%E6%B8%AF%E8%B2%A8%E7%89%A9%E8%88%B9%E9%98%B2%E6%B3%A2%E5%A0%A4%E8%A1%9D%E7%AA%81%E4%BA%8B%E6%95%85",
+            "wikipedia_language": "ja",
+            "headline": "博多港防波堤貨物船衝突事故 (2021)",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福岡県"
+        },
+        {
+            "date": "2021-11-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q107407121",
+            "latitude": 35.6675,
+            "longitude": 139.700278,
+            "query_sources": [
+                "P580:national",
+                "P580:place",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "2021年NHK杯国際フィギュアスケート競技大会",
+            "description": "フィギュアスケート競技会",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4NHK%E6%9D%AF%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "headline": "2021年NHK杯国際フィギュアスケート競技大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 5,
+            "category": "sports",
+            "score": 43,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q1156338",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "V6",
+            "description": "日本の男性アイドルグループ (1995-2021)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/V6_(%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 17,
+            "headline": "V6が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q114990672",
+            "latitude": 34.663889,
+            "longitude": 135.174722,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national",
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "兵庫県立兵庫津ミュージアム",
+            "description": "兵庫県神戸市兵庫区にある歴史博物館",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%AB%8B%E5%85%B5%E5%BA%AB%E6%B4%A5%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0",
+            "wikipedia_language": "ja",
+            "headline": "兵庫県立兵庫津ミュージアムが開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "sitelink_count": 2,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "兵庫県"
+        },
+        {
+            "date": "2021-11-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q108533826",
+            "latitude": 40.188194444,
+            "longitude": 140.082083333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "イオンタウン能代",
+            "description": "秋田県能代市にあるショッピングモール",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3%E8%83%BD%E4%BB%A3",
+            "wikipedia_language": "ja",
+            "headline": "イオンタウン能代が開業",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.open",
+            "sitelink_count": 2,
+            "category": "economy",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "秋田県"
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111693847",
+            "latitude": 34.0925,
+            "longitude": 131.392222222,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "山口県立山口松風館高等学校",
+            "description": "山口県山口市にある公立学校",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%8F%A3%E7%9C%8C%E7%AB%8B%E5%B1%B1%E5%8F%A3%E6%9D%BE%E9%A2%A8%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+            "wikipedia_language": "ja",
+            "headline": "山口県立山口松風館高等学校が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "sitelink_count": 1,
+            "category": "education",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "山口県"
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q109536954",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年立憲民主党代表選挙",
+            "description": "2021年に行われた日本の立憲民主党の代表選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "2021年立憲民主党代表選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q108756771",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第1次岸田内閣",
+            "description": "2021年10月に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC1%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "第1次岸田内閣が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109342903",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "第2次岸田内閣",
+            "description": "2021年11月に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E5%B2%B8%E7%94%B0%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "第2次岸田内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q109536954",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年立憲民主党代表選挙",
+            "description": "2021年に行われた日本の立憲民主党の代表選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "2021年立憲民主党代表選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q109585787",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年広島県知事選挙",
+            "description": "prefectural gubernatorial election in Japan",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E5%BA%83%E5%B3%B6%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2021年広島県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q110552540",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第206回国会",
+            "description": "国会の特別国会会期 (2021)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC206%E5%9B%9E%E5%9B%BD%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第206回国会",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q1156338",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "V6",
+            "description": "日本の男性アイドルグループ (1995-2021)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/V6_(%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 17,
+            "headline": "V6が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105023442",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "カムカムエヴリバディ",
+            "description": "2021年後期のNHK連続テレビ小説第105作",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A0%E3%82%AB%E3%83%A0%E3%82%A8%E3%83%B4%E3%83%AA%E3%83%90%E3%83%87%E3%82%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "カムカムエヴリバディ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109597388",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "有志の会",
+            "description": "衆議院の会派 (2021-2026)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9C%89%E5%BF%97%E3%81%AE%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "有志の会が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109598529",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "美しい彼",
+            "description": "日本の小説",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%BE%8E%E3%81%97%E3%81%84%E5%BD%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "美しい彼",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109594141",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第58回全国大学ラグビーフットボール選手権大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC58%E5%9B%9E%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E3%83%A9%E3%82%B0%E3%83%93%E3%83%BC%E3%83%95%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第58回全国大学ラグビーフットボール選手権大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119343909",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ひむバス!",
+            "description": "NHKのドキュメントバラエティ番組(2021-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B2%E3%82%80%E3%83%90%E3%82%B9!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ひむバス!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132046567",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "北欧ふたりぐらし",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%AC%A7%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%90%E3%82%89%E3%81%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "北欧ふたりぐらし",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131582214",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ギャルゲーマーに褒められたい",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AE%E3%83%A3%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%9E%E3%83%BC%E3%81%AB%E8%A4%92%E3%82%81%E3%82%89%E3%82%8C%E3%81%9F%E3%81%84",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ギャルゲーマーに褒められたい",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113159344",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "異世界ありがとう",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "異世界ありがとう",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q118288873",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "SINSEKAI STUDIO",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/SINSEKAI_STUDIO",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "SINSEKAI STUDIOが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q111425593",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ワクチン・検査パッケージ",
+            "description": "日本のCOVID-19対策",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%83%BB%E6%A4%9C%E6%9F%BB%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ワクチン・検査パッケージ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q109594807",
+            "query_sources": [
+                "P1619:national"
+            ],
+            "title": "出島メッセ長崎",
+            "description": "長崎県長崎市にあるMICE施設",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%87%BA%E5%B3%B6%E3%83%A1%E3%83%83%E3%82%BB%E9%95%B7%E5%B4%8E",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "出島メッセ長崎が開業",
+            "headline_category": "building",
+            "headline_rule": "building.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q121362171",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "翼旅",
+            "description": "日本のテレビ番組。",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%BF%BC%E6%97%85",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "翼旅",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130297468",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "推し着物",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%8E%A8%E3%81%97%E7%9D%80%E7%89%A9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "推し着物",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109603266",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ちまたのジョーシキちゃん",
+            "description": "関西テレビのバラエティ番組 (2021 - 2024)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%BE%E3%81%9F%E3%81%AE%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B7%E3%82%AD%E3%81%A1%E3%82%83%E3%82%93",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ちまたのジョーシキちゃん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109377540",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "日向坂46 佐々木美玲の『ホイミーぱん』",
+            "description": "2021年11月から2022年3月までTOKYO FMで放送されていたラジオ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%98%9F%E3%81%AE%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88_presents_%E6%97%A5%E5%90%91%E5%9D%8246_%E4%BD%90%E3%80%85%E6%9C%A8%E7%BE%8E%E7%8E%B2%E3%81%AE%E3%80%8C%E3%83%9B%E3%82%A4%E3%83%9F%E3%83%BC%E3%81%B1%E3%82%93%E3%80%8D",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "日向坂46 佐々木美玲の『ホイミーぱん』",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115078453",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第53期新人王戦 (将棋)",
+            "description": "2022年度の新人王戦",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC53%E6%9C%9F%E6%96%B0%E4%BA%BA%E7%8E%8B%E6%88%A6_(%E5%B0%86%E6%A3%8B)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第53期新人王戦 (将棋)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109602101",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "阿佐ヶ谷姉妹の のほほんふたり暮らし",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%98%BF%E4%BD%90%E3%83%B6%E8%B0%B7%E5%A7%89%E5%A6%B9%E3%81%AE_%E3%81%AE%E3%81%BB%E3%81%BB%E3%82%93%E3%81%B5%E3%81%9F%E3%82%8A%E6%9A%AE%E3%82%89%E3%81%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "阿佐ヶ谷姉妹の のほほんふたり暮らし",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130297459",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "社内処刑人〜彼女は敵を消していく〜",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A4%BE%E5%86%85%E5%87%A6%E5%88%91%E4%BA%BA%E3%80%9C%E5%BD%BC%E5%A5%B3%E3%81%AF%E6%95%B5%E3%82%92%E6%B6%88%E3%81%97%E3%81%A6%E3%81%84%E3%81%8F%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "社内処刑人〜彼女は敵を消していく〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111731532",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "FPS",
+            "description": "日本の電気事業者",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/FPS_(%E9%9B%BB%E5%8A%9B%E4%BA%8B%E6%A5%AD%E8%80%85)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "FPSが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109359478",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "生きて、ふたたび 保護司・深谷善輔",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%94%9F%E3%81%8D%E3%81%A6%E3%80%81%E3%81%B5%E3%81%9F%E3%81%9F%E3%81%B3_%E4%BF%9D%E8%AD%B7%E5%8F%B8%E3%83%BB%E6%B7%B1%E8%B0%B7%E5%96%84%E8%BC%94",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "生きて、ふたたび 保護司・深谷善輔",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109595124",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第35期竜王戦",
+            "description": "2022年度の竜王戦",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC35%E6%9C%9F%E7%AB%9C%E7%8E%8B%E6%88%A6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第35期竜王戦",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q113271596",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2021年11月内閣総理大臣指名選挙",
+            "description": "2021年11月10日に行われた内閣総理大臣を国会議員から選出する選挙",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2021年11月内閣総理大臣指名選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q123230460",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "達成電器株式会社",
+            "description": "Dashine Electronicsグループの日本法人",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "達成電器株式会社が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q118164991",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ゼンショーファストホールディングス",
+            "description": "ゼンショーホールディングスの子会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ゼンショーファストホールディングスが開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "category": "culture",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q109407956",
+            "query_sources": [
+                "P1619:national"
+            ],
+            "title": "日立オリジンパーク",
+            "description": "日本の日立製作所の企業博物館",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "日立オリジンパークが開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "category": "culture",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133860965",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "妻が完璧すぎるので、ちょっと乱していいですか？",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Tsuma_ga_Kanpeki_sugiru_no_de,_Chotto_Midashite_Ii_desu_ka%3F",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "妻が完璧すぎるので、ちょっと乱していいですか？",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123193542",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ソアラと魔物の家",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Soara_and_the_House_of_Monsters",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "ソアラと魔物の家",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q127162605",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "世襲制トライアングル",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Hereditary_Triangle",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "世襲制トライアングル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109659136",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "SugakimaⅡ 地獄の赤ラーメン",
+            "description": "スガキヤのラーメン",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "SugakimaⅡ 地獄の赤ラーメン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124632515",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "雅血の陰陽師",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Exquisite_Blood:_The_Heretic_Onmyoji",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "雅血の陰陽師",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132831006",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ブスなんて言わないで",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Never_Say_Ugly",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "ブスなんて言わないで",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133049341",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "住みにごり",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Sumi_Nigori",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "住みにごり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139858817",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "断腸亭にちじょう",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Danch%C5%8Dtei_Nichij%C5%8D",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "断腸亭にちじょう",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q110456598",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Q110456598",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Q110456598",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124669032",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ツワモノガタリ",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Tsuwamonogatari",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "ツワモノガタリ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q107507907",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of TAK-672 in Participants With Acquired Hemophilia A",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of TAK-672 in Participants With Acquired Hemophilia A",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113923548",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Survey of Brigatinib Used To Treat People With Non-Small Cell Lung Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Survey of Brigatinib Used To Treat People With Non-Small Cell Lung Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111221536",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "エアリープロダクション",
+            "description": "日本のバーチャルYouTuber事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "エアリープロダクションが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q134355602",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国税庁適格請求書発行事業者公表サイト",
+            "description": "日本の国税庁が運営している国税庁適格請求書発行事業者に関するデータベース",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "国税庁適格請求書発行事業者公表サイトが発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q113297708",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "日本生涯学習総合研究所",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "日本生涯学習総合研究所が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137755110",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "英雄と魔女の転生ラブコメ",
+            "description": "日本のライトノベルシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "英雄と魔女の転生ラブコメ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115614964",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "シュガーアップル・フェアリーテイル",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "シュガーアップル・フェアリーテイル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113921987",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate the Efficacy and Safety of ONO-4538 in Combination With Ipilimumab and Chemotherapy in Chemotherapy-naïve Participants With HER2-negative Unresectable Advanced or Recurrent Gastric Cancer (Including Esophagogastric Junction C",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate the Efficacy and Safety of ONO-4538 in Combination With Ipilimumab and Chemotherapy in Chemotherapy-naïve Participants With HER2-negative Unresectable Advanced or Recurrent Gastric Cancer (Including Esophagogastric Junction C",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q116770349",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "OMO5京都祇園",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "OMO5京都祇園が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140596287",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "剣樹抄〜光圀公と俺〜",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "剣樹抄〜光圀公と俺〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130341963",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113921562",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Assess Change in Disease Activity and Adverse Events of Oral Venetoclax in Combination With Intravenous (IV) Obinutuzumab or Oral Ibrutinib in Adult Participants With Untreated Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lympho",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Assess Change in Disease Activity and Adverse Events of Oral Venetoclax in Combination With Intravenous (IV) Obinutuzumab or Oral Ibrutinib in Adult Participants With Untreated Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lympho",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q130491495",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "アシックス・プレイシュア",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "アシックス・プレイシュアが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109542440",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "デジタル田園都市国家構想実現会議",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "デジタル田園都市国家構想実現会議が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109542580",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "デジタル臨時行政調査会",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "デジタル臨時行政調査会が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q113510213",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "全世代型社会保障構築会議",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "全世代型社会保障構築会議が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113928577",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Coformulated Favezelimab/Pembrolizumab (MK-4280A) Versus Standard of Care in Subjects With Previously Treated Metastatic PD-L1 Positive Colorectal Cancer (MK-4280A-007)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Coformulated Favezelimab/Pembrolizumab (MK-4280A) Versus Standard of Care in Subjects With Previously Treated Metastatic PD-L1 Positive Colorectal Cancer (MK-4280A-007)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113898439",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "An Open Label Phase 2 Study to Evaluate the Safety and Efficacy of Lenvatinib With Pembrolizumab in the Neoadjuvant / Adjuvant Treatment for Patients With Gastric Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "An Open Label Phase 2 Study to Evaluate the Safety and Efficacy of Lenvatinib With Pembrolizumab in the Neoadjuvant / Adjuvant Treatment for Patients With Gastric Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q135287119",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "2027年国際園芸博覧会協会",
+            "description": "2027年国際園芸博覧会の主催団体",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2027年国際園芸博覧会協会が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113938009",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of JNJ-75105186 in Healthy Japanese and Chinese Participants",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of JNJ-75105186 in Healthy Japanese and Chinese Participants",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132631900",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "神の庭付き楠木邸",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "神の庭付き楠木邸",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113940659",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Safety Evaluation of KX01 Ointment 1% in Japanese Healthy Male Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Safety Evaluation of KX01 Ointment 1% in Japanese Healthy Male Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113921147",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tusamitamab Ravtansine (SAR408701) in Combination With Ramucirumab in Pretreated Participants With Gastric Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Tusamitamab Ravtansine (SAR408701) in Combination With Ramucirumab in Pretreated Participants With Gastric Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113919360",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Rilematovir (JNJ-53718678) in Adult Outpatients With Respiratory Syncytial Virus (RSV) Infection",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Rilematovir (JNJ-53718678) in Adult Outpatients With Respiratory Syncytial Virus (RSV) Infection",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113922010",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Open-Label Extension Study of Marstacimab in Hemophilia Participants With or Without Inhibitors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Open-Label Extension Study of Marstacimab in Hemophilia Participants With or Without Inhibitors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113923527",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Diroximel Fumarate (DRF) in Adult Participants From the Asia-Pacific Region With Relapsing Forms of Multiple Sclerosis (RMS)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Diroximel Fumarate (DRF) in Adult Participants From the Asia-Pacific Region With Relapsing Forms of Multiple Sclerosis (RMS)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q111150081",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "本家が聴かせてもらいます",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "本家が聴かせてもらいます",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130370728",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "悪役令嬢の中の人～断罪された転生者のため嘘つきヒロインに復讐いたします～",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "悪役令嬢の中の人～断罪された転生者のため嘘つきヒロインに復讐いたします～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113924450",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "RANS. Study in Patients With Severe Eosinophilic Asthma and Nasal Polyps.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "RANS. Study in Patients With Severe Eosinophilic Asthma and Nasal Polyps.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113923704",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Rilzabrutinib for the Treatment of Chronic Spontaneous Urticaria in Patients Who Remain Symptomatic Despite the Use of H1 Antihistamine",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Rilzabrutinib for the Treatment of Chronic Spontaneous Urticaria in Patients Who Remain Symptomatic Despite the Use of H1 Antihistamine",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140308620",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ひぐらしのなく頃に令 星渡し編",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ひぐらしのなく頃に令 星渡し編",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140308601",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ひぐらしのなく頃に令 鬼熾し編",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ひぐらしのなく頃に令 鬼熾し編",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q134538944",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "カノジョに浮気されていた俺が、小悪魔な後輩に懐かれています",
+            "description": "日本の漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "カノジョに浮気されていた俺が、小悪魔な後輩に懐かれています",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113943974",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Clinical Study of the Topcon Pachymeter TRK-3 to Evaluate Agreement and Precision",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Clinical Study of the Topcon Pachymeter TRK-3 to Evaluate Agreement and Precision",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113921998",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Research Study Looking at How Well a Combination of the Medicines Semaglutide and NNC0480-0389 Works in People With Type 2 Diabetes",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Research Study Looking at How Well a Combination of the Medicines Semaglutide and NNC0480-0389 Works in People With Type 2 Diabetes",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113933418",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of the ENSEAL® X1 Curved Jaw Tissue Sealer and Generator G11 in Thoracic, Urologic, and Ear, Nose, and Throat (ENT) Procedures",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of the ENSEAL® X1 Curved Jaw Tissue Sealer and Generator G11 in Thoracic, Urologic, and Ear, Nose, and Throat (ENT) Procedures",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113923864",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Research Study to See How Well the New Weekly Medicine IcoSema, Which is a Combination of Insulin Icodec and Semaglutide, Controls Blood Sugar Level in People With Type 2 Diabetes Compared to Insulin Glargine Taken Daily With Insulin Aspart (C",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Research Study to See How Well the New Weekly Medicine IcoSema, Which is a Combination of Insulin Icodec and Semaglutide, Controls Blood Sugar Level in People With Type 2 Diabetes Compared to Insulin Glargine Taken Daily With Insulin Aspart (C",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113926949",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Marker Assisted Selective ThErapy in Rare Cancers: Knowledge Database Establishing registrY Asia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Marker Assisted Selective ThErapy in Rare Cancers: Knowledge Database Establishing registrY Asia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2021-11-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114430177",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アンナ・コムネナ",
+            "description": "佐藤双葉の漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "アンナ・コムネナ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [
+            {
+                "date": "2021-11-07",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q107968772",
+                "latitude": 34.841666666,
+                "longitude": 136.538888888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2021 Suzuka 8 Hours",
+                "description": "motorcycle endurance race",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2021 Suzuka 8 Hours",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-11-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q109452737",
+                "latitude": 35.071444444,
+                "longitude": 136.578138888,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "全国地域サッカーチャンピオンズリーグ2021",
+                "description": "2021年に開催された45回目の全国地域サッカーチャンピオンズリーグ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%A8%E5%9B%BD%E5%9C%B0%E5%9F%9F%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%82%BA%E3%83%AA%E3%83%BC%E3%82%B02021",
+                "wikipedia_language": "ja",
+                "headline": "全国地域サッカーチャンピオンズリーグ2021",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            }
+        ],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [
+            {
+                "date": "2021-11-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q114990672",
+                "latitude": 34.663889,
+                "longitude": 135.174722,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "兵庫県立兵庫津ミュージアム",
+                "description": "兵庫県神戸市兵庫区にある歴史博物館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%B5%E5%BA%AB%E7%9C%8C%E7%AB%8B%E5%85%B5%E5%BA%AB%E6%B4%A5%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0",
+                "wikipedia_language": "ja",
+                "headline": "兵庫県立兵庫津ミュージアムが開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            },
+            {
+                "date": "2021-11-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q108810113",
+                "latitude": 34.680658,
+                "longitude": 135.073417,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2021年の日本シリーズ",
+                "description": "2021年の日本一のプロ野球チームを決める試合",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+                "wikipedia_language": "ja",
+                "headline": "2021年の日本シリーズ",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-11-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q141103047",
+                "latitude": 34.781083333,
+                "longitude": 135.363,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第38回マイルチャンピオンシップ",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第38回マイルチャンピオンシップ",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "北海道": [],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [
+            {
+                "date": "2021-11-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q136745798",
+                "latitude": 34.668161,
+                "longitude": 135.799647,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "奈良トヨタ・まほろばミュージアム",
+                "description": "奈良県奈良市八条にある奈良トヨタの自動車博物館",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "奈良トヨタ・まほろばミュージアムが開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "宮城県": [
+            {
+                "date": "2021-11-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q133043187",
+                "latitude": 38.458903,
+                "longitude": 141.305803,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "石巻市博物館",
+                "description": "museum in Ishinomaki, Miyagi, Japan",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Ishinomaki_City_Museum",
+                "wikipedia_language": "en",
+                "headline": "石巻市博物館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [
+            {
+                "date": "2021-11-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q111693847",
+                "latitude": 34.0925,
+                "longitude": 131.392222222,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "山口県立山口松風館高等学校",
+                "description": "山口県山口市にある公立学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%8F%A3%E7%9C%8C%E7%AB%8B%E5%B1%B1%E5%8F%A3%E6%9D%BE%E9%A2%A8%E9%A4%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "山口県立山口松風館高等学校が設立",
+                "headline_category": "school",
+                "headline_rule": "school.open"
+            }
+        ],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [
+            {
+                "date": "2021-11-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11301294",
+                "latitude": 34.06611,
+                "longitude": 134.56013,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "ケンチョピア",
+                "description": "日本の徳島県徳島市万代町にある新町川一帯の愛称およびヨットハーバー",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%B3%E3%83%81%E3%83%A7%E3%83%94%E3%82%A2",
+                "wikipedia_language": "ja",
+                "headline": "ケンチョピアが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "愛媛県": [],
+        "愛知県": [
+            {
+                "date": "2021-11-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q111375735",
+                "latitude": 35.101194444,
+                "longitude": 136.758694444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "愛知県弥富市中学校内刺殺事件",
+                "description": "2021年に愛知県弥富市で発生した殺人事件",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%BC%A5%E5%AF%8C%E5%B8%82%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%86%85%E5%88%BA%E6%AE%BA%E4%BA%8B%E4%BB%B6",
+                "wikipedia_language": "ja",
+                "headline": "愛知県弥富市中学校内刺殺事件",
+                "headline_category": "school",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2021-11-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q109918723",
+                "latitude": 35.101194444,
+                "longitude": 136.758694444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "弥富市中3同級生刺殺事件",
+                "description": "2021年に日本の弥富市で発生した殺害事件。",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "弥富市中3同級生刺殺事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2021-11-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q110787967",
+                "latitude": 34.762666666,
+                "longitude": 137.386944444,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "emCAMPUS",
+                "description": "愛知県豊橋市にある複合施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/EmCAMPUS",
+                "wikipedia_language": "ja",
+                "headline": "emCAMPUSが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2021-11-12",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q107407121",
+                "latitude": 35.6675,
+                "longitude": 139.700278,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "2021年NHK杯国際フィギュアスケート競技大会",
+                "description": "フィギュアスケート競技会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2021%E5%B9%B4NHK%E6%9D%AF%E5%9B%BD%E9%9A%9B%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "2021年NHK杯国際フィギュアスケート競技大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-11-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q109364827",
+                "latitude": 35.674572,
+                "longitude": 139.717136,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "第52回明治神宮野球大会",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC52%E5%9B%9E%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E9%87%8E%E7%90%83%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第52回明治神宮野球大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-11-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q139576812",
+                "latitude": 35.6625,
+                "longitude": 139.485,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第41回ジャパンカップ",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC41%E5%9B%9E%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E3%82%AB%E3%83%83%E3%83%97",
+                "wikipedia_language": "ja",
+                "headline": "第41回ジャパンカップ",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2021-11-21",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q131105977",
+                "latitude": 35.3256389,
+                "longitude": 139.6285,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "うみとそらのおうち",
+                "description": "横浜市金沢区のコミュニティ型こどもホスピス",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%BF%E3%81%A8%E3%81%9D%E3%82%89%E3%81%AE%E3%81%8A%E3%81%86%E3%81%A1",
+                "wikipedia_language": "ja",
+                "headline": "うみとそらのおうちが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2021-11-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q17230652",
+                "latitude": 35.442944,
+                "longitude": 139.644583,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "ヨコハマおもしろ水族館",
+                "description": "神奈川県横浜市中区にあった水族館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%82%B3%E3%83%8F%E3%83%9E%E3%81%8A%E3%82%82%E3%81%97%E3%82%8D%E6%B0%B4%E6%97%8F%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "ヨコハマおもしろ水族館が閉鎖",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.close"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2021-11-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q109363064",
+                "latitude": 33.603167,
+                "longitude": 130.401333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "大相撲令和3年11月場所",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E4%BB%A4%E5%92%8C3%E5%B9%B411%E6%9C%88%E5%A0%B4%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大相撲令和3年11月場所",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2021-11-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q110907659",
+                "latitude": 33.616944444,
+                "longitude": 130.381388888,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "博多港防波堤貨物船衝突事故 (2021)",
+                "description": "博多港で貨物船が防波堤に衝突し、油流出を起こした事故",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8D%9A%E5%A4%9A%E6%B8%AF%E8%B2%A8%E7%89%A9%E8%88%B9%E9%98%B2%E6%B3%A2%E5%A0%A4%E8%A1%9D%E7%AA%81%E4%BA%8B%E6%95%85",
+                "wikipedia_language": "ja",
+                "headline": "博多港防波堤貨物船衝突事故 (2021)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [
+            {
+                "date": "2021-11-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q108533826",
+                "latitude": 40.188194444,
+                "longitude": 140.082083333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "イオンタウン能代",
+                "description": "秋田県能代市にあるショッピングモール",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3%E8%83%BD%E4%BB%A3",
+                "wikipedia_language": "ja",
+                "headline": "イオンタウン能代が開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "群馬県": [],
+        "茨城県": [],
+        "長崎県": [
+            {
+                "date": "2021-11-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q139711379",
+                "latitude": 32.75346631,
+                "longitude": 129.868059806,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "Hilton Nagasaki",
+                "description": "hotel in Nagasaki",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Hilton Nagasakiが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "長野県": [],
+        "青森県": [
+            {
+                "date": "2021-11-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q109876588",
+                "latitude": 40.646376333,
+                "longitude": 139.928554718,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "米軍機燃料タンク投棄事件",
+                "description": "2021年、アメリカ軍のF16戦闘機が日本で燃料タンクを投棄した事件",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "米軍機燃料タンク投棄事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

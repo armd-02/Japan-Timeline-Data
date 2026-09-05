@@ -1,0 +1,2928 @@
+{
+    "year": 2022,
+    "month": 9,
+    "generated_at": "2026-08-31T10:11:23Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 31,
+        "raw_rows_by_property": {
+            "P1619": 7,
+            "P3999": 1,
+            "P571": 10,
+            "P576": 5,
+            "P580": 3,
+            "P585": 5
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 25,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 5,
+            "closure": 1,
+            "event": 5,
+            "inception": 5,
+            "opening": 7,
+            "start": 2
+        },
+        "national_raw_rows": 92,
+        "national_raw_rows_by_property": {
+            "P1619": 8,
+            "P3999": 1,
+            "P571": 27,
+            "P576": 7,
+            "P580": 42,
+            "P585": 7
+        },
+        "national_query_candidate_count": 87,
+        "national_candidate_count": 62,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113960965",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和4年台風第14号",
+            "description": "2022年に発生した14番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC14%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "令和4年台風第14号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q7900416",
+            "latitude": 33.106556,
+            "longitude": 129.998972,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national",
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "嬉野温泉駅",
+            "description": "佐賀県嬉野市にある九州旅客鉄道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AC%89%E9%87%8E%E6%B8%A9%E6%B3%89%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "嬉野温泉駅が開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "sitelink_count": 9,
+            "category": "infrastructure",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "佐賀県"
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q7497155",
+            "latitude": 32.932761,
+            "longitude": 129.957056,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national",
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "新大村駅",
+            "description": "長崎県大村市にある九州旅客鉄道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%A4%A7%E6%9D%91%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "新大村駅が開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "sitelink_count": 6,
+            "category": "infrastructure",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "長崎県"
+        },
+        {
+            "date": "2022-09-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q122901378",
+            "latitude": 34.74,
+            "longitude": 138.224611111,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "牧之原幼稚園バス3歳女児死亡事件",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%89%A7%E4%B9%8B%E5%8E%9F%E5%B9%BC%E7%A8%9A%E5%9C%92%E3%83%90%E3%82%B93%E6%AD%B3%E5%A5%B3%E5%85%90%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "headline": "牧之原幼稚園バス3歳女児死亡事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "静岡県"
+        },
+        {
+            "date": "2022-09-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114115626",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和4年台風第15号",
+            "description": "2022年に発生した15番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC15%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "令和4年台風第15号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q96677963",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "サイバーパンク エッジランナーズ",
+            "description": "ゲームソフト『サイバーパンク2077』を題材に制作されたアニメ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF_%E3%82%A8%E3%83%83%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 27,
+            "headline": "サイバーパンク エッジランナーズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q113813748",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2022年沖縄県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2022%E5%B9%B4%E6%B2%96%E7%B8%84%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "2022年沖縄県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q115570775",
+            "latitude": 35.322637,
+            "longitude": 139.55456,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "英国アンティーク博物館 BAM鎌倉",
+            "description": "鎌倉市にある博物館",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8B%B1%E5%9B%BD%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AF%E5%8D%9A%E7%89%A9%E9%A4%A8_BAM%E9%8E%8C%E5%80%89",
+            "wikipedia_language": "ja",
+            "headline": "英国アンティーク博物館 BAM鎌倉が開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "sitelink_count": 3,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "神奈川県"
+        },
+        {
+            "date": "2022-09-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q119443372",
+            "latitude": 34.74,
+            "longitude": 138.224611111,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "牧之原幼稚園バス3歳女児死亡事件",
+            "description": "静岡県牧之原市で発生したバス置き去り事件",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "headline": "牧之原幼稚園バス3歳女児死亡事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 0,
+            "category": "major_incident",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "静岡県"
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11563212",
+            "latitude": 35.01745,
+            "longitude": 136.129575,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "湖南市市民グラウンド陸上競技場",
+            "description": "滋賀県湖南市にあった陸上競技場",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B9%96%E5%8D%97%E5%B8%82%E5%B8%82%E6%B0%91%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E9%99%B8%E4%B8%8A%E7%AB%B6%E6%8A%80%E5%A0%B4",
+            "wikipedia_language": "ja",
+            "headline": "湖南市市民グラウンド陸上競技場が解体",
+            "headline_category": "sports_facility",
+            "headline_rule": "sports_facility.demolish",
+            "sitelink_count": 1,
+            "category": "sports",
+            "score": 33,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "滋賀県"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113960965",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和4年台風第14号",
+            "description": "2022年に発生した14番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC14%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "令和4年台風第14号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 60,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11370252",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "西九州新幹線",
+            "description": "九州旅客鉄道の新幹線",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E4%B9%9D%E5%B7%9E%E6%96%B0%E5%B9%B9%E7%B7%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "西九州新幹線が開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "category": "infrastructure",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114115626",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "令和4年台風第15号",
+            "description": "2022年に発生した15番目の台風",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%8F%B0%E9%A2%A8%E7%AC%AC15%E5%8F%B7",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "令和4年台風第15号",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "disaster",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q96677963",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "サイバーパンク エッジランナーズ",
+            "description": "ゲームソフト『サイバーパンク2077』を題材に制作されたアニメ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF_%E3%82%A8%E3%83%83%E3%82%B8%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 27,
+            "headline": "サイバーパンク エッジランナーズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q113813748",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2022年沖縄県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2022%E5%B9%B4%E6%B2%96%E7%B8%84%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "2022年沖縄県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q113996580",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ふたつ星4047",
+            "description": "九州旅客鉄道が運行している特別急行列車",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B5%E3%81%9F%E3%81%A4%E6%98%9F4047",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "ふたつ星4047が開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q112834233",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "&TEAM",
+            "description": "日本の9人組ボーイズグループ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%26TEAM",
+            "wikipedia_language": "ja",
+            "sitelink_count": 18,
+            "headline": "&TEAMが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q120336492",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "幼稚園WARS",
+            "description": "千葉侑生による日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B9%BC%E7%A8%9A%E5%9C%92WARS",
+            "wikipedia_language": "ja",
+            "sitelink_count": 12,
+            "headline": "幼稚園WARS",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113187487",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "仮面ライダーギーツ",
+            "description": "日本のテレビドラマ番組、およびその主人公たる架空のヒーローの名前",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%AE%E3%83%BC%E3%83%84",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "仮面ライダーギーツ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q116031063",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ソニー・ホンダモビリティ",
+            "description": "2022年に設立された日本の自動車メーカー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%9B%E3%83%B3%E3%83%80%E3%83%A2%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "ソニー・ホンダモビリティが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130297486",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "LILI-MEN",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/LILI-MEN",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "LILI-MEN",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113962205",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "すべて忘れてしまうから",
+            "description": "Japanese television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%99%E3%81%B9%E3%81%A6%E5%BF%98%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86%E3%81%8B%E3%82%89",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "すべて忘れてしまうから",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115188748",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "雪解けとアガパンサス",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9B%AA%E8%A7%A3%E3%81%91%E3%81%A8%E3%82%A2%E3%82%AC%E3%83%91%E3%83%B3%E3%82%B5%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "雪解けとアガパンサス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q133441045",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "京都映画賞",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E9%83%BD%E6%98%A0%E7%94%BB%E8%B3%9E",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "京都映画賞が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q131359744",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "鰻の成瀬",
+            "description": "日本の鰻料理レストランチェーン",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%B0%BB%E3%81%AE%E6%88%90%E7%80%AC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "鰻の成瀬が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119658092",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "超特急、地球を救え。",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B6%85%E7%89%B9%E6%80%A5%E3%80%81%E5%9C%B0%E7%90%83%E3%82%92%E6%95%91%E3%81%88%E3%80%82",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "超特急、地球を救え。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q139459593",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "異世界バトルロイヤル",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E3%83%90%E3%83%88%E3%83%AB%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "異世界バトルロイヤル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119658088",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "階段下のゴッホ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%9A%8E%E6%AE%B5%E4%B8%8B%E3%81%AE%E3%82%B4%E3%83%83%E3%83%9B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "階段下のゴッホ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137003429",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "植物病理学は明日の君を願う",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%89%A9%E7%97%85%E7%90%86%E5%AD%A6%E3%81%AF%E6%98%8E%E6%97%A5%E3%81%AE%E5%90%9B%E3%82%92%E9%A1%98%E3%81%86",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "植物病理学は明日の君を願う",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q137834918",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "自民党の統一教会汚染",
+            "description": "鈴木エイトによる、自由民主党と世界平和統一家庭連合を扱ったノンフィクション書籍シリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E6%B0%91%E5%85%9A%E3%81%AE%E7%B5%B1%E4%B8%80%E6%95%99%E4%BC%9A%E6%B1%9A%E6%9F%93",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "自民党の統一教会汚染が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114590485",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "THE 世代感",
+            "description": "テレビ朝日のテレビ番組 (2022-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/THE_%E4%B8%96%E4%BB%A3%E6%84%9F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "THE 世代感",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q117746189",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ビータスクリエイション",
+            "description": "日本のバーチャルYouTuberプロジェクト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%BC%E3%82%BF%E3%82%B9%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%B7%E3%83%A7%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ビータスクリエイションが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q112224668",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "かささぎ",
+            "description": "九州旅客鉄道の特別急行列車",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "かささぎが開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "category": "infrastructure",
+            "score": 20,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140732001",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "株式会社SR総合不動産販売",
+            "description": "日本の不動産会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "株式会社SR総合不動産販売が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q117037661",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "株式会社ＮＥＫＩアドバイザリー",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "株式会社ＮＥＫＩアドバイザリーが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q84960291",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "嘉納治五郎記念国際スポーツ研究・交流センター",
+            "description": "一般財団法人",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "嘉納治五郎記念国際スポーツ研究・交流センターが解散",
+            "headline_category": "organization",
+            "headline_rule": "organization.dissolve",
+            "category": "sports",
+            "score": 8,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q128394703",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アイツノカノジョ",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Someone%27s_Girlfriend",
+            "wikipedia_language": "en",
+            "sitelink_count": 3,
+            "headline": "アイツノカノジョ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131748681",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋文と13歳の女優",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Koibumi_to_13-sai_no_Actress",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "恋文と13歳の女優",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131622220",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "いつか死ぬなら絵を売ってから",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Itsuka_Shinu_nara_E_o_Utte_kara",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "いつか死ぬなら絵を売ってから",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126095158",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "STUNTS 9番目のゴースト",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Stunts_(manga)",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "STUNTS 9番目のゴースト",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113976681",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Asia Star Challengers Invitational",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Asia Star Challengers Invitational",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140303309",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "スカベンジャーズアナザースカイ",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Scavengers_Another_Sky",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "スカベンジャーズアナザースカイ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q114111843",
+            "query_sources": [
+                "P1619:national",
+                "P571:national"
+            ],
+            "title": "かもめ",
+            "description": "JR九州が運行する西九州新幹線の超特急列車",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "かもめが開業",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.opening_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q134269886",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "零れるよるに",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Sheltering_Eaves",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "零れるよるに",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132160176",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "雪と墨",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Snow_%26_Ink",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "雪と墨",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131604232",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アトワイトゲーム",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Atwight_Game",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "アトワイトゲーム",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q123653536",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "Golden State Warriors and Washington Wizards at Saitama Super Arena (September 30, 2022)",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Golden State Warriors and Washington Wizards at Saitama Super Arena (September 30, 2022)",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q117863894",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "大手前合同庁舎",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "大手前合同庁舎が発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136276316",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "工房373",
+            "description": "城之内早苗の個人事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "工房373が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q117244317",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "VRpedia World",
+            "description": "主にバーチャルYouTuberを取り扱うオンライン百科事典",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "VRpedia Worldが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q117468879",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "じつは義妹でした。〜最近できた義理の弟の距離感がやたら近いわけ〜",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "じつは義妹でした。〜最近できた義理の弟の距離感がやたら近いわけ〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q138908920",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "少年のアビス",
+            "description": "Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "少年のアビス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q117066091",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ELDEN RING 黄金樹への道",
+            "description": "飛田ニキイチによる日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ELDEN RING 黄金樹への道",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q119658004",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "風よ あらしよ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "風よ あらしよ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113013493",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "リコリス・リコイル",
+            "description": "日本の漫画作品",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "リコリス・リコイル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q117290437",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ぼっち・ざ・らじお！",
+            "description": "TVアニメ「ぼっち・ざ・ろっく！」のWEBラジオ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ぼっち・ざ・らじお！",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136709760",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "チェイサーゲーム",
+            "description": "2022 Japanese television drama series based on the manga of the same name",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "チェイサーゲーム",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q132449637",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "姫騎士様のヒモ",
+            "description": "白金透による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "姫騎士様のヒモ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133730147",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "悪役令嬢と悪役令息が、出逢って恋に落ちたなら ～名無しの精霊と契約して追い出された令嬢は、今日も令息と競い合っているようです～",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "悪役令嬢と悪役令息が、出逢って恋に落ちたなら ～名無しの精霊と契約して追い出された令嬢は、今日も令息と競い合っているようです～",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q114339193",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Let You Down",
+            "description": "episode of Cyberpunk: Edgerunners",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Let You Downが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q114339240",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Like a Boy",
+            "description": "episode of Cyberpunk: Edgerunners",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Like a Boyが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137857683",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "僕は妖しいキミのもの",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "僕は妖しいキミのもの",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114872540",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "四畳半タイムマシンブルース",
+            "description": "Japanese original net animation series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "四畳半タイムマシンブルース",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q114298400",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "愛したぶんだけ愛してほしいっ！",
+            "description": "まにおによる日本の漫画作品",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "愛したぶんだけ愛してほしいっ！",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113924305",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Mezagitamab in Adults With Primary Immunoglobulin A Nephropathy Receiving Stable Background Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Mezagitamab in Adults With Primary Immunoglobulin A Nephropathy Receiving Stable Background Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140373190",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ラブコメ漫画に入ってしまったので、推しの負けヒロインを全力で幸せにする",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ラブコメ漫画に入ってしまったので、推しの負けヒロインを全力で幸せにする",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137525891",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "クラスのぼっちギャルをお持ち帰りして清楚系美人にしてやった話",
+            "description": "日本の漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "クラスのぼっちギャルをお持ち帰りして清楚系美人にしてやった話",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136531529",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "nodee",
+            "description": "URL shortening and music streaming link aggregator service by Crypton Future Media",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "nodeeが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130214974",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "クロサギ再起動－18歳新成人詐欺犯罪編－",
+            "description": "夏原武による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "クロサギ再起動－18歳新成人詐欺犯罪編－",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135299042",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "櫻坂46「2nd TOUR 2022 “As you know?”」",
+            "description": "櫻坂46が2022年に開催した全国ツアー",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "櫻坂46「2nd TOUR 2022 “As you know?”」",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q107770876",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "うちの師匠はしっぽがない",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "うちの師匠はしっぽがない",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2022-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q127697745",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "金沢龍谷高等学校中等部",
+            "description": "石川県金沢市にある中学校",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "金沢龍谷高等学校中等部が設立",
+            "headline_category": "school",
+            "headline_rule": "school.open",
+            "category": "education",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [],
+        "佐賀県": [
+            {
+                "date": "2022-09-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q7900416",
+                "latitude": 33.106556,
+                "longitude": 129.998972,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "嬉野温泉駅",
+                "description": "佐賀県嬉野市にある九州旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AC%89%E9%87%8E%E6%B8%A9%E6%B3%89%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "嬉野温泉駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            }
+        ],
+        "兵庫県": [
+            {
+                "date": "2022-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q115051594",
+                "latitude": 34.888944,
+                "longitude": 135.406444,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "川西市立総合医療センター",
+                "description": "兵庫県川西市の医療機関",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E8%A5%BF%E5%B8%82%E7%AB%8B%E7%B7%8F%E5%90%88%E5%8C%BB%E7%99%82%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC",
+                "wikipedia_language": "ja",
+                "headline": "川西市立総合医療センターが開設",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.open"
+            }
+        ],
+        "北海道": [
+            {
+                "date": "2022-09",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11421262",
+                "latitude": 43.176944,
+                "longitude": 141.048333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "国立小樽海上技術学校",
+                "description": "北海道小樽市にある海事教育機関",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E7%AB%8B%E5%B0%8F%E6%A8%BD%E6%B5%B7%E4%B8%8A%E6%8A%80%E8%A1%93%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "国立小樽海上技術学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [
+            {
+                "date": "2022-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11572098",
+                "latitude": 35.4018,
+                "longitude": 136.58,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "猿岩駅",
+                "description": "岐阜県大垣市にある西濃鉄道の貨物駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%8C%BF%E5%B2%A9%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "猿岩駅が廃止",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.abolish"
+            }
+        ],
+        "岡山県": [
+            {
+                "date": "2022-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q110854510",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2022 All Japan Road Race Championship Round 7 Okayama",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2022 All Japan Road Race Championship Round 7 Okayama",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [
+            {
+                "date": "2022-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q130640654",
+                "latitude": 34.386168,
+                "longitude": 132.462115,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "Hilton Hiroshima",
+                "description": "Hotel in Hiroshima",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Hilton Hiroshimaが設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2022-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q120967486",
+                "latitude": 34.399361111,
+                "longitude": 132.476805555,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "ekie エキキタパーク",
+                "description": "広島県広島市の広島駅北口にあった多目的広場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/Ekie_%E3%82%A8%E3%82%AD%E3%82%AD%E3%82%BF%E3%83%91%E3%83%BC%E3%82%AF",
+                "wikipedia_language": "ja",
+                "headline": "ekie エキキタパークが開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2022-09-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q118640237",
+                "latitude": 34.3976198,
+                "longitude": 132.4735951,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "広島JPビルディング",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B3%B6JP%E3%83%93%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0",
+                "wikipedia_language": "ja",
+                "headline": "広島JPビルディングが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "徳島県": [],
+        "愛媛県": [
+            {
+                "date": "2022-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q111866742",
+                "latitude": 33.84983,
+                "longitude": 132.78901,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "ホテルメルパルク松山",
+                "description": "愛媛県松山市にあったホテル",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "ホテルメルパルク松山が閉鎖",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.close"
+            }
+        ],
+        "愛知県": [
+            {
+                "date": "2022-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q21653837",
+                "latitude": 35.094078,
+                "longitude": 137.160033,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "豊田市郷土資料館",
+                "description": "愛知県豊田市にあった資料館 (1967-2022)",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E7%94%B0%E5%B8%82%E9%83%B7%E5%9C%9F%E8%B3%87%E6%96%99%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "豊田市郷土資料館が廃止",
+                "headline_category": "museum",
+                "headline_rule": "museum.abolish"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2022-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q127418717",
+                "latitude": 35.63,
+                "longitude": 139.775,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Ultra Japan 2022",
+                "description": "2022 edition of Ultra Japan in Odaiba, Tokyo",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "Ultra Japan 2022",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2022-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q114073984",
+                "latitude": 35.679347222,
+                "longitude": 139.7692,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "バスターミナル東京八重洲",
+                "description": "東京都中央区八重洲の地下にあるバスターミナル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E6%9D%B1%E4%BA%AC%E5%85%AB%E9%87%8D%E6%B4%B2",
+                "wikipedia_language": "ja",
+                "headline": "バスターミナル東京八重洲が開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2022-09-17",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q110884990",
+                "latitude": 35.680555555,
+                "longitude": 139.768611111,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "東京ミッドタウン八重洲",
+                "description": "東京都中央区の超高層ビル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%9F%E3%83%83%E3%83%89%E3%82%BF%E3%82%A6%E3%83%B3%E5%85%AB%E9%87%8D%E6%B4%B2",
+                "wikipedia_language": "ja",
+                "headline": "東京ミッドタウン八重洲が開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2022-09-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q113130081",
+                "latitude": 35.693333,
+                "longitude": 139.75,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "故安倍晋三国葬儀",
+                "description": "2022年9月27日に執り行われた日本の国葬儀",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%95%85%E5%AE%89%E5%80%8D%E6%99%8B%E4%B8%89%E5%9B%BD%E8%91%AC%E5%84%80",
+                "wikipedia_language": "ja",
+                "headline": "故安倍晋三国葬儀",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2022-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11344097",
+                "latitude": 35.656,
+                "longitude": 139.751,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "メルパルク東京",
+                "description": "東京都港区芝公園にあった複合施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%83%91%E3%83%AB%E3%82%AF%E6%9D%B1%E4%BA%AC",
+                "wikipedia_language": "ja",
+                "headline": "メルパルク東京が廃止",
+                "headline_category": "park",
+                "headline_rule": "park.abolish"
+            }
+        ],
+        "栃木県": [
+            {
+                "date": "2022-09-25",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q111103134",
+                "latitude": 36.533611,
+                "longitude": 140.2275,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2022年の日本グランプリ (ロードレース)",
+                "description": "sixteenth round of the 2022 Grand Prix motorcycle racing season",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2022%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA_(%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AC%E3%83%BC%E3%82%B9)",
+                "wikipedia_language": "ja",
+                "headline": "2022年の日本グランプリ (ロードレース)",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "沖縄県": [],
+        "滋賀県": [
+            {
+                "date": "2022-09-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11563212",
+                "latitude": 35.01745,
+                "longitude": 136.129575,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "湖南市市民グラウンド陸上競技場",
+                "description": "滋賀県湖南市にあった陸上競技場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B9%96%E5%8D%97%E5%B8%82%E5%B8%82%E6%B0%91%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E9%99%B8%E4%B8%8A%E7%AB%B6%E6%8A%80%E5%A0%B4",
+                "wikipedia_language": "ja",
+                "headline": "湖南市市民グラウンド陸上競技場が解体",
+                "headline_category": "sports_facility",
+                "headline_rule": "sports_facility.demolish"
+            }
+        ],
+        "熊本県": [],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2022-09-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q115570775",
+                "latitude": 35.322637,
+                "longitude": 139.55456,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "英国アンティーク博物館 BAM鎌倉",
+                "description": "鎌倉市にある博物館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8B%B1%E5%9B%BD%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AF%E5%8D%9A%E7%89%A9%E9%A4%A8_BAM%E9%8E%8C%E5%80%89",
+                "wikipedia_language": "ja",
+                "headline": "英国アンティーク博物館 BAM鎌倉が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2022-09",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q130476841",
+                "latitude": 33.587416666,
+                "longitude": 130.399472222,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "警固神社社務所ビル",
+                "description": "福岡市中央区にある警固神社の社務所",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "警固神社社務所ビルが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [
+            {
+                "date": "2022-09-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q124285963",
+                "latitude": 36.37275,
+                "longitude": 140.474388888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "水戸みやぎん寄席",
+                "description": "茨城県水戸市の演芸場",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E6%88%B8%E3%81%BF%E3%82%84%E3%81%8E%E3%82%93%E5%AF%84%E5%B8%AD",
+                "wikipedia_language": "ja",
+                "headline": "水戸みやぎん寄席が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "長崎県": [
+            {
+                "date": "2022-09-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q102422742",
+                "latitude": 32.955222222,
+                "longitude": 129.944527777,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "大村車両基地駅",
+                "description": "長崎県大村市宮小路にある九州旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%9D%91%E8%BB%8A%E4%B8%A1%E5%9F%BA%E5%9C%B0%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "大村車両基地駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2022-09-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q7497155",
+                "latitude": 32.932761,
+                "longitude": 129.957056,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "新大村駅",
+                "description": "長崎県大村市にある九州旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%A4%A7%E6%9D%91%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "新大村駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            }
+        ],
+        "長野県": [],
+        "青森県": [],
+        "静岡県": [
+            {
+                "date": "2022-09-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q122901378",
+                "latitude": 34.74,
+                "longitude": 138.224611111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "牧之原幼稚園バス3歳女児死亡事件",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%89%A7%E4%B9%8B%E5%8E%9F%E5%B9%BC%E7%A8%9A%E5%9C%92%E3%83%90%E3%82%B93%E6%AD%B3%E5%A5%B3%E5%85%90%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6",
+                "wikipedia_language": "ja",
+                "headline": "牧之原幼稚園バス3歳女児死亡事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2022-09-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q119443372",
+                "latitude": 34.74,
+                "longitude": 138.224611111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "牧之原幼稚園バス3歳女児死亡事件",
+                "description": "静岡県牧之原市で発生したバス置き去り事件",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "牧之原幼稚園バス3歳女児死亡事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2022-09-11",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q113861940",
+                "latitude": 35.371666666,
+                "longitude": 138.926666666,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2022 6 Hours of Fuji",
+                "description": "endurance sports car race",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/2022_6_Hours_of_Fuji",
+                "wikipedia_language": "en",
+                "headline": "2022 6 Hours of Fuji",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": []
+    }
+}

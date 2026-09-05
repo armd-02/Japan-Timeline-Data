@@ -1,0 +1,4863 @@
+{
+    "year": 2018,
+    "month": 1,
+    "generated_at": "2026-08-30T22:12:47Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 23,
+        "raw_rows_by_property": {
+            "P1619": 5,
+            "P571": 4,
+            "P576": 2,
+            "P580": 7,
+            "P585": 5
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 11,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 2,
+            "event": 1,
+            "inception": 3,
+            "opening": 1,
+            "start": 4
+        },
+        "national_raw_rows": 145,
+        "national_raw_rows_by_property": {
+            "P1619": 1,
+            "P571": 14,
+            "P576": 7,
+            "P580": 122,
+            "P585": 1
+        },
+        "national_query_candidate_count": 145,
+        "national_candidate_count": 135,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2018-01-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q36498848",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ダーリン・イン・ザ・フランキス",
+            "description": "TRIGGER・A-1 Pictures共同制作による日本のテレビアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 28,
+            "headline": "ダーリン・イン・ザ・フランキス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q168754",
+            "latitude": 33.87352,
+            "longitude": 130.81215,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "スペースワールド",
+            "description": "かつて福岡県北九州市八幡東区にあった遊園地",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
+            "wikipedia_language": "ja",
+            "headline": "スペースワールドが廃止",
+            "headline_category": "park",
+            "headline_rule": "park.abolish",
+            "sitelink_count": 8,
+            "category": "culture",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福岡県"
+        },
+        {
+            "date": "2018-01-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11151245",
+            "latitude": 35.407194444,
+            "longitude": 139.372944444,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "海老名南ジャンクション",
+            "description": "神奈川県海老名市にある新東名高速道路と首都圏中央連絡自動車道のジャンクション",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%80%81%E5%90%8D%E5%8D%97%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+            "wikipedia_language": "ja",
+            "headline": "海老名南ジャンクションが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "神奈川県"
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48762038",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第196回国会",
+            "description": "国会の通常国会会期 (2018)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC196%E5%9B%9E%E5%9B%BD%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第196回国会",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q11409249",
+            "latitude": 35.406388888,
+            "longitude": 139.356083333,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "厚木南インターチェンジ",
+            "description": "神奈川県厚木市にある新東名高速道路のインターチェンジ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9C%A8%E5%8D%97%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "厚木南インターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 1,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "神奈川県"
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48750741",
+            "latitude": 35.679722,
+            "longitude": 139.7125,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "第70回全日本バレーボール高等学校選手権大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC70%E5%9B%9E%E5%85%A8%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%AC%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "headline": "第70回全日本バレーボール高等学校選手権大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 1,
+            "category": "sports",
+            "score": 33,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q59186525",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "楽天モバイル株式会社",
+            "description": "日本の電気通信事業者",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A5%BD%E5%A4%A9%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB_(%E4%BC%81%E6%A5%AD)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "楽天モバイル株式会社が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131369483",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "金田一37歳の事件簿",
+            "description": "樹林伸による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "金田一37歳の事件簿",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65235036",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "その着せ替え人形は恋をする",
+            "description": "日本の漫画、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%AE%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E4%BA%BA%E5%BD%A2%E3%81%AF%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 28,
+            "headline": "その着せ替え人形は恋をする",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11344543",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "モブサイコ100",
+            "description": "日本の漫画、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%96%E3%82%B5%E3%82%A4%E3%82%B3100",
+            "wikipedia_language": "ja",
+            "sitelink_count": 21,
+            "headline": "モブサイコ100",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2018-01-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q36498848",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ダーリン・イン・ザ・フランキス",
+            "description": "TRIGGER・A-1 Pictures共同制作による日本のテレビアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%82%B9",
+            "wikipedia_language": "ja",
+            "sitelink_count": 28,
+            "headline": "ダーリン・イン・ザ・フランキス",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65235036",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "その着せ替え人形は恋をする",
+            "description": "日本の漫画、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%AE%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88%E4%BA%BA%E5%BD%A2%E3%81%AF%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B",
+            "wikipedia_language": "ja",
+            "sitelink_count": 28,
+            "headline": "その着せ替え人形は恋をする",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q11344543",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "モブサイコ100",
+            "description": "日本の漫画、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%96%E3%82%B5%E3%82%A4%E3%82%B3100",
+            "wikipedia_language": "ja",
+            "sitelink_count": 21,
+            "headline": "モブサイコ100",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48762038",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第196回国会",
+            "description": "国会の通常国会会期 (2018)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC196%E5%9B%9E%E5%9B%BD%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第196回国会",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q42895115",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "宇宙よりも遠い場所",
+            "description": "日本のテレビアニメ番組、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80",
+            "wikipedia_language": "ja",
+            "sitelink_count": 19,
+            "headline": "宇宙よりも遠い場所",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q65256469",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "地獄楽",
+            "description": "日本の漫画、メディアミックス作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A5%BD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 19,
+            "headline": "地獄楽",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47085276",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "伊藤潤二「コレクション」",
+            "description": "Japanese anime television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E6%BD%A4%E4%BA%8C%E3%80%8E%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%8F",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "伊藤潤二「コレクション」",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q53781712",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アクタージュ act-age",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%B8%E3%83%A5_act-age",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "アクタージュ act-age",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q85872642",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "くノ一ツバキの胸の内",
+            "description": "山本崇一朗によるくノ一の日常系漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8F%E3%83%8E%E4%B8%80%E3%83%84%E3%83%90%E3%82%AD%E3%81%AE%E8%83%B8%E3%81%AE%E5%86%85",
+            "wikipedia_language": "ja",
+            "sitelink_count": 9,
+            "headline": "くノ一ツバキの胸の内",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47295441",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "アンナチュラル",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 9,
+            "headline": "アンナチュラル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47007894",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2018年の日本",
+            "description": "overview of Japan-related events during the year of 2018",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2018%E5%B9%B4%E3%81%AE%E6%97%A5%E6%9C%AC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 8,
+            "headline": "2018年の日本",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q42317862",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Fate/Extra Last Encore",
+            "description": "日本のアニメシリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Fate/EXTRA_Last_Encore",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "Fate/Extra Last Encore",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q28359588",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "西郷どん",
+            "description": "2018年のNHK大河ドラマ第57作",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E9%83%B7%E3%81%A9%E3%82%93_(NHK%E5%A4%A7%E6%B2%B3%E3%83%89%E3%83%A9%E3%83%9E)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "西郷どん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47226664",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "トドメの接吻",
+            "description": "Japanese TV series or program",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%89%E3%83%A1%E3%81%AE%E6%8E%A5%E5%90%BB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "トドメの接吻",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q59186525",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "楽天モバイル株式会社",
+            "description": "日本の電気通信事業者",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A5%BD%E5%A4%A9%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB_(%E4%BC%81%E6%A5%AD)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "楽天モバイル株式会社が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63284270",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "SONGS OF TOKYO",
+            "description": "NHKの音楽番組 (2018 - 2023)・毎年秋にNHKホールで開催されている音楽イベント (2017 - 2022)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/SONGS_OF_TOKYO",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "SONGS OF TOKYOが開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "category": "culture",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109364747",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "紀尾井町1号",
+            "description": "LINEの金融サービス会社",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/LINE_Financial",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "紀尾井町1号が設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q63170849",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "玉井",
+            "description": "日本のパチンコホール",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%8E%89%E4%BA%95_(%E9%81%8A%E6%8A%80%E6%A5%AD)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "玉井が開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "category": "culture",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131369483",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "金田一37歳の事件簿",
+            "description": "樹林伸による日本の連載漫画",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "金田一37歳の事件簿",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q46428855",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第94回東京箱根間往復大学駅伝競走",
+            "description": "2018年の箱根駅伝",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC94%E5%9B%9E%E6%9D%B1%E4%BA%AC%E7%AE%B1%E6%A0%B9%E9%96%93%E5%BE%80%E5%BE%A9%E5%A4%A7%E5%AD%A6%E9%A7%85%E4%BC%9D%E7%AB%B6%E8%B5%B0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "第94回東京箱根間往復大学駅伝競走",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q24867880",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "日本eスポーツ協会",
+            "description": "defunct electronic sports organization in Japan",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%ACe%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E5%8D%94%E4%BC%9A_(2015%E5%B9%B4-2018%E5%B9%B4)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "日本eスポーツ協会が解散",
+            "headline_category": "organization",
+            "headline_rule": "organization.dissolve",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55524351",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第35回日本カーリング選手権大会",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC35%E5%9B%9E%E6%97%A5%E6%9C%AC%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第35回日本カーリング選手権大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47465132",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "BG〜身辺警護人〜",
+            "description": "テレビ朝日系列のドラマ番組シリーズ (2018, 2020)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/BG%E3%80%9C%E8%BA%AB%E8%BE%BA%E8%AD%A6%E8%AD%B7%E4%BA%BA%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "BG〜身辺警護人〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63436671",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "からかい上手の高木さん",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "からかい上手の高木さん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q59712104",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "忘却のサチコ",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BF%98%E5%8D%B4%E3%81%AE%E3%82%B5%E3%83%81%E3%82%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "忘却のサチコ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64029196",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ゆるキャン△",
+            "description": "日本のアニメ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ゆるキャン△",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55525051",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "相席食堂",
+            "description": "日本の朝日放送テレビ制作のバラエティ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E5%B8%AD%E9%A3%9F%E5%A0%82",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "相席食堂",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48751680",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "女子的生活",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E7%9A%84%E7%94%9F%E6%B4%BB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "女子的生活",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48753305",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "FINAL CUT",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/FINAL_CUT",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "FINAL CUT",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q46834088",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "anone",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Anone",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "anone",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47488382",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "オー・マイ・ジャンプ! 〜少年ジャンプが地球を救う〜",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97!_%E3%80%9C%E5%B0%91%E5%B9%B4%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%81%8C%E5%9C%B0%E7%90%83%E3%82%92%E6%95%91%E3%81%86%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "オー・マイ・ジャンプ! 〜少年ジャンプが地球を救う〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48760063",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "明日の君がもっと好き",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%98%8E%E6%97%A5%E3%81%AE%E5%90%9B%E3%81%8C%E3%82%82%E3%81%A3%E3%81%A8%E5%A5%BD%E3%81%8D",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "明日の君がもっと好き",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q117836398",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "スリーエフ",
+            "description": "かつてのコンビニエンスストアチェーン",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%95",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "スリーエフが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q7142829",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "パスネット",
+            "description": "Stored-fare card formerly used in Greater Tokyo Area",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%B9%E3%83%8D%E3%83%83%E3%83%88",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "パスネットが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q85868774",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "くらげ",
+            "description": "日本のお笑いコンビ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8F%E3%82%89%E3%81%92_(%E3%81%8A%E7%AC%91%E3%81%84%E3%82%B3%E3%83%B3%E3%83%93)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "くらげが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q60989528",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ニッポンよ!セカイを倒せ! フジヤマ 〜日本のNo.1vs世界のNo.1〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%82%88!%E3%82%BB%E3%82%AB%E3%82%A4%E3%82%92%E5%80%92%E3%81%9B!_%E3%83%95%E3%82%B8%E3%83%A4%E3%83%9E_%E3%80%9C%E6%97%A5%E6%9C%AC%E3%81%AENo.1vs%E4%B8%96%E7%95%8C%E3%81%AENo.1%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ニッポンよ!セカイを倒せ! フジヤマ 〜日本のNo.1vs世界のNo.1〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11402395",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "北海信用金庫",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%B5%B7%E4%BF%A1%E7%94%A8%E9%87%91%E5%BA%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "北海信用金庫が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55542089",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "若林&指原のいま部屋探してます",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E6%9E%97%26%E6%8C%87%E5%8E%9F%E3%81%AE%E3%81%84%E3%81%BE%E9%83%A8%E5%B1%8B%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%BE%E3%81%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "若林&指原のいま部屋探してます",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q97376920",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "JDLA Deep Learning For GENERAL",
+            "description": "日本の民間資格",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/JDLA_Deep_Learning_For_GENERAL",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "JDLA Deep Learning For GENERALが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48762728",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "林修のニッポンドリル",
+            "description": "フジテレビ系列のバラエティ番組 (2018年 - 2023年)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9E%97%E4%BF%AE%E3%81%AE%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3%E3%83%89%E3%83%AA%E3%83%AB",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "林修のニッポンドリル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48752208",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "平成細雪",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E6%88%90%E7%B4%B0%E9%9B%AA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "平成細雪",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q48761283",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "京セラインダストリアルツールズ",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E3%82%BB%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%80%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%84%E3%83%BC%E3%83%AB%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "京セラインダストリアルツールズが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q57390937",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ヴァイオレット・エヴァーガーデン",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%83%BB%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ヴァイオレット・エヴァーガーデン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q60986959",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "白日の鴉",
+            "description": "日本の小説作品、テレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%97%A5%E3%81%AE%E9%B4%89",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "白日の鴉",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48760712",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "特命刑事 カクホの女",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%89%B9%E5%91%BD%E5%88%91%E4%BA%8B_%E3%82%AB%E3%82%AF%E3%83%9B%E3%81%AE%E5%A5%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "特命刑事 カクホの女",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q96338874",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ラブリークィーン",
+            "description": "日本の繊維製品メーカー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC%E3%82%AF%E3%82%A3%E3%83%BC%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ラブリークィーンが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q86735239",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "東野・加藤この歌が聴きたいベストテン",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E3%83%BB%E5%8A%A0%E8%97%A4%E3%81%93%E3%81%AE%E6%AD%8C%E3%81%8C%E8%81%B4%E3%81%8D%E3%81%9F%E3%81%84%E3%83%99%E3%82%B9%E3%83%88%E3%83%86%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "東野・加藤この歌が聴きたいベストテン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55521531",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "七つの美徳",
+            "description": "Japanese anime television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%83%E3%81%A4%E3%81%AE%E7%BE%8E%E5%BE%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "七つの美徳",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48765687",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "越後純情刑事・早乙女真子",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%BE%8C%E7%B4%94%E6%83%85%E5%88%91%E4%BA%8B%E3%83%BB%E6%97%A9%E4%B9%99%E5%A5%B3%E7%9C%9F%E5%AD%90",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "越後純情刑事・早乙女真子",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55522807",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "旬感☆ゴトーチ!",
+            "description": "日本のテレビ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%AC%E6%84%9F%E2%98%86%E3%82%B4%E3%83%88%E3%83%BC%E3%83%81!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "旬感☆ゴトーチ!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q110894842",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "HAKAMA",
+            "description": "日本のゲーム会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "HAKAMAが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106315846",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ゆるキャン△",
+            "description": "ゆるキャン△のテレビアニメシリーズのシーズン",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Laid-Back_Camp_season_1",
+            "wikipedia_language": "en",
+            "sitelink_count": 3,
+            "headline": "ゆるキャン△",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125470290",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "月華国奇医伝",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Eccentric_Doctor_of_the_Moon_Flower_Kingdom",
+            "wikipedia_language": "en",
+            "sitelink_count": 3,
+            "headline": "月華国奇医伝",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q48842602",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ウルトラマンオーブ THE CHRONICLE",
+            "description": "television series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Ultraman_Orb:_The_Chronicle",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "ウルトラマンオーブ THE CHRONICLE",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106973349",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "オーバーロードⅡ",
+            "description": "オーバーロードのシーズン２",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Overlord_season_2",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "オーバーロードⅡ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47492579",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Team Ukyo 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Team Ukyo 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47494834",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "インタープロ・ストラダリ 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "インタープロ・ストラダリ 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q110019005",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "からかい上手の高木さん",
+            "description": "season of Teasing Master Takagi-san",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Teasing_Master_Takagi-san_season_1",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "からかい上手の高木さん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q63531134",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "名探偵ピカチュウ 〜新コンビ誕生〜",
+            "description": "2016 video game developed by Creatures",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "名探偵ピカチュウ 〜新コンビ誕生〜が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q75197495",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "賭ケグルイ",
+            "description": "2018/2019 live action Japanese TV series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Kakegurui_(2018_TV_series)",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "賭ケグルイ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q110300661",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ピーチ・ミルク・クラウン",
+            "description": "手原和憲による日本の連載漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Peach_Milk_Crown",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "ピーチ・ミルク・クラウン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130273530",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ふしぎねこのきゅーちゃん",
+            "description": "Japanese manga series",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Wonder_Cat_Kyuu-chan",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "ふしぎねこのきゅーちゃん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q124984968",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "東日本成人矯正医療センター",
+            "description": "東京都昭島市にある医療刑務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "東日本成人矯正医療センターが開設",
+            "headline_category": "medical_facility",
+            "headline_rule": "medical_facility.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63400422",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2018 Bridgestone Anchor",
+            "description": "UCI Continental Team from Japan",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2018 Bridgestone Anchor",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q50546939",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2018 Japanese men's national road cycling team",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2018 Japanese men's national road cycling team",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63400492",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2018 Shimano Racing Team",
+            "description": "UCI Continental Team from Japan",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "2018 Shimano Racing Team",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47009648",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Aisan Racing 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Aisan Racing 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q55714159",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Japanese men's U23 national road cycling team 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Japanese men's U23 national road cycling team 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q45174450",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Japanese women's national road cycling team 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Japanese women's national road cycling team 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113929141",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Kanagawa Intravenous and Endvascular Treatment Registry",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Kanagawa Intravenous and Endvascular Treatment Registry",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q51220831",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Kinan 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Kinan 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q31840285",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Q31840285",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Q31840285",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63229047",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Real-world Incidence Proportion of Hepatic Toxicity and All Adverse Drug Reactions (ADRs) in Japanese Patients Receiving Daclatasvir (DCV) Trio Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Real-world Incidence Proportion of Hepatic Toxicity and All Adverse Drug Reactions (ADRs) in Japanese Patients Receiving Daclatasvir (DCV) Trio Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q47164665",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Utsunomiya Blitzen 2018",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Utsunomiya Blitzen 2018",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66069578",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "OPTIMIZE IDE for the Treatment of ACS",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "OPTIMIZE IDE for the Treatment of ACS",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64804543",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of the Safety of Orencia in Japanese Children and Adolescents With Active Juvenile Arthritis of Unknown Origin",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of the Safety of Orencia in Japanese Children and Adolescents With Active Juvenile Arthritis of Unknown Origin",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63405400",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy and Safety Study to Evaluate MT-6548 in Peritoneal Dialysis Subjects With Anemia Associated With Chronic Kidney Disease in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy and Safety Study to Evaluate MT-6548 in Peritoneal Dialysis Subjects With Anemia Associated With Chronic Kidney Disease in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63575507",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Long-term Safety and Tolerability of Subcutaneous Administration of TEV-48125 for the Preventive Treatment of Migraine",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Long-term Safety and Tolerability of Subcutaneous Administration of TEV-48125 for the Preventive Treatment of Migraine",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63402640",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "S 81694 Plus Paclitaxel in Metastatic Breast Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "S 81694 Plus Paclitaxel in Metastatic Breast Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64805599",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of FYU-981 in Hyperuricemic Outpatients With or Without Gout (Effect on Two Hyperuricemic Types)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of FYU-981 in Hyperuricemic Outpatients With or Without Gout (Effect on Two Hyperuricemic Types)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q115775058",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "みっちりねこ",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "みっちりねこ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63567690",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ラーメン大好き小泉さん",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ラーメン大好き小泉さん",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140993762",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "社会保険労務士法人CSS",
+            "description": "大阪市淀川区の社会保険労務士法人",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "社会保険労務士法人CSSが発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-05",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64790209",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Long-term Follow-up Study to Evaluate the Impact of Lumicitabine on the Incidence of Asthma and/or Wheezing in Infants and Children With a History of Respiratory Syncytial Virus Infection",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Long-term Follow-up Study to Evaluate the Impact of Lumicitabine on the Incidence of Asthma and/or Wheezing in Infants and Children With a History of Respiratory Syncytial Virus Infection",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64789743",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Participants With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Participants With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123929868",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "citrus",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "citrus",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q116249393",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "グランクレスト戦記",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "グランクレスト戦記",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63571887",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Global Study of the Efficacy and Safety of Midostaurin + Chemotherapy in Newly Diagnosed Patients With FLT3 Mutation Negative (FLT3-MN) Acute Myeloid Leukemia (AML)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Global Study of the Efficacy and Safety of Midostaurin + Chemotherapy in Newly Diagnosed Patients With FLT3 Mutation Negative (FLT3-MN) Acute Myeloid Leukemia (AML)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q56605036",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "カードキャプターさくら クリアカード編",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "カードキャプターさくら クリアカード編",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63441306",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "スロウスタート",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "スロウスタート",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q104621606",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ポプテピピック",
+            "description": "日本のテレビアニメシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ポプテピピック",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99852280",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "三ツ星カラーズ",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "三ツ星カラーズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-07",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63568478",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "学園ベビーシッターズ",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "学園ベビーシッターズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63493919",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "りゅうおうのおしごと!",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "りゅうおうのおしごと!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124478389",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "バジリスク 〜桜花忍法帖〜",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "バジリスク 〜桜花忍法帖〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q96240506",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "刻刻",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "刻刻",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q87932660",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of KRN23 in Adult and Pediatric Patients With X-linked Hypophosphatemic Rickets/Osteomalacia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of KRN23 in Adult and Pediatric Patients With X-linked Hypophosphatemic Rickets/Osteomalacia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63811797",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "An Exploratory Maintenance Trial of BI 655064 in Patients With Lupus Nephritis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "An Exploratory Maintenance Trial of BI 655064 in Patients With Lupus Nephritis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64806233",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Febuxostat-Controlled, Double-Blind, Comparative Study of FYU-981 in Hyperuricemia With or Without Gout",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Febuxostat-Controlled, Double-Blind, Comparative Study of FYU-981 in Hyperuricemia With or Without Gout",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123905170",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ダメプリ ANIME CARAVAN",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ダメプリ ANIME CARAVAN",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q131319166",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "C-POT",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "C-POTが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63527443",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "たくのみ。",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "たくのみ。",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63436583",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "デスマーチからはじまる異世界狂想曲",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "デスマーチからはじまる異世界狂想曲",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q89996111",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ミイラの飼い方",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ミイラの飼い方",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123930051",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "メルヘン・メドヘン",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "メルヘン・メドヘン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64805129",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of DS-8201a for Participants With Advanced Solid Malignant Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of DS-8201a for Participants With Advanced Solid Malignant Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q61499670",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ハクメイとミコチ",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ハクメイとミコチ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63457439",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "博多豚骨ラーメンズ",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "博多豚骨ラーメンズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63436998",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋は雨上がりのように",
+            "description": "日本のテレビアニメ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "恋は雨上がりのように",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106577511",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "覇穹 封神演義",
+            "description": "2018 Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "覇穹 封神演義",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124467250",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "BEATLESS",
+            "description": "同名小説を原作とするアニメーションシリーズ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "BEATLESS",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q93338270",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "キリングバイツ",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "キリングバイツ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63405133",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Survey on Quetiapine Extended-release Tablets in Patients With Depression in Bipolar Disorder",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Survey on Quetiapine Extended-release Tablets in Patients With Depression in Bipolar Disorder",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64806583",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "BENLYSTA® Special Drug Use Investigation",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "BENLYSTA® Special Drug Use Investigation",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64806110",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase III Study of SyB L-0501 in Combination With Rituximab to Treat Recurrent/Relapsed Diffuse Large B-Cell Lymphoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase III Study of SyB L-0501 in Combination With Rituximab to Treat Recurrent/Relapsed Diffuse Large B-Cell Lymphoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63572252",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate the Safety, Tolerability, and Pharmacokinetics (PK) of TAK-228 as Single Agent in Adult East Asian Participants With Advanced Nonhematological Malignancies",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate the Safety, Tolerability, and Pharmacokinetics (PK) of TAK-228 as Single Agent in Adult East Asian Participants With Advanced Nonhematological Malignancies",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63572673",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "To Study Clinical Effectiveness and Safety of Olaparib Monotherapy in Metastatic Breast Cancer Patients.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "To Study Clinical Effectiveness and Safety of Olaparib Monotherapy in Metastatic Breast Cancer Patients.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64804074",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Efficacy and Safety of Evinacumab in Patients With Homozygous Familial Hypercholesterolemia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Efficacy and Safety of Evinacumab in Patients With Homozygous Familial Hypercholesterolemia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63401768",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Switch Study to Evaluate Dolutegravir Plus Lamivudine in Virologically Suppressed Human Immunodeficiency Virus Type 1 Positive Adults (TANGO)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Switch Study to Evaluate Dolutegravir Plus Lamivudine in Virologically Suppressed Human Immunodeficiency Virus Type 1 Positive Adults (TANGO)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64808555",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Molidustat for Correction of Renal Anemia in Dialysis Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Molidustat for Correction of Renal Anemia in Dialysis Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63401746",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Development of Assessment Method for Driving Ability Using Driving Simulator in Healthy Volunteers #2",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Development of Assessment Method for Driving Ability Using Driving Simulator in Healthy Volunteers #2",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64139722",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Tislelizumab (BGB-A317) Versus Chemotherapy as Second Line Treatment in Patients With Advanced Esophageal Squamous Cell Carcinoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Tislelizumab (BGB-A317) Versus Chemotherapy as Second Line Treatment in Patients With Advanced Esophageal Squamous Cell Carcinoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63404932",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "An Extension Study of ABBV-8E12 in Progressive Supranuclear Palsy (PSP)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "An Extension Study of ABBV-8E12 in Progressive Supranuclear Palsy (PSP)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63405640",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Assess Safety and Efficacy of Vilaprisan in Subjects With Uterine Fibroids (ASTEROID 4)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Assess Safety and Efficacy of Vilaprisan in Subjects With Uterine Fibroids (ASTEROID 4)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63404082",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Regorafenib and Nivolumab Simultaneous Combination Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Regorafenib and Nivolumab Simultaneous Combination Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q133817162",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ホリデイラブ",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ホリデイラブ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63574697",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Duloxetine (LY248686) in the Treatment of Japanese Children and Adolescents With Depressive Disorder",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Duloxetine (LY248686) in the Treatment of Japanese Children and Adolescents With Depressive Disorder",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q66067018",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Phase 2 Study of Brigatinib in Japanese Patients With ALK-Positive Non-Small Cell Lung Cancer (NSCLC)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Phase 2 Study of Brigatinib in Japanese Patients With ALK-Positive Non-Small Cell Lung Cancer (NSCLC)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63572118",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Lenvatinib Plus Nivolumab in Participants With Hepatocellular Carcinoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Lenvatinib Plus Nivolumab in Participants With Hepatocellular Carcinoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64788757",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "AcrySof Toric IQ Post-Market Clinical Study",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "AcrySof Toric IQ Post-Market Clinical Study",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64803074",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Skin Irritation of LEO 90100 Foam (Calcipotriol Hydrate Plus Betamethasone Dipropionate) in Healthy Japanese Subjects",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Skin Irritation of LEO 90100 Foam (Calcipotriol Hydrate Plus Betamethasone Dipropionate) in Healthy Japanese Subjects",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63404276",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of AZD9150 and MEDI4736 (Durvalumab) in Japanese Adult Patients With Advanced Solid Malignancies",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of AZD9150 and MEDI4736 (Durvalumab) in Japanese Adult Patients With Advanced Solid Malignancies",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q63405573",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "First-in-human Study of DS-1062a for Advanced Solid Tumors",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "First-in-human Study of DS-1062a for Advanced Solid Tumors",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q64790463",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of the Safety and Efficacy of LHC165 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of the Safety and Efficacy of LHC165 Single Agent and in Combination With PDR001 in Patients With Advanced Malignancies",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2018-01-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131457200",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ソードアート・オンライン キリトの千夜一夜騒動",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ソードアート・オンライン キリトの千夜一夜騒動",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [],
+        "佐賀県": [],
+        "兵庫県": [],
+        "北海道": [],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [],
+        "大分県": [],
+        "大阪府": [],
+        "奈良県": [],
+        "宮城県": [],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [],
+        "岩手県": [],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2018-01",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11391559",
+                "latitude": 35.649611,
+                "longitude": 139.335806,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "八王子医療刑務所",
+                "description": "かつて東京に存在した刑務所",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%85%AB%E7%8E%8B%E5%AD%90%E5%8C%BB%E7%99%82%E5%88%91%E5%8B%99%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "八王子医療刑務所が廃止",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.abolish"
+            },
+            {
+                "date": "2018-01-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q42723540",
+                "latitude": 35.705555555,
+                "longitude": 139.751944444,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "Wrestle Kingdom 12",
+                "description": "2018 New Japan Pro-Wrestling event",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Wrestle_Kingdom_12",
+                "wikipedia_language": "en",
+                "headline": "Wrestle Kingdom 12",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2018-01-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q48750741",
+                "latitude": 35.679722,
+                "longitude": 139.7125,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "第70回全日本バレーボール高等学校選手権大会",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC70%E5%9B%9E%E5%85%A8%E6%97%A5%E6%9C%AC%E3%83%90%E3%83%AC%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%AB%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E9%81%B8%E6%89%8B%E6%A8%A9%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第70回全日本バレーボール高等学校選手権大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2018-01-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q109826435",
+                "latitude": 35.627972,
+                "longitude": 139.735306,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "舞台「けものフレンズ」",
+                "description": "2017年に開演した2.5次元ミュージカル作品",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%88%9E%E5%8F%B0%E3%80%8C%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D",
+                "wikipedia_language": "ja",
+                "headline": "舞台「けものフレンズ」",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2018-01-14",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q55522847",
+                "latitude": 35.696944,
+                "longitude": 139.793333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "大相撲平成30年1月場所",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E5%B9%B3%E6%88%9030%E5%B9%B41%E6%9C%88%E5%A0%B4%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大相撲平成30年1月場所",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2018-01-25",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q47495157",
+                "latitude": 35.671416944,
+                "longitude": 139.7555,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "領土・主権展示館",
+                "description": "東京都千代田区の展示施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%A0%98%E5%9C%9F%E3%83%BB%E4%B8%BB%E6%A8%A9%E5%B1%95%E7%A4%BA%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "領土・主権展示館が開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [],
+        "神奈川県": [
+            {
+                "date": "2018-01",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q84945392",
+                "latitude": 35.322305555,
+                "longitude": 139.377083333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "柳島スポーツ公園",
+                "description": "神奈川県茅ヶ崎市にある運動公園",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E5%B3%B6%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E5%85%AC%E5%9C%92",
+                "wikipedia_language": "ja",
+                "headline": "柳島スポーツ公園が開園",
+                "headline_category": "park",
+                "headline_rule": "park.open"
+            },
+            {
+                "date": "2018-01-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11409249",
+                "latitude": 35.406388888,
+                "longitude": 139.356083333,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "厚木南インターチェンジ",
+                "description": "神奈川県厚木市にある新東名高速道路のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9C%A8%E5%8D%97%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "厚木南インターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            },
+            {
+                "date": "2018-01-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q11151245",
+                "latitude": 35.407194444,
+                "longitude": 139.372944444,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "海老名南ジャンクション",
+                "description": "神奈川県海老名市にある新東名高速道路と首都圏中央連絡自動車道のジャンクション",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E8%80%81%E5%90%8D%E5%8D%97%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+                "wikipedia_language": "ja",
+                "headline": "海老名南ジャンクションが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2018-01-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q168754",
+                "latitude": 33.87352,
+                "longitude": 130.81215,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "スペースワールド",
+                "description": "かつて福岡県北九州市八幡東区にあった遊園地",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89",
+                "wikipedia_language": "ja",
+                "headline": "スペースワールドが廃止",
+                "headline_category": "park",
+                "headline_rule": "park.abolish"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [],
+        "群馬県": [],
+        "茨城県": [],
+        "長崎県": [],
+        "長野県": [],
+        "青森県": [],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": [
+            {
+                "date": "2018-01-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q125148497",
+                "latitude": 27.333555555,
+                "longitude": 128.573694444,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "3rd International Workshop Materials Engineering and Computer Sciences, Jinan, China (2018)",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "3rd International Workshop Materials Engineering and Computer Sciences, Jinan, China (2018)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ]
+    }
+}

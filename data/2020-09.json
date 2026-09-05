@@ -1,0 +1,3681 @@
+{
+    "year": 2020,
+    "month": 9,
+    "generated_at": "2026-08-31T01:53:09Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 49,
+        "raw_rows_by_property": {
+            "P1619": 7,
+            "P3999": 1,
+            "P571": 2,
+            "P576": 6,
+            "P580": 10,
+            "P585": 23
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 33,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 6,
+            "closure": 1,
+            "event": 13,
+            "inception": 2,
+            "opening": 5,
+            "start": 6
+        },
+        "national_raw_rows": 113,
+        "national_raw_rows_by_property": {
+            "P1619": 5,
+            "P3999": 2,
+            "P571": 19,
+            "P576": 12,
+            "P580": 61,
+            "P585": 14
+        },
+        "national_query_candidate_count": 113,
+        "national_candidate_count": 81,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q98751849",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2020年自由民主党総裁選挙",
+            "description": "2020年の自由民主党総裁選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2020%E5%B9%B4%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A%E7%B7%8F%E8%A3%81%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "2020年自由民主党総裁選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99372867",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "菅義偉内閣",
+            "description": "2020年に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8F%85%E7%BE%A9%E5%81%89%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "菅義偉内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q98929263",
+            "latitude": 37.458138,
+            "longitude": 141.026446,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "東日本大震災・原子力災害伝承館",
+            "description": "福島県双葉町にある博物館",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%9C%87%E7%81%BD%E3%83%BB%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%81%BD%E5%AE%B3%E4%BC%9D%E6%89%BF%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "東日本大震災・原子力災害伝承館が開館",
+            "headline_category": "museum",
+            "headline_rule": "museum.open",
+            "sitelink_count": 4,
+            "category": "disaster",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "福島県"
+        },
+        {
+            "date": "2020-09-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q122290308",
+            "latitude": 35.726111111,
+            "longitude": 139.716666666,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "豊島区女性殺害遺棄事件",
+            "description": "2020年に東京都豊島区で発生した強姦・殺人事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E5%B3%B6%E5%8C%BA%E5%A5%B3%E6%80%A7%E6%AE%BA%E5%AE%B3%E9%81%BA%E6%A3%84%E4%BA%8B%E4%BB%B6",
+            "wikipedia_language": "ja",
+            "headline": "豊島区女性殺害遺棄事件",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 1,
+            "category": "major_incident",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2020-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99233271",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "立憲民主党",
+            "description": "日本の政党 (2020-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A_(%E6%97%A5%E6%9C%AC_2020)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 25,
+            "headline": "立憲民主党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q98083066",
+            "latitude": 37.455027777,
+            "longitude": 138.804527777,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "道の駅ながおか花火館",
+            "description": "新潟県長岡市にある国道8号の道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E3%81%AA%E3%81%8C%E3%81%8A%E3%81%8B%E8%8A%B1%E7%81%AB%E9%A4%A8",
+            "wikipedia_language": "ja",
+            "headline": "道の駅ながおか花火館が開業",
+            "headline_category": "roadside_station",
+            "headline_rule": "roadside_station.open",
+            "sitelink_count": 2,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "新潟県"
+        },
+        {
+            "date": "2020-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99659046",
+            "latitude": 35.49,
+            "longitude": 139.369166666,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "厚木PAスマートインターチェンジ",
+            "description": "神奈川県厚木市にある首都圏中央連絡自動車道のインターチェンジ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9C%A8PA%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+            "wikipedia_language": "ja",
+            "headline": "厚木PAスマートインターチェンジが開通",
+            "headline_category": "interchange",
+            "headline_rule": "interchange.open",
+            "sitelink_count": 1,
+            "category": "infrastructure",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "神奈川県"
+        },
+        {
+            "date": "2020-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q6958442",
+            "latitude": 36.66555556,
+            "longitude": 138.20055556,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "長野県短期大学",
+            "description": "廃止された大学",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E7%9C%8C%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+            "wikipedia_language": "ja",
+            "headline": "長野県短期大学が廃止",
+            "headline_category": "school",
+            "headline_rule": "school.abolish",
+            "sitelink_count": 5,
+            "category": "education",
+            "score": 37,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 2,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "長野県"
+        },
+        {
+            "date": "2020-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q106707543",
+            "latitude": 35.727305555,
+            "longitude": 139.721388888,
+            "query_sources": [
+                "P1619:direct",
+                "P1619:national"
+            ],
+            "title": "としまキッズパーク",
+            "description": "東京都豊島区の公園",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%97%E3%81%BE%E3%82%AD%E3%83%83%E3%82%BA%E3%83%91%E3%83%BC%E3%82%AF",
+            "wikipedia_language": "ja",
+            "headline": "としまキッズパークが開園",
+            "headline_category": "park",
+            "headline_rule": "park.open",
+            "sitelink_count": 1,
+            "category": "culture",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2020-09-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q98082985",
+            "latitude": 35.696944,
+            "longitude": 139.793333,
+            "query_sources": [
+                "P580:national",
+                "P580:place"
+            ],
+            "title": "大相撲令和2年9月場所",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E4%BB%A4%E5%92%8C2%E5%B9%B49%E6%9C%88%E5%A0%B4%E6%89%80",
+            "wikipedia_language": "ja",
+            "headline": "大相撲令和2年9月場所",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 1,
+            "category": "sports",
+            "score": 33,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q98751849",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2020年自由民主党総裁選挙",
+            "description": "2020年の自由民主党総裁選挙",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2020%E5%B9%B4%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A%E7%B7%8F%E8%A3%81%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "2020年自由民主党総裁選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99372867",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "菅義偉内閣",
+            "description": "2020年に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8F%85%E7%BE%A9%E5%81%89%E5%86%85%E9%96%A3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 11,
+            "headline": "菅義偉内閣が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "politics",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99233271",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "立憲民主党",
+            "description": "日本の政党 (2020-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A_(%E6%97%A5%E6%9C%AC_2020)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 25,
+            "headline": "立憲民主党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 20,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q67225460",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "第4次安倍第2次改造内閣",
+            "description": "2019年に発足した日本の内閣",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC4%E6%AC%A1%E5%AE%89%E5%80%8D%E5%86%85%E9%96%A3_(%E7%AC%AC2%E6%AC%A1%E6%94%B9%E9%80%A0)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "第4次安倍第2次改造内閣が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99372632",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第202回国会",
+            "description": "国会の臨時国会会期 (2020)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC202%E5%9B%9E%E5%9B%BD%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第202回国会",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q86727054",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "WEST EXPRESS 銀河",
+            "description": "西日本旅客鉄道が運行する特別急行列車",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/WEST_EXPRESS_%E9%8A%80%E6%B2%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "WEST EXPRESS 銀河が開業",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.open",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q109363110",
+            "query_sources": [
+                "P3999:national"
+            ],
+            "title": "メトロ食堂街",
+            "description": "丸ノ内線新宿駅西口にあった地下街",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%88%E3%83%AD%E9%A3%9F%E5%A0%82%E8%A1%97",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "メトロ食堂街が閉鎖",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.close",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q99527550",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "国民民主党",
+            "description": "日本の政党 (2020-)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A_(%E6%97%A5%E6%9C%AC_2020)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 19,
+            "headline": "国民民主党が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q96619762",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "仮面ライダーセイバー",
+            "description": "日本のテレビドラマ番組、メディアミックス作品、その主人公たる架空のヒーローの名前",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BB%E3%82%A4%E3%83%90%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 12,
+            "headline": "仮面ライダーセイバー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-26",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126377424",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "終末ツーリング",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E3%83%84%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 10,
+            "headline": "終末ツーリング",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q106093609",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ボールパークでつかまえて!",
+            "description": "日本の漫画作品、テレビアニメ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%91%E3%83%BC%E3%82%AF%E3%81%A7%E3%81%A4%E3%81%8B%E3%81%BE%E3%81%88%E3%81%A6!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 8,
+            "headline": "ボールパークでつかまえて!",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99339220",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋愛革命 (2020年のテレビドラマ)",
+            "description": "2020 South Korean romantic web series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E6%84%9B%E9%9D%A9%E5%91%BD_(%E6%BC%AB%E7%94%BB)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 7,
+            "headline": "恋愛革命 (2020年のテレビドラマ)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q41532587",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "立憲民主党",
+            "description": "日本の政党 (2017-2020)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A_(%E6%97%A5%E6%9C%AC_2017)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "立憲民主党が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q123421048",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "小野沢興行",
+            "description": "島根県益田市の企業",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E6%B2%A2%E8%88%88%E8%A1%8C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "小野沢興行が解散",
+            "headline_category": "company",
+            "headline_rule": "company.dissolve",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q123774040",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "COEDO KAWAGOE F.C",
+            "description": "日本の埼玉県川越市を本拠地とするサッカークラブ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/COEDO_KAWAGOE_F.C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "COEDO KAWAGOE F.Cが設立",
+            "headline_category": "sports_event",
+            "headline_rule": "sports_event.inception_fallback",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q113468849",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "KAMIKAWA・士別サムライブレイズ",
+            "description": "北海道フロンティアリーグに所属する北海道のプロ野球独立球団",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/KAMIKAWA%E3%83%BB%E5%A3%AB%E5%88%A5%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "KAMIKAWA・士別サムライブレイズが設立",
+            "headline_category": "sports_event",
+            "headline_rule": "sports_event.inception_fallback",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q52729635",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "国民民主党",
+            "description": "日本の政党 (2018-2020)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E6%B0%91%E4%B8%BB%E5%85%9A_(%E6%97%A5%E6%9C%AC_2018)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "国民民主党が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111369849",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "BMSG",
+            "description": "日本の東京都港区にある芸能事務所",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/BMSG",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "BMSGが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109512131",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "焼いてるふたり",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%84%BC%E3%81%84%E3%81%A6%E3%82%8B%E3%81%B5%E3%81%9F%E3%82%8A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 3,
+            "headline": "焼いてるふたり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q110217530",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Gotcha Gotcha Games",
+            "description": "日本の東京都千代田区にあるコンピュータゲームパブリッシャー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Gotcha_Gotcha_Games",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "Gotcha Gotcha Gamesが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130218807",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "タカラのびいどろ",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AB%E3%83%A9%E3%81%AE%E3%81%B3%E3%81%84%E3%81%A9%E3%82%8D",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "タカラのびいどろ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97376116",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "おカネの切れ目が恋のはじまり",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%82%AB%E3%83%8D%E3%81%AE%E5%88%87%E3%82%8C%E7%9B%AE%E3%81%8C%E6%81%8B%E3%81%AE%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "おカネの切れ目が恋のはじまり",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q102115220",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "17.3 about a sex",
+            "description": "日本のドラマ作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/17.3_about_a_sex",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "17.3 about a sex",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11234498",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "NAVERまとめ",
+            "description": "かつて存在したウェブサイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/NAVER%E3%81%BE%E3%81%A8%E3%82%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "NAVERまとめが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109362306",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "BUDDiiS",
+            "description": "日本のダンス&ボーカルグループ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/BUDDiiS",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "BUDDiiSが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136265266",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Novelism",
+            "description": "viviONが運営する日本の小説投稿サイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Novelism",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Novelismが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126034741",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ひぐらしのなく頃に 命",
+            "description": "日本のスマートフォン向けゲームアプリ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%B2%E3%81%90%E3%82%89%E3%81%97%E3%81%AE%E3%81%AA%E3%81%8F%E9%A0%83%E3%81%AB_%E5%91%BD",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ひぐらしのなく頃に 命",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q101001056",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "宮崎ファクトリー",
+            "description": "日本の繊維製品メーカー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%B4%8E%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "宮崎ファクトリーが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q107411845",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "トイロミュージック",
+            "description": "日本の音楽制作プロダクション",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A4%E3%83%AD%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "トイロミュージックが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q109364237",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "ミス・グランド・ジャパン2020",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%B9%E3%83%BB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B32020",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ミス・グランド・ジャパン2020",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113685733",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第69期王座戦 (将棋)",
+            "description": "2021年度の王座戦",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC69%E6%9C%9F%E7%8E%8B%E5%BA%A7%E6%88%A6_(%E5%B0%86%E6%A3%8B)",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第69期王座戦 (将棋)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97172322",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "彼女が成仏できない理由",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BD%BC%E5%A5%B3%E3%81%8C%E6%88%90%E4%BB%8F%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E7%90%86%E7%94%B1",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "彼女が成仏できない理由",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-12",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q109601695",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第14期マイナビ女子オープン",
+            "description": "2021年度のマイナビ女子オープン",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC14%E6%9C%9F%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%93%E5%A5%B3%E5%AD%90%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "第14期マイナビ女子オープン",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q114794844",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Zenn",
+            "description": "日本のプログラマ向けのナレッジコミュニティウェブサイト",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Zenn",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Zennが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q109602380",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "PostPrime",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/PostPrime",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "PostPrimeが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97215264",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "天使にリクエストを〜人生最後の願い〜",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E4%BD%BF%E3%81%AB%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%92%E3%80%9C%E4%BA%BA%E7%94%9F%E6%9C%80%E5%BE%8C%E3%81%AE%E9%A1%98%E3%81%84%E3%80%9C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "天使にリクエストを〜人生最後の願い〜",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q135870849",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "新党くにもり",
+            "description": "日本の政治団体",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%85%9A%E3%81%8F%E3%81%AB%E3%82%82%E3%82%8A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "新党くにもりが発足",
+            "headline_category": "organization",
+            "headline_rule": "organization.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105261348",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "“シュガー&シュガー”サカナクションの音楽実験番組",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E2%80%9C%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%BC%26%E3%82%B7%E3%83%A5%E3%82%AC%E3%83%BC%E2%80%9D%E3%82%B5%E3%82%AB%E3%83%8A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E9%9F%B3%E6%A5%BD%E5%AE%9F%E9%A8%93%E7%95%AA%E7%B5%84",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "“シュガー&シュガー”サカナクションの音楽実験番組",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11276742",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ちゅピCOMひろしま",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%85%E3%83%94COM%E3%81%B2%E3%82%8D%E3%81%97%E3%81%BE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ちゅピCOMひろしまが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q138566017",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "フランチャイズビジネスインキュベーション",
+            "description": "日本の外食企業",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "フランチャイズビジネスインキュベーションが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131443885",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "骨ドラゴンのマナ娘",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Skull_Dragon%27s_Precious_Daughter",
+            "wikipedia_language": "en",
+            "sitelink_count": 4,
+            "headline": "骨ドラゴンのマナ娘",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99529553",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Inebilizumab Efficacy and Safety in IgG4- Related Disease",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Inebilizumab Efficacy and Safety in IgG4- Related Disease",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99081006",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "An Exploratory Study of ADR-001 in Patients With Severe Pneumonia Caused by SARS-CoV-2 Infection",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "An Exploratory Study of ADR-001 in Patients With Severe Pneumonia Caused by SARS-CoV-2 Infection",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99080972",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Massachusetts General Hospital and Tsuchiura Kyodo General Hospital Coronary Imaging Collaboration",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Massachusetts General Hospital and Tsuchiura Kyodo General Hospital Coronary Imaging Collaboration",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q96759559",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study Evaluating The Efficacy And Safety Of Crovalimab Versus Eculizumab In Adult And Adolescent Participants With Paroxysmal Nocturnal Hemoglobinuria (PNH) Currently Treated With Complement Inhibitors.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study Evaluating The Efficacy And Safety Of Crovalimab Versus Eculizumab In Adult And Adolescent Participants With Paroxysmal Nocturnal Hemoglobinuria (PNH) Currently Treated With Complement Inhibitors.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113892686",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Evaluation of mediVR-KAGURA Guided Therapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Evaluation of mediVR-KAGURA Guided Therapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113891567",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase 2 Study of TAS-303 in Female Patients With Stress Urinary Incontinence",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase 2 Study of TAS-303 in Female Patients With Stress Urinary Incontinence",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99529693",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Test Long-term Treatment With Spesolimab in People With Palmoplantar Pustulosis (PPP) Who Took Part in Previous Studies With Spesolimab",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Test Long-term Treatment With Spesolimab in People With Palmoplantar Pustulosis (PPP) Who Took Part in Previous Studies With Spesolimab",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113891568",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Trial of the Efficacy and the Safety of RO6889450 (Ralmitaront) vs Placebo in Patients With an Acute Exacerbation of Schizophrenia or Schizoaffective Disorder",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Trial of the Efficacy and the Safety of RO6889450 (Ralmitaront) vs Placebo in Patients With an Acute Exacerbation of Schizophrenia or Schizoaffective Disorder",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q100789378",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Late Phase II Study of TS-142 in Patients With Insomnia",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Late Phase II Study of TS-142 in Patients With Insomnia",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q100808476",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "荒ぶる季節の乙女どもよ｡",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "荒ぶる季節の乙女どもよ｡",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113891557",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Dose-Escalation Study of SPYK04 in Patients With Locally Advanced or Metastatic Solid Tumors (With Expansion).",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Dose-Escalation Study of SPYK04 in Patients With Locally Advanced or Metastatic Solid Tumors (With Expansion).",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113893127",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ONO-4538 Phase II Rollover Study (ONO-4538-98)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ONO-4538 Phase II Rollover Study (ONO-4538-98)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q137907683",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "佐賀県ヨットハーバー",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "佐賀県ヨットハーバーが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97045699",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of JNJ-73763989 + JNJ-56136379 + Nucleos(t)Ide Analog (NA) Regimen With or Without Pegylated Interferon Alpha-2a (PegIFN-α2a) in Treatment-Naive Participants With Hepatitis B e Antigen (HBeAg) Positive Chronic Hepatitis B Virus (HBV) Inf",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of JNJ-73763989 + JNJ-56136379 + Nucleos(t)Ide Analog (NA) Regimen With or Without Pegylated Interferon Alpha-2a (PegIFN-α2a) in Treatment-Naive Participants With Hepatitis B e Antigen (HBeAg) Positive Chronic Hepatitis B Virus (HBV) Inf",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105787039",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of the Long-Term Safety of Crisaborole Ointment, 2% in Japanese Pediatric and Adult Participants With Mild to Moderate Atopic Dermatitis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of the Long-Term Safety of Crisaborole Ointment, 2% in Japanese Pediatric and Adult Participants With Mild to Moderate Atopic Dermatitis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99956153",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study to Evaluate U3-1402 in Subjects With Advanced or Metastatic Colorectal Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study to Evaluate U3-1402 in Subjects With Advanced or Metastatic Colorectal Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113889762",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Imatinib Mesylate in Combination With Pembrolizumab in Patients With Melanoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Imatinib Mesylate in Combination With Pembrolizumab in Patients With Melanoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-14",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q97045172",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Evaluate the Efficacy (Effect on Disease) and Safety of Finerenone on Morbidity (Events Indicating Disease Worsening) and Mortality (Death Rate) in Participants With Heart Failure and Left Ventricular Ejection Fraction (Proportion of Bl",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Evaluate the Efficacy (Effect on Disease) and Safety of Finerenone on Morbidity (Events Indicating Disease Worsening) and Mortality (Death Rate) in Participants With Heart Failure and Left Ventricular Ejection Fraction (Proportion of Bl",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-15",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113886622",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tucatinib Plus Trastuzumab and Oxaliplatin-based Chemotherapy or Pembrolizumab-containing Combinations for HER2+ Gastrointestinal Cancers",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Tucatinib Plus Trastuzumab and Oxaliplatin-based Chemotherapy or Pembrolizumab-containing Combinations for HER2+ Gastrointestinal Cancers",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105493497",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "20-valent Pneumococcal Conjugate Vaccine Safety and Immunogenicity Study in Healthy Japanese Infants",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "20-valent Pneumococcal Conjugate Vaccine Safety and Immunogenicity Study in Healthy Japanese Infants",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113895752",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Safety Study of KHK4951 in Healthy Volunteers and Patients With Wet Age-Related Macular Degeneration",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Safety Study of KHK4951 in Healthy Volunteers and Patients With Wet Age-Related Macular Degeneration",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113891204",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Ravulizumab in Thrombotic Microangiopathy After Hematopoietic Stem Cell Transplant",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Ravulizumab in Thrombotic Microangiopathy After Hematopoietic Stem Cell Transplant",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113939471",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study in COvid-19 Patients With iveRmectin (CORVETTE-01)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study in COvid-19 Patients With iveRmectin (CORVETTE-01)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113890074",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of JNJ-73763989 + Nucleos(t)Ide Analog in Participants Co-Infected With Hepatitis B and Hepatitis D Virus",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of JNJ-73763989 + Nucleos(t)Ide Analog in Participants Co-Infected With Hepatitis B and Hepatitis D Virus",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-17",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q100788520",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of ME-401 in Subjects With Relapsed or Refractory Indolent B-cell Non-Hodgkin's Lymphoma (NHL)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of ME-401 in Subjects With Relapsed or Refractory Indolent B-cell Non-Hodgkin's Lymphoma (NHL)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105788752",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Benralizumab in Patients With Eosinophilic Esophagitis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Benralizumab in Patients With Eosinophilic Esophagitis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113892196",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Safety, Tolerability and Pharmacokinetics of LNA043 in Japanese Osteoarthritis Participants",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Safety, Tolerability and Pharmacokinetics of LNA043 in Japanese Osteoarthritis Participants",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-23",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105088857",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Assess Effect of Oral Venetoclax Tablet in Combination With Oral Ibrutinib Capsule on Best Overall Response of Complete Response in Adult Japanese Participants With Relapsed/Refractory Mantle Cell Lymphoma",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Assess Effect of Oral Venetoclax Tablet in Combination With Oral Ibrutinib Capsule on Best Overall Response of Complete Response in Adult Japanese Participants With Relapsed/Refractory Mantle Cell Lymphoma",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113887520",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of PF-07265807 in Participants With Metastatic Solid Tumors.",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of PF-07265807 in Participants With Metastatic Solid Tumors.",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131706658",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Chiki Ogiue Session",
+            "description": "日本のPodcast番組",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Chiki Ogiue Session",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140478998",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "一億円のさようなら",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "一億円のさようなら",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113890580",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Study of Atezolizumab With or Without Tiragolumab in Participants With Unresectable Esophageal Squamous Cell Carcinoma Whose Cancers Have Not Progressed Following Definitive Concurrent Chemoradiotherapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Study of Atezolizumab With or Without Tiragolumab in Participants With Unresectable Esophageal Squamous Cell Carcinoma Whose Cancers Have Not Progressed Following Definitive Concurrent Chemoradiotherapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113892144",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "A Phase 1 Study of AZD9833 in Japanese Women With ER Positive, HER2 Negative Advanced Breast Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "A Phase 1 Study of AZD9833 in Japanese Women With ER Positive, HER2 Negative Advanced Breast Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q105088861",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Oral Navitoclax Tablet In Combination With Oral Ruxolitinib Tablet When Compared With Oral Ruxolitinib Tablet To Assess Change In Spleen Volume In Adult Participants With Myelofibrosis",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Oral Navitoclax Tablet In Combination With Oral Ruxolitinib Tablet When Compared With Oral Ruxolitinib Tablet To Assess Change In Spleen Volume In Adult Participants With Myelofibrosis",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113893525",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "MERIDIAN: A Study to Evaluate the Efficacy and Safety of Pegcetacoplan in Adults With Amyotrophic Lateral Sclerosis (ALS)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "MERIDIAN: A Study to Evaluate the Efficacy and Safety of Pegcetacoplan in Adults With Amyotrophic Lateral Sclerosis (ALS)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q100788540",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Atezolizumab in Combination With Cabozantinib Versus Docetaxel in Patients With Metastatic Non-Small Cell Lung Cancer Previously Treated With an Anti-PD-L1/PD-1 Antibody and Platinum-Containing Chemotherapy",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Atezolizumab in Combination With Cabozantinib Versus Docetaxel in Patients With Metastatic Non-Small Cell Lung Cancer Previously Treated With an Anti-PD-L1/PD-1 Antibody and Platinum-Containing Chemotherapy",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99956582",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of Durvalumab Versus Placebo in Combination With Definitive Chemoradiation Therapy in Patient With ESCC",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of Durvalumab Versus Placebo in Combination With Definitive Chemoradiation Therapy in Patient With ESCC",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q113890847",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study of H3B-6545 in Japanese Women With Estrogen Receptor (ER)-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Breast Cancer",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study of H3B-6545 in Japanese Women With Estrogen Receptor (ER)-Positive, Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Breast Cancer",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q99956139",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Study to Learn More About Safety of Aflibercept Injection in Japanese Patients With Neovascular Glaucoma (NVG)",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Study to Learn More About Safety of Aflibercept Injection in Japanese Patients With Neovascular Glaucoma (NVG)",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2020-09-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q102153072",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Survey on Menstrual Symptoms, Health Related Quality of Life and Work Productivity in Patients Suffering From Pain During Menstruation (Dysmenorrhea) in Japan",
+            "description": "治験",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Survey on Menstrual Symptoms, Health Related Quality of Life and Work Productivity in Patients Suffering From Pain During Menstruation (Dysmenorrhea) in Japan",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [],
+        "京都府": [
+            {
+                "date": "2020-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q125154669",
+                "latitude": 35.011611111,
+                "longitude": 135.768111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "27th International Workshop Active-Matrix Flatpanel Displays and Devices, Kyoto, Japan (2020)",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "27th International Workshop Active-Matrix Flatpanel Displays and Devices, Kyoto, Japan (2020)",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2020-09-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99689949",
+                "latitude": 35.690172,
+                "longitude": 135.035514,
+                "query_sources": [
+                    "P585:direct",
+                    "P585:place"
+                ],
+                "title": "海と湖のウィキペディアタウン",
+                "description": "2020年9月27日に京都府京丹後市網野で開催されたエディタソン。",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "海と湖のウィキペディアタウン",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "佐賀県": [],
+        "兵庫県": [],
+        "北海道": [],
+        "千葉県": [],
+        "和歌山県": [],
+        "埼玉県": [],
+        "大分県": [
+            {
+                "date": "2020-09-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106705843",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2020 All Japan Road Race Championship Round 3 Autopolis",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 All Japan Road Race Championship Round 3 Autopolis",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2020-09-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106237589",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 JSB1000 Autopolis Race 1",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 JSB1000 Autopolis Race 1",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100152249",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 J-GP3 Autopolis Race",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 J-GP3 Autopolis Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106522280",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 J-GP3 Autopolis Race",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 J-GP3 Autopolis Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106237643",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 JSB1000 Autopolis Race 2",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 JSB1000 Autopolis Race 2",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100137674",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 ST1000 Autopolis Race",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 ST1000 Autopolis Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99892710",
+                "latitude": 33.036944444,
+                "longitude": 130.973027777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 ST600 Autopolis Race",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 ST600 Autopolis Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "大阪府": [
+            {
+                "date": "2020-09-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99457889",
+                "latitude": 34.6647,
+                "longitude": 135.433,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "ハロウィーン・イベント2020",
+                "description": "ユニバーサル・スタジオ・ジャパンの期間限定イベント",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%AD%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%A4%E3%83%99%E3%83%B3%E3%83%882020",
+                "wikipedia_language": "ja",
+                "headline": "ハロウィーン・イベント2020",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "奈良県": [],
+        "宮城県": [
+            {
+                "date": "2020-09-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106705854",
+                "latitude": 38.14055556,
+                "longitude": 140.77638889,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2020 JSB1000 Autopolis Qualification Practice for Race 1",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 JSB1000 Autopolis Qualification Practice for Race 1",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2020-09-19",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106705907",
+                "latitude": 38.14055556,
+                "longitude": 140.77638889,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2020 JSB1000 Autopolis Qualification Practice for Race 2",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 JSB1000 Autopolis Qualification Practice for Race 2",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "宮崎県": [],
+        "富山県": [],
+        "山口県": [],
+        "山形県": [],
+        "山梨県": [],
+        "岐阜県": [],
+        "岡山県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11084340",
+                "latitude": 34.99719167,
+                "longitude": 133.44176389,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "新見公立短期大学",
+                "description": "廃止された大学",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E8%A6%8B%E5%85%AC%E7%AB%8B%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+                "wikipedia_language": "ja",
+                "headline": "新見公立短期大学が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2020-09-04",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q106713038",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "2020 All Japan Road Race Championship Round 2 Okayama",
+                "description": null,
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 All Japan Road Race Championship Round 2 Okayama",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2020-09-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100152231",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 J-GP3 Okayama Race",
+                "description": "Canceled race",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 J-GP3 Okayama Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q106522246",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 J-GP3 Okayama Race",
+                "description": "race cancelled",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 J-GP3 Okayama Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q100137408",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 ST1000 Okayama Race",
+                "description": "Cancelled race",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 ST1000 Okayama Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-06",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q99893008",
+                "latitude": 34.915,
+                "longitude": 134.221111111,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2020 ST600 Okayama Race",
+                "description": "Canceled race",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2020 ST600 Okayama Race",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "岩手県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11474639",
+                "latitude": 39.70419444,
+                "longitude": 141.04827778,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "岩手看護短期大学",
+                "description": "廃止された大学",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%89%8B%E7%9C%8B%E8%AD%B7%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+                "wikipedia_language": "ja",
+                "headline": "岩手看護短期大学が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "島根県": [],
+        "広島県": [],
+        "徳島県": [],
+        "愛媛県": [],
+        "愛知県": [],
+        "新潟県": [
+            {
+                "date": "2020-09-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q98083066",
+                "latitude": 37.455027777,
+                "longitude": 138.804527777,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "道の駅ながおか花火館",
+                "description": "新潟県長岡市にある国道8号の道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%81%93%E3%81%AE%E9%A7%85%E3%81%AA%E3%81%8C%E3%81%8A%E3%81%8B%E8%8A%B1%E7%81%AB%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "道の駅ながおか花火館が開業",
+                "headline_category": "roadside_station",
+                "headline_rule": "roadside_station.open"
+            }
+        ],
+        "東京都": [
+            {
+                "date": "2020-09",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q97311764",
+                "latitude": 35.687611111,
+                "longitude": 139.729055555,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "CO・MO・RE YOTSUYA",
+                "description": "東京都新宿区にある複合施設",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/CO%E3%83%BBMO%E3%83%BBRE_YOTSUYA",
+                "wikipedia_language": "ja",
+                "headline": "CO・MO・RE YOTSUYAが開業",
+                "headline_category": "building",
+                "headline_rule": "building.open"
+            },
+            {
+                "date": "2020-09-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q65271262",
+                "latitude": 35.617694,
+                "longitude": 139.770694,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "東京国際クルーズターミナル",
+                "description": "東京都江東区青海にある客船ターミナル",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%9B%BD%E9%9A%9B%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB",
+                "wikipedia_language": "ja",
+                "headline": "東京国際クルーズターミナルが開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            },
+            {
+                "date": "2020-09-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q98082985",
+                "latitude": 35.696944,
+                "longitude": 139.793333,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "大相撲令和2年9月場所",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%9B%B8%E6%92%B2%E4%BB%A4%E5%92%8C2%E5%B9%B49%E6%9C%88%E5%A0%B4%E6%89%80",
+                "wikipedia_language": "ja",
+                "headline": "大相撲令和2年9月場所",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2020-09-22",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q555220",
+                "latitude": 35.67252,
+                "longitude": 139.735274,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "赤坂BLITZ",
+                "description": "東京都のライブハウス",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E5%9D%82BLITZ",
+                "wikipedia_language": "ja",
+                "headline": "赤坂BLITZが閉鎖",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.close"
+            },
+            {
+                "date": "2020-09-24",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q122290308",
+                "latitude": 35.726111111,
+                "longitude": 139.716666666,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "豊島区女性殺害遺棄事件",
+                "description": "2020年に東京都豊島区で発生した強姦・殺人事件",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E5%B3%B6%E5%8C%BA%E5%A5%B3%E6%80%A7%E6%AE%BA%E5%AE%B3%E9%81%BA%E6%A3%84%E4%BA%8B%E4%BB%B6",
+                "wikipedia_language": "ja",
+                "headline": "豊島区女性殺害遺棄事件",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2020-09-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q106707543",
+                "latitude": 35.727305555,
+                "longitude": 139.721388888,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "としまキッズパーク",
+                "description": "東京都豊島区の公園",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%97%E3%81%BE%E3%82%AD%E3%83%83%E3%82%BA%E3%83%91%E3%83%BC%E3%82%AF",
+                "wikipedia_language": "ja",
+                "headline": "としまキッズパークが開園",
+                "headline_category": "park",
+                "headline_rule": "park.open"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [],
+        "滋賀県": [],
+        "熊本県": [],
+        "石川県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q6428214",
+                "latitude": 36.35463889,
+                "longitude": 136.41694444,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "小松短期大学",
+                "description": "廃止された大学",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9D%BE%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+                "wikipedia_language": "ja",
+                "headline": "小松短期大学が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "神奈川県": [
+            {
+                "date": "2020-09-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q99659046",
+                "latitude": 35.49,
+                "longitude": 139.369166666,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "厚木PAスマートインターチェンジ",
+                "description": "神奈川県厚木市にある首都圏中央連絡自動車道のインターチェンジ",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9C%A8PA%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8",
+                "wikipedia_language": "ja",
+                "headline": "厚木PAスマートインターチェンジが開通",
+                "headline_category": "interchange",
+                "headline_rule": "interchange.open"
+            }
+        ],
+        "福井県": [],
+        "福岡県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q139832236",
+                "latitude": 33.58278,
+                "longitude": 130.37699,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "大濠テラス",
+                "description": "福岡市中央区大濠公園にある飲食施設",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "大濠テラスが開園",
+                "headline_category": "park",
+                "headline_rule": "park.open"
+            }
+        ],
+        "福島県": [
+            {
+                "date": "2020-09-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q98929263",
+                "latitude": 37.458138,
+                "longitude": 141.026446,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "東日本大震災・原子力災害伝承館",
+                "description": "福島県双葉町にある博物館",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%9C%87%E7%81%BD%E3%83%BB%E5%8E%9F%E5%AD%90%E5%8A%9B%E7%81%BD%E5%AE%B3%E4%BC%9D%E6%89%BF%E9%A4%A8",
+                "wikipedia_language": "ja",
+                "headline": "東日本大震災・原子力災害伝承館が開館",
+                "headline_category": "museum",
+                "headline_rule": "museum.open"
+            }
+        ],
+        "秋田県": [],
+        "群馬県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q6365539",
+                "latitude": 36.24480556,
+                "longitude": 139.49952778,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "関東短期大学",
+                "description": "廃止された大学",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%96%A2%E6%9D%B1%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+                "wikipedia_language": "ja",
+                "headline": "関東短期大学が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "茨城県": [],
+        "長崎県": [],
+        "長野県": [
+            {
+                "date": "2020-09-02",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q6958442",
+                "latitude": 36.66555556,
+                "longitude": 138.20055556,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "長野県短期大学",
+                "description": "廃止された大学",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E7%9C%8C%E7%9F%AD%E6%9C%9F%E5%A4%A7%E5%AD%A6",
+                "wikipedia_language": "ja",
+                "headline": "長野県短期大学が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "青森県": [],
+        "静岡県": [],
+        "香川県": [],
+        "高知県": [],
+        "鳥取県": [],
+        "鹿児島県": [
+            {
+                "date": "2020-09-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11447619",
+                "latitude": 31.760454,
+                "longitude": 130.510483,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "姶良市立新留小学校",
+                "description": "鹿児島県姶良市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A7%B6%E8%89%AF%E5%B8%82%E7%AB%8B%E6%96%B0%E7%95%99%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "姶良市立新留小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ]
+    }
+}

@@ -1,0 +1,4689 @@
+{
+    "year": 2024,
+    "month": 3,
+    "generated_at": "2026-08-31T13:03:20Z",
+    "source": "Wikidata",
+    "schema_version": 6,
+    "filters": {
+        "minimum_date_precision": 10,
+        "minimum_date_precision_label": "month",
+        "year_precision_items_excluded": true,
+        "date_properties": [
+            "P585",
+            "P580",
+            "P1619",
+            "P571",
+            "P3999",
+            "P576"
+        ],
+        "lifecycle_location_mode": "direct",
+        "national_country_properties": [
+            "P17",
+            "P495",
+            "P1001"
+        ],
+        "national_limit": 10,
+        "national_score_version": 1,
+        "national_selection": "score_with_category_caps",
+        "national_candidate_storage": "national_query_only_excluding_regional_duplicates"
+    },
+    "stats": {
+        "raw_rows": 160,
+        "raw_rows_by_property": {
+            "P1619": 9,
+            "P3999": 3,
+            "P571": 14,
+            "P576": 110,
+            "P580": 8,
+            "P585": 16
+        },
+        "discarded_coarse_dates": 0,
+        "event_count": 118,
+        "event_counts_by_type": {
+            "abolition_or_demolition": 87,
+            "closure": 2,
+            "event": 12,
+            "inception": 7,
+            "opening": 6,
+            "start": 4
+        },
+        "national_raw_rows": 179,
+        "national_raw_rows_by_property": {
+            "P1619": 7,
+            "P3999": 3,
+            "P571": 25,
+            "P576": 101,
+            "P580": 27,
+            "P585": 16
+        },
+        "national_query_candidate_count": 172,
+        "national_candidate_count": 55,
+        "national_count": 10
+    },
+    "national": [
+        {
+            "date": "2024-03-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q864223",
+            "latitude": 42.4776,
+            "longitude": 140.3462,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "中ノ沢駅",
+            "description": "かつて北海道山越郡長万部町にあった北海道旅客鉄道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E3%83%8E%E6%B2%A2%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "中ノ沢駅が廃止",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.abolish",
+            "sitelink_count": 9,
+            "category": "infrastructure",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "北海道"
+        },
+        {
+            "date": "2024-03-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q4699420",
+            "latitude": 43.866430555,
+            "longitude": 142.680833333,
+            "query_sources": [
+                "P3999:direct",
+                "P3999:national"
+            ],
+            "title": "愛山駅",
+            "description": "かつて北海道上川郡愛別町にあった北海道旅客鉄道の駅",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E5%B1%B1%E9%A7%85",
+            "wikipedia_language": "ja",
+            "headline": "愛山駅が閉鎖",
+            "headline_category": "railway_station",
+            "headline_rule": "railway_station.close",
+            "sitelink_count": 7,
+            "category": "infrastructure",
+            "score": 55,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "北海道"
+        },
+        {
+            "date": "2024-03-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q125256027",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "紅麹サプリ事件",
+            "description": "2024年に発覚した企業事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9E%97%E8%A3%BD%E8%96%AC%E7%B4%85%E9%BA%B9%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E5%95%8F%E9%A1%8C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "紅麹サプリ事件",
+            "headline_category": "company",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q1234462",
+            "latitude": 35.4877,
+            "longitude": 138.782258,
+            "query_sources": [
+                "P3999:direct",
+                "P3999:national"
+            ],
+            "title": "ドドンパ",
+            "description": "富士急ハイランドの大型ローラーコースター",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%89%E3%83%B3%E3%83%91_(%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC)",
+            "wikipedia_language": "ja",
+            "headline": "ドドンパが閉鎖",
+            "headline_category": "attraction",
+            "headline_rule": "attraction.close",
+            "sitelink_count": 8,
+            "category": "culture",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "山梨県"
+        },
+        {
+            "date": "2024-03-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q131901022",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2024年熊本県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2024%E5%B9%B4%E7%86%8A%E6%9C%AC%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2024年熊本県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q125135778",
+            "latitude": 35.633222,
+            "longitude": 139.800694,
+            "query_sources": [
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "2024年東京 E-Prix",
+            "description": "motor car race",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2024%E5%B9%B4%E6%9D%B1%E4%BA%AC_E-Prix",
+            "wikipedia_language": "ja",
+            "headline": "2024年東京 E-Prix",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "sitelink_count": 10,
+            "category": "society",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "東京都"
+        },
+        {
+            "date": "2024-03-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q127416796",
+            "latitude": 34.836111111,
+            "longitude": 136.591388888,
+            "query_sources": [
+                "P571:direct",
+                "P571:national"
+            ],
+            "title": "そよら鈴鹿白子",
+            "description": "三重県鈴鹿市にある都市型ショッピングセンター",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%82%88%E3%82%89%E9%88%B4%E9%B9%BF%E7%99%BD%E5%AD%90",
+            "wikipedia_language": "ja",
+            "headline": "そよら鈴鹿白子が開業",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.open",
+            "sitelink_count": 2,
+            "category": "economy",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "三重県"
+        },
+        {
+            "date": "2024-03-18",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q123038900",
+            "latitude": 34.721388888,
+            "longitude": 135.361666666,
+            "query_sources": [
+                "P580:national",
+                "P580:place",
+                "P585:national",
+                "P585:place"
+            ],
+            "title": "第96回選抜高等学校野球大会",
+            "description": "2024年に甲子園球場で行われた大会",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC96%E5%9B%9E%E9%81%B8%E6%8A%9C%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E9%87%8E%E7%90%83%E5%A4%A7%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "headline": "第96回選抜高等学校野球大会",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "sitelink_count": 3,
+            "category": "sports",
+            "score": 33,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "兵庫県"
+        },
+        {
+            "date": "2024-03-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125535961",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "十角館の殺人",
+            "description": "2024 Japanese TV series or program",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Decagon_House_Murders_(TV_series)",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "十角館の殺人",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q83937379",
+            "latitude": 40.065548,
+            "longitude": 140.396912,
+            "query_sources": [
+                "P576:direct",
+                "P576:national"
+            ],
+            "title": "北秋田市立前田小学校",
+            "description": "秋田県北秋田市にあった小学校",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E7%A7%8B%E7%94%B0%E5%B8%82%E7%AB%8B%E5%89%8D%E7%94%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+            "wikipedia_language": "ja",
+            "headline": "北秋田市立前田小学校が廃止",
+            "headline_category": "school",
+            "headline_rule": "school.abolish",
+            "sitelink_count": 2,
+            "category": "education",
+            "score": 27,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 2,
+                "source_overlap": 5
+            },
+            "candidate_sources": [
+                "national_query",
+                "regional"
+            ],
+            "region": "秋田県"
+        }
+    ],
+    "national_candidates": [
+        {
+            "date": "2024-03-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q111429917",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ハピラインふくい線",
+            "description": "ハピラインふくいの鉄道路線",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%94%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%B5%E3%81%8F%E3%81%84%E7%B7%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 6,
+            "headline": "ハピラインふくい線が開通",
+            "headline_category": "road_facility",
+            "headline_rule": "road_facility.open",
+            "category": "infrastructure",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q125256027",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "紅麹サプリ事件",
+            "description": "2024年に発覚した企業事件",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9E%97%E8%A3%BD%E8%96%AC%E7%B4%85%E9%BA%B9%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88%E5%95%8F%E9%A1%8C",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "紅麹サプリ事件",
+            "headline_category": "company",
+            "headline_rule": "event.label",
+            "category": "major_incident",
+            "score": 50,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q131901022",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "2024年熊本県知事選挙",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/2024%E5%B9%B4%E7%86%8A%E6%9C%AC%E7%9C%8C%E7%9F%A5%E4%BA%8B%E9%81%B8%E6%8C%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "2024年熊本県知事選挙",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "politics",
+            "score": 45,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11453827",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "宮城県道121号",
+            "description": "日本の宮城県の道路",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%9F%8E%E7%9C%8C%E9%81%93121%E5%8F%B7%E5%B1%B1%E4%B8%8B%E5%81%9C%E8%BB%8A%E5%A0%B4%E7%B7%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "宮城県道121号が廃止",
+            "headline_category": "road_facility",
+            "headline_rule": "road_facility.abolish",
+            "category": "infrastructure",
+            "score": 40,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 20,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-03",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124608588",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "爆上戦隊ブンブンジャー",
+            "description": "日本のテレビ番組シリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%8A%E6%88%A6%E9%9A%8A%E3%83%96%E3%83%B3%E3%83%96%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 12,
+            "headline": "爆上戦隊ブンブンジャー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q123248879",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "不適切にもほどがある!",
+            "description": "日本のテレビドラマ番組",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%8D%E9%81%A9%E5%88%87%E3%81%AB%E3%82%82%E3%81%BB%E3%81%A9%E3%81%8C%E3%81%82%E3%82%8B!",
+            "wikipedia_language": "ja",
+            "sitelink_count": 5,
+            "headline": "不適切にもほどがある!が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 35,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 10,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125535961",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "十角館の殺人",
+            "description": "2024 Japanese TV series or program",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Decagon_House_Murders_(TV_series)",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "十角館の殺人",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "major_incident",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 30,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q135277029",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "小樽中央卸市場",
+            "description": "北海道小樽市の商業施設",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%A8%BD%E4%B8%AD%E5%A4%AE%E5%8D%B8%E5%B8%82%E5%A0%B4",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "小樽中央卸市場が廃止",
+            "headline_category": "commercial_facility",
+            "headline_rule": "commercial_facility.abolish",
+            "category": "economy",
+            "score": 30,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124131871",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "第26回日本フットボールリーグ",
+            "description": "2024年に開催された日本フットボールリーグのリーグ戦",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC26%E5%9B%9E%E6%97%A5%E6%9C%AC%E3%83%95%E3%83%83%E3%83%88%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%AA%E3%83%BC%E3%82%B0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "第26回日本フットボールリーグ",
+            "headline_category": "sports_event",
+            "headline_rule": "start.label",
+            "category": "sports",
+            "score": 28,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 8,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137797718",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "同居している剣聖の女師匠が可愛すぎて毎日幸せです",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%90%8C%E5%B1%85%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E5%89%A3%E8%81%96%E3%81%AE%E5%A5%B3%E5%B8%AB%E5%8C%A0%E3%81%8C%E5%8F%AF%E6%84%9B%E3%81%99%E3%81%8E%E3%81%A6%E6%AF%8E%E6%97%A5%E5%B9%B8%E3%81%9B%E3%81%A7%E3%81%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "同居している剣聖の女師匠が可愛すぎて毎日幸せです",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135379942",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "写らナイんです",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%86%99%E3%82%89%E3%83%8A%E3%82%A4%E3%82%93%E3%81%A7%E3%81%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "写らナイんです",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131275987",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "傷だらけ聖女より報復をこめて",
+            "description": "日本の漫画シリーズ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%82%B7%E3%81%A0%E3%82%89%E3%81%91%E8%81%96%E5%A5%B3%E3%82%88%E3%82%8A%E5%A0%B1%E5%BE%A9%E3%82%92%E3%81%93%E3%82%81%E3%81%A6",
+            "wikipedia_language": "ja",
+            "sitelink_count": 4,
+            "headline": "傷だらけ聖女より報復をこめて",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q16665195",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "月刊コミックバンチ",
+            "description": "新潮社が編集・発行している月刊漫画雑誌",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9C%88%E5%88%8A%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%83%90%E3%83%B3%E3%83%81",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "月刊コミックバンチが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-21",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q10358437",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "第7地対艦ミサイル連隊",
+            "description": "military unit",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC7%E5%9C%B0%E5%AF%BE%E8%89%A6%E3%83%9F%E3%82%B5%E3%82%A4%E3%83%AB%E9%80%A3%E9%9A%8A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "第7地対艦ミサイル連隊が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-22",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125124722",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ゴーストフィクサーズ",
+            "description": "日本の漫画作品",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B5%E3%83%BC%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 2,
+            "headline": "ゴーストフィクサーズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125915511",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "野村佃煮",
+            "description": "日本の食品メーカー",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%87%8E%E6%9D%91%E4%BD%83%E7%85%AE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "野村佃煮が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q131105819",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "済生会新潟県央基幹病院",
+            "description": "新潟県三条市の医療機関",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B8%88%E7%94%9F%E4%BC%9A%E6%96%B0%E6%BD%9F%E7%9C%8C%E5%A4%AE%E5%9F%BA%E5%B9%B9%E7%97%85%E9%99%A2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "済生会新潟県央基幹病院が開設",
+            "headline_category": "medical_facility",
+            "headline_rule": "medical_facility.open",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-04",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124496503",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ユーミンストーリーズ",
+            "description": "television series",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%BA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ユーミンストーリーズ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-08",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131227997",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "痛ぶる恋の、ようなもの",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%97%9B%E3%81%B6%E3%82%8B%E6%81%8B%E3%81%AE%E3%80%81%E3%82%88%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "痛ぶる恋の、ようなもの",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q126909613",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "これから配信はじめます",
+            "description": "2024年のテレビドラマ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89%E9%85%8D%E4%BF%A1%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%99",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "これから配信はじめます",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-16",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q131274552",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "Tiny desk concerts JAPAN",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/Tiny_desk_concerts_JAPAN",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "Tiny desk concerts JAPAN",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-24",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q135977758",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ウエンツ瑛士×甲斐翔真の妄想ミュージカル研究所",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A8%E3%83%B3%E3%83%84%E7%91%9B%E5%A3%AB%C3%97%E7%94%B2%E6%96%90%E7%BF%94%E7%9C%9F%E3%81%AE%E5%A6%84%E6%83%B3%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E7%A0%94%E7%A9%B6%E6%89%80",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ウエンツ瑛士×甲斐翔真の妄想ミュージカル研究所",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q65235060",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "それって!?実際どうなの課",
+            "description": "中京テレビのテレビ番組 (2019-2024)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%82%8C%E3%81%A3%E3%81%A6!%3F%E5%AE%9F%E9%9A%9B%E3%81%A9%E3%81%86%E3%81%AA%E3%81%AE%E8%AA%B2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "それって!?実際どうなの課が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q119381290",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "西川あやの おいでよ!クリエイティ部",
+            "description": "文化放送のラジオ番組 (2022-2024)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%B7%9D%E3%81%82%E3%82%84%E3%81%AE_%E3%81%8A%E3%81%84%E3%81%A7%E3%82%88!%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E9%83%A8",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "西川あやの おいでよ!クリエイティ部が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q128864764",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "with MUSIC",
+            "description": "日本テレビの音楽番組 (2024-2026)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/With_MUSIC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "with MUSIC",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-30",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q128864770",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "時をかけるテレビ 今こそ見たい!この1本",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E3%83%86%E3%83%AC%E3%83%93_%E4%BB%8A%E3%81%93%E3%81%9D%E8%A6%8B%E3%81%9F%E3%81%84!%E3%81%93%E3%81%AE1%E6%9C%AC",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "時をかけるテレビ 今こそ見たい!この1本",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q105711863",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ハイツ友の会",
+            "description": "日本の女性お笑いコンビ (2019-2024)",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%84%E5%8F%8B%E3%81%AE%E4%BC%9A",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ハイツ友の会が廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q106967072",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ワクチン接種円滑化システム",
+            "description": "システムの一つ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E6%8E%A5%E7%A8%AE%E5%86%86%E6%BB%91%E5%8C%96%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "ワクチン接種円滑化システムが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11588233",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "地域医療機能推進機構神戸中央病院附属看護専門学校",
+            "description": "兵庫県神戸市にある専門学校",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E8%83%BD%E6%8E%A8%E9%80%B2%E6%A9%9F%E6%A7%8B%E7%A5%9E%E6%88%B8%E4%B8%AD%E5%A4%AE%E7%97%85%E9%99%A2%E9%99%84%E5%B1%9E%E7%9C%8B%E8%AD%B7%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "地域医療機能推進機構神戸中央病院附属看護専門学校が廃止",
+            "headline_category": "medical_facility",
+            "headline_rule": "medical_facility.abolish",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P3999",
+            "date_property_label": "date of official closure",
+            "event_type": "closure",
+            "wikidata_id": "Q110211417",
+            "query_sources": [
+                "P3999:national"
+            ],
+            "title": "新型コロナワクチン接種証明書アプリ",
+            "description": "日本政府によって公開されたワクチンパスポート用アプリ",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E6%8E%A5%E7%A8%AE%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%82%A2%E3%83%97%E3%83%AA",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "新型コロナワクチン接種証明書アプリが閉鎖",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.close",
+            "category": "society",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125242927",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "令和六年度出産・子育て応援給付金に係る差押禁止等に関する法律",
+            "description": "日本の法律",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "令和六年度出産・子育て応援給付金に係る差押禁止等に関する法律が制定",
+            "headline_category": "law",
+            "headline_rule": "national.law.enact",
+            "category": "politics",
+            "score": 25,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 25,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q125469725",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "たかさき・ナイチンゲール学院",
+            "description": null,
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%8B%E3%81%95%E3%81%8D%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB%E5%AD%A6%E9%99%A2",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "たかさき・ナイチンゲール学院が廃止",
+            "headline_category": "school",
+            "headline_rule": "school.abolish",
+            "category": "education",
+            "score": 22,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 2,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q48756710",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "川上村立川上小学校",
+            "description": "奈良県川上村にある小学校",
+            "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E4%B8%8A%E6%9D%91%E7%AB%8B%E5%B7%9D%E4%B8%8A%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+            "wikipedia_language": "ja",
+            "sitelink_count": 1,
+            "headline": "川上村立川上小学校が廃止",
+            "headline_category": "school",
+            "headline_rule": "school.abolish",
+            "category": "education",
+            "score": 22,
+            "score_breakdown": {
+                "japanese_wikipedia": 20,
+                "sitelinks": 0,
+                "category": 2,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q134112642",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "KME",
+            "description": "堂本剛の権利管理会社",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "KMEが設立",
+            "headline_category": "company",
+            "headline_rule": "company.open",
+            "category": "economy",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q113160139",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "東海大学付属図書館渋谷図書館",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "東海大学付属図書館渋谷図書館が廃止",
+            "headline_category": "museum",
+            "headline_rule": "museum.abolish",
+            "category": "culture",
+            "score": 10,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 10,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-09",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q125131623",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "18th Seiyu Awards",
+            "description": "2024 voice acting award in Tokyo",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/18th_Seiyu_Awards",
+            "wikipedia_language": "en",
+            "sitelink_count": 2,
+            "headline": "18th Seiyu Awards",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q124758844",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "2024年のJLPGAツアー",
+            "description": "JLPGAツアー",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/2024_LPGA_of_Japan_Tour",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "2024年のJLPGAツアー",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q132810991",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "ポケモンワークス",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "ポケモンワークスが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-02",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P585",
+            "date_property_label": "point in time",
+            "event_type": "event",
+            "wikidata_id": "Q136039590",
+            "query_sources": [
+                "P585:national"
+            ],
+            "title": "Alvark Tokyo vs Shimane Susanoo Magic (March 2, 2024)",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 1,
+            "headline": "Alvark Tokyo vs Shimane Susanoo Magic (March 2, 2024)",
+            "headline_category": "unknown",
+            "headline_rule": "event.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-13",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q137651951",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "突風とビート",
+            "description": "日本の漫画",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Gusts_and_Beats",
+            "wikipedia_language": "en",
+            "sitelink_count": 1,
+            "headline": "突風とビート",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q138516494",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "Cinematic Neon Club",
+            "description": "VRChat上の音楽ユニット",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "Cinematic Neon Clubが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q136439463",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "elephants",
+            "description": "エレファントカシマシの個人事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "elephantsが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q130755291",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "アップウエイトカンパニー",
+            "description": "日本の芸能事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "アップウエイトカンパニーが設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03",
+            "date_precision": 10,
+            "date_precision_label": "month",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q11313291",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "ソニーペイメントサービス",
+            "description": "ソニーグループの決済ソリューションプロバイダ",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ソニーペイメントサービスが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-01",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q140290107",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "プロクリニック",
+            "description": "東京・銀座の美容外科・形成外科クリニック",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "プロクリニックが開設",
+            "headline_category": "medical_facility",
+            "headline_rule": "medical_facility.open",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-06",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q130317029",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "恋をするなら二度目が上等",
+            "description": "Japanese television drama",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "恋をするなら二度目が上等",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-10",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q136662510",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "デジモンリベレイター",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "デジモンリベレイター",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-11",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125124781",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "暗黒デルタ",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "暗黒デルタ",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-19",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125125539",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "ごぜほたる",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "ごぜほたる",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-20",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125019012",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "SAND LAND: THE SERIES",
+            "description": "Japanese anime television series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "SAND LAND: THE SERIES",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-25",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P571",
+            "date_property_label": "inception",
+            "event_type": "inception",
+            "wikidata_id": "Q125446736",
+            "query_sources": [
+                "P571:national"
+            ],
+            "title": "嵐",
+            "description": "日本の芸能事務所",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "嵐が設立",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.inception_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-27",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P1619",
+            "date_property_label": "date of official opening",
+            "event_type": "opening",
+            "wikidata_id": "Q131749621",
+            "query_sources": [
+                "P1619:national"
+            ],
+            "title": "SkyシアターMBS",
+            "description": null,
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "SkyシアターMBSが開業",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.opening_fallback",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-28",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q140435586",
+            "query_sources": [
+                "P580:national"
+            ],
+            "title": "平民出身の帝国将官、無能な貴族上官を蹂躙して成り上がる",
+            "description": "Japanese manga series",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "平民出身の帝国将官、無能な貴族上官を蹂躙して成り上がる",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P576",
+            "date_property_label": "dissolved, abolished or demolished date",
+            "event_type": "abolition_or_demolition",
+            "wikidata_id": "Q108855060",
+            "query_sources": [
+                "P576:national"
+            ],
+            "title": "PRISM Project",
+            "description": "English-language virtual YouTuber group",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "PRISM Projectが廃止",
+            "headline_category": "unknown",
+            "headline_rule": "unknown.abolish",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        },
+        {
+            "date": "2024-03-31",
+            "date_precision": 11,
+            "date_precision_label": "day",
+            "date_property": "P580",
+            "date_property_label": "start time",
+            "event_type": "start",
+            "wikidata_id": "Q125259820",
+            "query_sources": [
+                "P571:national",
+                "P580:national"
+            ],
+            "title": "生涯健康科学ジャーナル",
+            "description": "日本の学術雑誌",
+            "wikipedia_url": null,
+            "wikipedia_language": null,
+            "sitelink_count": 0,
+            "headline": "生涯健康科学ジャーナル",
+            "headline_category": "unknown",
+            "headline_rule": "start.label",
+            "category": "society",
+            "score": 5,
+            "score_breakdown": {
+                "japanese_wikipedia": 0,
+                "sitelinks": 0,
+                "category": 5,
+                "source_overlap": 0
+            },
+            "candidate_sources": [
+                "national_query"
+            ]
+        }
+    ],
+    "regions": {
+        "三重県": [
+            {
+                "date": "2024-03-28",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q127416796",
+                "latitude": 34.836111111,
+                "longitude": 136.591388888,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "そよら鈴鹿白子",
+                "description": "三重県鈴鹿市にある都市型ショッピングセンター",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%82%88%E3%82%89%E9%88%B4%E9%B9%BF%E7%99%BD%E5%AD%90",
+                "wikipedia_language": "ja",
+                "headline": "そよら鈴鹿白子が開業",
+                "headline_category": "commercial_facility",
+                "headline_rule": "commercial_facility.open"
+            }
+        ],
+        "京都府": [
+            {
+                "date": "2024-03-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q126456764",
+                "latitude": 35.011611111,
+                "longitude": 135.768111111,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "LAK 2024 Workshops",
+                "description": "academic workshop",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "LAK 2024 Workshops",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2024-03-29",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q130610485",
+                "latitude": 34.984047018,
+                "longitude": 135.762784733,
+                "query_sources": [
+                    "P1619:direct"
+                ],
+                "title": "DoubleTree by Hilton Kyoto Station",
+                "description": "hotel in Kyoto, Japan",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "DoubleTree by Hilton Kyoto Stationが開業",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.opening_fallback"
+            }
+        ],
+        "佐賀県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92725118",
+                "latitude": 33.444569,
+                "longitude": 129.821014,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "唐津市立入野小学校",
+                "description": "佐賀県唐津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%94%90%E6%B4%A5%E5%B8%82%E7%AB%8B%E5%85%A5%E9%87%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "唐津市立入野小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92725134",
+                "latitude": 33.42458,
+                "longitude": 129.826401,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "唐津市立田野小学校",
+                "description": "佐賀県唐津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%94%90%E6%B4%A5%E5%B8%82%E7%AB%8B%E7%94%B0%E9%87%8E%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "唐津市立田野小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92725103",
+                "latitude": 33.322594,
+                "longitude": 130.050568,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "唐津市立箞木小学校",
+                "description": "佐賀県唐津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%94%90%E6%B4%A5%E5%B8%82%E7%AB%8B%E7%AE%9E%E6%9C%A8%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "唐津市立箞木小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92725130",
+                "latitude": 33.470459,
+                "longitude": 129.810303,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "唐津市立納所小学校",
+                "description": "佐賀県唐津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%94%90%E6%B4%A5%E5%B8%82%E7%AB%8B%E7%B4%8D%E6%89%80%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "唐津市立納所小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92727253",
+                "latitude": 33.145699,
+                "longitude": 130.10463,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "白石町立有明中学校",
+                "description": "佐賀県白石町にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E7%9F%B3%E7%94%BA%E7%AB%8B%E6%9C%89%E6%98%8E%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "白石町立有明中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q92727250",
+                "latitude": 33.183193,
+                "longitude": 130.185364,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "白石町立福富中学校",
+                "description": "佐賀県白石町にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E7%9F%B3%E7%94%BA%E7%AB%8B%E7%A6%8F%E5%AF%8C%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "白石町立福富中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "兵庫県": [
+            {
+                "date": "2024-03-18",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q123038900",
+                "latitude": 34.721388888,
+                "longitude": 135.361666666,
+                "query_sources": [
+                    "P580:place",
+                    "P585:place"
+                ],
+                "title": "第96回選抜高等学校野球大会",
+                "description": "2024年に甲子園球場で行われた大会",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC96%E5%9B%9E%E9%81%B8%E6%8A%9C%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E9%87%8E%E7%90%83%E5%A4%A7%E4%BC%9A",
+                "wikipedia_language": "ja",
+                "headline": "第96回選抜高等学校野球大会",
+                "headline_category": "sports_event",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17223170",
+                "latitude": 34.799361,
+                "longitude": 134.898333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "加古川市立上荘小学校",
+                "description": "日本の兵庫県加古川市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E5%8F%A4%E5%B7%9D%E5%B8%82%E7%AB%8B%E4%B8%8A%E8%8D%98%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "加古川市立上荘小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11398515",
+                "latitude": 34.802722,
+                "longitude": 134.880722,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "加古川市立両荘中学校",
+                "description": "兵庫県加古川市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E5%8F%A4%E5%B7%9D%E5%B8%82%E7%AB%8B%E4%B8%A1%E8%8D%98%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "加古川市立両荘中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17239806",
+                "latitude": 34.80275,
+                "longitude": 134.872639,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "加古川市立平荘小学校",
+                "description": "兵庫県加古川市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E5%8F%A4%E5%B7%9D%E5%B8%82%E7%AB%8B%E5%B9%B3%E8%8D%98%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "加古川市立平荘小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17218962",
+                "latitude": 34.780306,
+                "longitude": 134.883889,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "甲南加古川病院",
+                "description": "兵庫県加古川市にある病院",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%81%AF%E3%81%8F%E3%81%BB%E3%81%86%E4%BC%9A%E5%8A%A0%E5%8F%A4%E5%B7%9D%E7%97%85%E9%99%A2",
+                "wikipedia_language": "ja",
+                "headline": "甲南加古川病院が廃止",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q140128140",
+                "latitude": 34.781083333,
+                "longitude": 135.363,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第68回大阪杯",
+                "description": "競馬大会のシーズン",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "第68回大阪杯",
+                "headline_category": "sports_event",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q95561311",
+                "latitude": 35.653442,
+                "longitude": 134.691742,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "香美町立佐津小学校",
+                "description": "兵庫県香美町にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%A6%99%E7%BE%8E%E7%94%BA%E7%AB%8B%E4%BD%90%E6%B4%A5%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "香美町立佐津小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "北海道": [
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q864223",
+                "latitude": 42.4776,
+                "longitude": 140.3462,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "中ノ沢駅",
+                "description": "かつて北海道山越郡長万部町にあった北海道旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E3%83%8E%E6%B2%A2%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "中ノ沢駅が廃止",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.abolish"
+            },
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q4699420",
+                "latitude": 43.866430555,
+                "longitude": 142.680833333,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "愛山駅",
+                "description": "かつて北海道上川郡愛別町にあった北海道旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E5%B1%B1%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "愛山駅が閉鎖",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.close"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q65271749",
+                "latitude": 42.033888888,
+                "longitude": 140.613888888,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "森町立駒ヶ岳小学校",
+                "description": "北海道森町にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A3%AE%E7%94%BA%E7%AB%8B%E9%A7%92%E3%83%B6%E5%B2%B3%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "森町立駒ヶ岳小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "千葉県": [
+            {
+                "date": "2024-03-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125490033",
+                "latitude": 35.645239,
+                "longitude": 140.030922,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2024年3月30日の千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "description": "2024年3月30日にZOZOマリンスタジアムで開催された千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2024年3月30日の千葉ロッテマリーンズ対北海道日本ハムファイターズの公式戦",
+                "headline_category": "sports_facility",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125220302",
+                "latitude": 35.648333,
+                "longitude": 140.034722,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "櫻坂46「SAKURAZAKA46 Live, AEON CARD with YOU！Vol.3」",
+                "description": "櫻坂46が2024年3月30日に開催した日本の千葉県で開催したライブ",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "櫻坂46「SAKURAZAKA46 Live, AEON CARD with YOU！Vol.3」",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11530701",
+                "latitude": 35.757056,
+                "longitude": 139.943333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "松戸市立福祉医療センター東松戸病院",
+                "description": "千葉県松戸市にある医療機関",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E6%88%B8%E5%B8%82%E7%AB%8B%E7%A6%8F%E7%A5%89%E5%8C%BB%E7%99%82%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E6%9D%B1%E6%9D%BE%E6%88%B8%E7%97%85%E9%99%A2",
+                "wikipedia_language": "ja",
+                "headline": "松戸市立福祉医療センター東松戸病院が廃止",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.abolish"
+            }
+        ],
+        "和歌山県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11417374",
+                "latitude": 34.269528,
+                "longitude": 135.117833,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "和歌山看護専門学校",
+                "description": "和歌山県和歌山市にある専門学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%92%8C%E6%AD%8C%E5%B1%B1%E7%9C%8B%E8%AD%B7%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "和歌山看護専門学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11558777",
+                "latitude": 34.127611,
+                "longitude": 135.157528,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海南市立海南下津高等学校",
+                "description": "和歌山県海南市にある高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E5%8D%97%E5%B8%82%E7%AB%8B%E6%B5%B7%E5%8D%97%E4%B8%8B%E6%B4%A5%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海南市立海南下津高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "埼玉県": [],
+        "大分県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q55530009",
+                "latitude": 33.06580556,
+                "longitude": 131.88855556,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "津久見市立第一中学校",
+                "description": "大分県津久見市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B4%A5%E4%B9%85%E8%A6%8B%E5%B8%82%E7%AB%8B%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "津久見市立第一中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q55530013",
+                "latitude": 33.074848,
+                "longitude": 131.853836,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "津久見市立第二中学校",
+                "description": "大分県津久見市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B4%A5%E4%B9%85%E8%A6%8B%E5%B8%82%E7%AB%8B%E7%AC%AC%E4%BA%8C%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "津久見市立第二中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "大阪府": [
+            {
+                "date": "2024-03-15",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q131715609",
+                "latitude": 34.6647,
+                "longitude": 135.433,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "クロミ・ライブ",
+                "description": "ユニバーサル・スタジオ・ジャパンのストリート・ショー",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%9F%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%96",
+                "wikipedia_language": "ja",
+                "headline": "クロミ・ライブ",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11603217",
+                "latitude": 34.82111111,
+                "longitude": 135.4902778,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "箕面船場阪大前駅",
+                "description": "大阪府箕面市にある北大阪急行電鉄の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AE%95%E9%9D%A2%E8%88%B9%E5%A0%B4%E9%98%AA%E5%A4%A7%E5%89%8D%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "箕面船場阪大前駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2024-03-23",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q11503900",
+                "latitude": 34.83166667,
+                "longitude": 135.4891667,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "箕面萱野駅",
+                "description": "大阪府箕面市にある北大阪急行電鉄の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AE%95%E9%9D%A2%E8%90%B1%E9%87%8E%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "箕面萱野駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11440384",
+                "latitude": 34.6745,
+                "longitude": 135.512833,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大阪市立南高等学校",
+                "description": "大阪市中央区にある公立の専門高校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E5%8D%97%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大阪市立南高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11440721",
+                "latitude": 34.674031,
+                "longitude": 135.484219,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大阪市立西高等学校",
+                "description": "大阪市西区にある市立高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E8%A5%BF%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大阪市立西高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11457552",
+                "latitude": 34.749,
+                "longitude": 135.654111,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "寝屋川市立梅が丘小学校",
+                "description": "大阪府寝屋川市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%9D%E5%B1%8B%E5%B7%9D%E5%B8%82%E7%AB%8B%E6%A2%85%E3%81%8C%E4%B8%98%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "寝屋川市立梅が丘小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11634443",
+                "latitude": 34.448722,
+                "longitude": 135.343917,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "貝塚市立二色小学校",
+                "description": "大阪府貝塚市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B2%9D%E5%A1%9A%E5%B8%82%E7%AB%8B%E4%BA%8C%E8%89%B2%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "貝塚市立二色小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11634452",
+                "latitude": 34.445944,
+                "longitude": 135.343333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "貝塚市立第五中学校",
+                "description": "大阪府貝塚市にあった中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B2%9D%E5%A1%9A%E5%B8%82%E7%AB%8B%E7%AC%AC%E4%BA%94%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "貝塚市立第五中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11655061",
+                "latitude": 34.721472,
+                "longitude": 135.606833,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "門真市立砂子小学校",
+                "description": "大阪府門真市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%96%80%E7%9C%9F%E5%B8%82%E7%AB%8B%E7%A0%82%E5%AD%90%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "門真市立砂子小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q55527025",
+                "latitude": 34.722813,
+                "longitude": 135.613235,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "門真市立脇田小学校",
+                "description": "大阪府門真市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%96%80%E7%9C%9F%E5%B8%82%E7%AB%8B%E8%84%87%E7%94%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "門真市立脇田小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "奈良県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11445214",
+                "latitude": 34.5245,
+                "longitude": 135.956056,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "奈良県立榛生昇陽高等学校",
+                "description": "奈良県宇陀市にある高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A5%88%E8%89%AF%E7%9C%8C%E7%AB%8B%E6%A6%9B%E7%94%9F%E6%98%87%E9%99%BD%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "奈良県立榛生昇陽高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "宮城県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11548031",
+                "latitude": 38.889881,
+                "longitude": 141.562134,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "気仙沼市立条南中学校",
+                "description": "宮城県気仙沼市にあった中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B0%97%E4%BB%99%E6%B2%BC%E5%B8%82%E7%AB%8B%E6%9D%A1%E5%8D%97%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "気仙沼市立条南中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "宮崎県": [],
+        "富山県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17229312",
+                "latitude": 36.45586,
+                "longitude": 137.029915,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "南砺市立利賀中学校",
+                "description": "富山県南砺市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8D%97%E7%A0%BA%E5%B8%82%E7%AB%8B%E5%88%A9%E8%B3%80%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "南砺市立利賀中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17209469",
+                "latitude": 36.45586,
+                "longitude": 137.029915,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "南砺市立利賀小学校",
+                "description": "富山県南砺市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8D%97%E7%A0%BA%E5%B8%82%E7%AB%8B%E5%88%A9%E8%B3%80%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "南砺市立利賀小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17996289",
+                "latitude": 36.719662,
+                "longitude": 136.958726,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "高岡市立千鳥丘小学校",
+                "description": "富山県高岡市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B2%A1%E5%B8%82%E7%AB%8B%E5%8D%83%E9%B3%A5%E4%B8%98%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "高岡市立千鳥丘小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17996266",
+                "latitude": 36.750624,
+                "longitude": 137.009935,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "高岡市立川原小学校",
+                "description": "富山県高岡市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B2%A1%E5%B8%82%E7%AB%8B%E5%B7%9D%E5%8E%9F%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "高岡市立川原小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17996336",
+                "latitude": 36.747263,
+                "longitude": 136.993379,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "高岡市立横田小学校",
+                "description": "富山県高岡市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B2%A1%E5%B8%82%E7%AB%8B%E6%A8%AA%E7%94%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "高岡市立横田小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17996283",
+                "latitude": 36.751144,
+                "longitude": 137.000875,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "高岡市立西条小学校",
+                "description": "富山県高岡市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B2%A1%E5%B8%82%E7%AB%8B%E8%A5%BF%E6%9D%A1%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "高岡市立西条小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "山口県": [],
+        "山形県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11468564",
+                "latitude": 38.732611,
+                "longitude": 139.826861,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "山形県立鶴岡北高等学校",
+                "description": "山形県鶴岡市にあった高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%BD%A2%E7%9C%8C%E7%AB%8B%E9%B6%B4%E5%B2%A1%E5%8C%97%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "山形県立鶴岡北高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11468566",
+                "latitude": 38.730722,
+                "longitude": 139.823889,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "山形県立鶴岡南高等学校",
+                "description": "山形県鶴岡市にあった高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%BD%A2%E7%9C%8C%E7%AB%8B%E9%B6%B4%E5%B2%A1%E5%8D%97%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "山形県立鶴岡南高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "山梨県": [
+            {
+                "date": "2024-03-13",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P3999",
+                "date_property_label": "date of official closure",
+                "event_type": "closure",
+                "wikidata_id": "Q1234462",
+                "latitude": 35.4877,
+                "longitude": 138.782258,
+                "query_sources": [
+                    "P3999:direct"
+                ],
+                "title": "ドドンパ",
+                "description": "富士急ハイランドの大型ローラーコースター",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%89%E3%83%B3%E3%83%91_(%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC)",
+                "wikipedia_language": "ja",
+                "headline": "ドドンパが閉鎖",
+                "headline_category": "attraction",
+                "headline_rule": "attraction.close"
+            }
+        ],
+        "岐阜県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48751327",
+                "latitude": 35.305252,
+                "longitude": 136.493683,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大垣市立一之瀬小学校",
+                "description": "岐阜県大垣市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9E%A3%E5%B8%82%E7%AB%8B%E4%B8%80%E4%B9%8B%E7%80%AC%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大垣市立一之瀬小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q55535120",
+                "latitude": 35.311916666,
+                "longitude": 136.478861111,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大垣市立上石津中学校",
+                "description": "岐阜県大垣市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9E%A3%E5%B8%82%E7%AB%8B%E4%B8%8A%E7%9F%B3%E6%B4%A5%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大垣市立上石津中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48751321",
+                "latitude": 35.284142,
+                "longitude": 136.461792,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大垣市立多良小学校",
+                "description": "岐阜県大垣市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9E%A3%E5%B8%82%E7%AB%8B%E5%A4%9A%E8%89%AF%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大垣市立多良小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48751289",
+                "latitude": 35.252594,
+                "longitude": 136.448288,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大垣市立時小学校",
+                "description": "岐阜県大垣市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9E%A3%E5%B8%82%E7%AB%8B%E6%99%82%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大垣市立時小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48751342",
+                "latitude": 35.339444444,
+                "longitude": 136.496388888,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大垣市立牧田小学校",
+                "description": "岐阜県大垣市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%9E%A3%E5%B8%82%E7%AB%8B%E7%89%A7%E7%94%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大垣市立牧田小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758987",
+                "latitude": 35.241493,
+                "longitude": 136.658615,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海津市立吉里小学校",
+                "description": "岐阜県海津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E6%B4%A5%E5%B8%82%E7%AB%8B%E5%90%89%E9%87%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海津市立吉里小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758029",
+                "latitude": 35.17374,
+                "longitude": 136.666626,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海津市立大江小学校",
+                "description": "岐阜県海津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E6%B4%A5%E5%B8%82%E7%AB%8B%E5%A4%A7%E6%B1%9F%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海津市立大江小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17226972",
+                "latitude": 35.214167,
+                "longitude": 136.671333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海津市立東江小学校",
+                "description": "岐阜県海津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E6%B4%A5%E5%B8%82%E7%AB%8B%E6%9D%B1%E6%B1%9F%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海津市立東江小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758984",
+                "latitude": 35.183575,
+                "longitude": 136.634338,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海津市立西江小学校",
+                "description": "岐阜県海津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E6%B4%A5%E5%B8%82%E7%AB%8B%E8%A5%BF%E6%B1%9F%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海津市立西江小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758041",
+                "latitude": 35.220779,
+                "longitude": 136.629547,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "海津市立高須小学校",
+                "description": "岐阜県海津市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E6%B4%A5%E5%B8%82%E7%AB%8B%E9%AB%98%E9%A0%88%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "海津市立高須小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758193",
+                "latitude": 35.822,
+                "longitude": 136.892444444,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "郡上市立大和北小学校",
+                "description": "岐阜県郡上市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%83%A1%E4%B8%8A%E5%B8%82%E7%AB%8B%E5%A4%A7%E5%92%8C%E5%8C%97%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "郡上市立大和北小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48760726",
+                "latitude": 35.803583333,
+                "longitude": 136.906583333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "郡上市立大和南小学校",
+                "description": "岐阜県郡上市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%83%A1%E4%B8%8A%E5%B8%82%E7%AB%8B%E5%A4%A7%E5%92%8C%E5%8D%97%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "郡上市立大和南小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758199",
+                "latitude": 35.836388888,
+                "longitude": 136.8825,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "郡上市立大和第一北小学校",
+                "description": "岐阜県郡上市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%83%A1%E4%B8%8A%E5%B8%82%E7%AB%8B%E5%A4%A7%E5%92%8C%E7%AC%AC%E4%B8%80%E5%8C%97%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "郡上市立大和第一北小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q48758205",
+                "latitude": 35.792972222,
+                "longitude": 136.906111111,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "郡上市立大和西小学校",
+                "description": "岐阜県郡上市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%83%A1%E4%B8%8A%E5%B8%82%E7%AB%8B%E5%A4%A7%E5%92%8C%E8%A5%BF%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "郡上市立大和西小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "岡山県": [],
+        "岩手県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q84161900",
+                "latitude": 39.126908333,
+                "longitude": 140.987638888,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "奥州市立胆沢愛宕小学校",
+                "description": "岩手県奥州市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E5%B7%9E%E5%B8%82%E7%AB%8B%E8%83%86%E6%B2%A2%E6%84%9B%E5%AE%95%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "奥州市立胆沢愛宕小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q84161849",
+                "latitude": 39.090748,
+                "longitude": 141.195343,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "奥州市立黒石小学校",
+                "description": "岩手県奥州市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E5%B7%9E%E5%B8%82%E7%AB%8B%E9%BB%92%E7%9F%B3%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "奥州市立黒石小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11474700",
+                "latitude": 40.222806,
+                "longitude": 141.296639,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "岩手県立一戸高等学校",
+                "description": "岩手県一戸町にある高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%AB%8B%E4%B8%80%E6%88%B8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "岩手県立一戸高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11474758",
+                "latitude": 40.260333,
+                "longitude": 141.283478,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "岩手県立福岡工業高等学校",
+                "description": "かつて岩手県二戸市にあった高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%89%8B%E7%9C%8C%E7%AB%8B%E7%A6%8F%E5%B2%A1%E5%B7%A5%E6%A5%AD%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "岩手県立福岡工業高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "島根県": [],
+        "広島県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17224818",
+                "latitude": 34.469939,
+                "longitude": 132.233808,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "広島市立湯来西小学校",
+                "description": "広島県広島市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%BA%83%E5%B3%B6%E5%B8%82%E7%AB%8B%E6%B9%AF%E6%9D%A5%E8%A5%BF%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "広島市立湯来西小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "徳島県": [],
+        "愛媛県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q125124462",
+                "latitude": 33.492083333,
+                "longitude": 132.743333333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "大洲市立河辺中学校",
+                "description": null,
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B4%B2%E5%B8%82%E7%AB%8B%E6%B2%B3%E8%BE%BA%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "大洲市立河辺中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q115151162",
+                "latitude": 33.038808,
+                "longitude": 132.488403,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "愛南町立内海中学校",
+                "description": "愛媛県愛南町にあった中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%84%9B%E5%8D%97%E7%94%BA%E7%AB%8B%E5%86%85%E6%B5%B7%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "愛南町立内海中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "愛知県": [
+            {
+                "date": "2024-03",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q124344329",
+                "latitude": 35.173888888,
+                "longitude": 137.091111111,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "魔女の谷",
+                "description": "愛知県長久手市のジブリパークにあるエリア",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "魔女の谷が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q115794412",
+                "latitude": 35,
+                "longitude": 136.902583333,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "加木屋中ノ池駅",
+                "description": "愛知県東海市にある名古屋鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E6%9C%A8%E5%B1%8B%E4%B8%AD%E3%83%8E%E6%B1%A0%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "加木屋中ノ池駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q96479608",
+                "latitude": 35.110349,
+                "longitude": 136.995291,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "名古屋市立しまだ小学校",
+                "description": "名古屋市天白区の公立小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82%E7%AB%8B%E3%81%97%E3%81%BE%E3%81%A0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "名古屋市立しまだ小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q84081513",
+                "latitude": 35.107962,
+                "longitude": 136.985971,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "名古屋市立高坂小学校",
+                "description": "名古屋市天白区の公立小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82%E7%AB%8B%E9%AB%98%E5%9D%82%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "名古屋市立高坂小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q88926828",
+                "latitude": 35.163111111,
+                "longitude": 137.626361111,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "設楽町立津具中学校",
+                "description": "愛知県設楽町にあった中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A8%AD%E6%A5%BD%E7%94%BA%E7%AB%8B%E6%B4%A5%E5%85%B7%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "設楽町立津具中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q60613807",
+                "latitude": 35.0575,
+                "longitude": 137.532666666,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "設楽町立田峯小学校",
+                "description": "日本の愛知県北設楽郡設楽町の小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A8%AD%E6%A5%BD%E7%94%BA%E7%AB%8B%E7%94%B0%E5%B3%AF%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "設楽町立田峯小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "新潟県": [],
+        "東京都": [
+            {
+                "date": "2024-03",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q117360551",
+                "latitude": 35.7062416,
+                "longitude": 139.6764123,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "ナウル共和国政府観光局日本事務所",
+                "description": "ナウル共和国の政府機関",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "ナウル共和国政府観光局日本事務所が発足",
+                "headline_category": "organization",
+                "headline_rule": "organization.open"
+            },
+            {
+                "date": "2024-03",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11588214",
+                "latitude": 35.705,
+                "longitude": 139.69825,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "地域医療機能推進機構東京山手メディカルセンター附属看護専門学校",
+                "description": "東京都新宿区にある専門学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E8%83%BD%E6%8E%A8%E9%80%B2%E6%A9%9F%E6%A7%8B%E6%9D%B1%E4%BA%AC%E5%B1%B1%E6%89%8B%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E9%99%84%E5%B1%9E%E7%9C%8B%E8%AD%B7%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "地域医療機能推進機構東京山手メディカルセンター附属看護専門学校が廃止",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.abolish"
+            },
+            {
+                "date": "2024-03-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q130711537",
+                "latitude": 35.625004993,
+                "longitude": 139.779946078,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "イマーシブ・フォート東京",
+                "description": "日本のテーマパーク (2024-2026)",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%96%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E6%9D%B1%E4%BA%AC",
+                "wikipedia_language": "ja",
+                "headline": "イマーシブ・フォート東京が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            },
+            {
+                "date": "2024-03-01",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q125959911",
+                "latitude": 35.659773746,
+                "longitude": 139.734037734,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "日向坂46展「WE R!」",
+                "description": "日向坂46の展覧会",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "日向坂46展「WE R!」",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            },
+            {
+                "date": "2024-03-03",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q117471832",
+                "latitude": 35.689444444,
+                "longitude": 139.691666666,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "東京マラソン2024",
+                "description": "42.195 km (26.2 mi) race in Japan",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E3%83%9E%E3%83%A9%E3%82%BD%E3%83%B32024",
+                "wikipedia_language": "ja",
+                "headline": "東京マラソン2024",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-08",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q124459189",
+                "latitude": 35.630667,
+                "longitude": 139.733556,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "第47回日本アカデミー賞",
+                "description": "Japanese film awards in 2024",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AC%AC47%E5%9B%9E%E6%97%A5%E6%9C%AC%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E8%B3%9E",
+                "wikipedia_language": "ja",
+                "headline": "第47回日本アカデミー賞",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-25",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q81916867",
+                "latitude": 35.724422,
+                "longitude": 139.639435,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "中野区立鷺宮小学校",
+                "description": "東京都中野区にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E9%87%8E%E5%8C%BA%E7%AB%8B%E9%B7%BA%E5%AE%AE%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "中野区立鷺宮小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-30",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125135778",
+                "latitude": 35.633222,
+                "longitude": 139.800694,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2024年東京 E-Prix",
+                "description": "motor car race",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/2024%E5%B9%B4%E6%9D%B1%E4%BA%AC_E-Prix",
+                "wikipedia_language": "ja",
+                "headline": "2024年東京 E-Prix",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q81964592",
+                "latitude": 34.529991,
+                "longitude": 139.278015,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "利島村立利島中学校",
+                "description": "東京都利島村にある中学校",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "利島村立利島中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q81918371",
+                "latitude": 34.529991,
+                "longitude": 139.278015,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "利島村立利島小学校",
+                "description": "東京都利島村にある小学校",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "利島村立利島小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "栃木県": [],
+        "沖縄県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q93218439",
+                "latitude": 24.585686,
+                "longitude": 124.310722,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "石垣市立平久保小学校",
+                "description": "沖縄県石垣市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E5%B8%82%E7%AB%8B%E5%B9%B3%E4%B9%85%E4%BF%9D%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "石垣市立平久保小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q93218466",
+                "latitude": 24.322048,
+                "longitude": 123.878136,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "竹富町立古見小学校",
+                "description": "沖縄県竹富町にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%AB%B9%E5%AF%8C%E7%94%BA%E7%AB%8B%E5%8F%A4%E8%A6%8B%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "竹富町立古見小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "滋賀県": [
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P580",
+                "date_property_label": "start time",
+                "event_type": "start",
+                "wikidata_id": "Q131823058",
+                "latitude": 35,
+                "longitude": 136,
+                "query_sources": [
+                    "P580:place"
+                ],
+                "title": "Lonsdaleite",
+                "description": "2024 Asia concert tour by Baekhyun",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Lonsdaleite_Tour",
+                "wikipedia_language": "en",
+                "headline": "Lonsdaleite",
+                "headline_category": "unknown",
+                "headline_rule": "start.label"
+            }
+        ],
+        "熊本県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q93498744",
+                "latitude": 32.69377,
+                "longitude": 130.99766,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "山都町立潤徳小学校",
+                "description": "熊本県山都町にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E9%83%BD%E7%94%BA%E7%AB%8B%E6%BD%A4%E5%BE%B3%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "山都町立潤徳小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11653261",
+                "latitude": 32.926389,
+                "longitude": 130.473333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "長洲町立腹栄中学校",
+                "description": "熊本県長洲町にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E6%B4%B2%E7%94%BA%E7%AB%8B%E8%85%B9%E6%A0%84%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "長洲町立腹栄中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "石川県": [
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q111179802",
+                "latitude": 36.517688888,
+                "longitude": 136.548911111,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "西松任駅",
+                "description": "石川県白山市北安田町にあるIRいしかわ鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%A5%BF%E6%9D%BE%E4%BB%BB%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "西松任駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            }
+        ],
+        "神奈川県": [
+            {
+                "date": "2024-03-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q124810979",
+                "latitude": 35.507758,
+                "longitude": 139.612524,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2024年3月9日の横浜GRITS対北海道ワイルズの交流戦",
+                "description": "2024年3月9日に東急電鉄株式会社が冠協賛でKOSE新横浜スケートセンターにて開催された横浜GRITS対北海道ワイルズの交流戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2024年3月9日の横浜GRITS対北海道ワイルズの交流戦",
+                "headline_category": "company",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-10",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q124810993",
+                "latitude": 35.507758,
+                "longitude": 139.612524,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "2024年3月10日の横浜GRITS対北海道ワイルズの交流戦",
+                "description": "2024年3月10日に東急電鉄株式会社が冠協賛でKOSE新横浜スケートセンターにて開催された横浜GRITS対北海道ワイルズの交流戦",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "2024年3月10日の横浜GRITS対北海道ワイルズの交流戦",
+                "headline_category": "company",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-26",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125197071",
+                "latitude": 35.455722222,
+                "longitude": 139.628527777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "櫻坂46 4th ARENA TOUR 2024 新・櫻前線 -Go on back?-",
+                "description": "櫻坂46が2024年3月26月に日本の神奈川県にあるぴあアリーナMMで開催した『4th ARENA TOUR 2024 新・櫻前線 -Go on back?-』",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "櫻坂46 4th ARENA TOUR 2024 新・櫻前線 -Go on back?-",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-27",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q125210443",
+                "latitude": 35.455722222,
+                "longitude": 139.628527777,
+                "query_sources": [
+                    "P585:place"
+                ],
+                "title": "櫻坂46 4th ARENA TOUR 2024 新・櫻前線 -Go on back?-",
+                "description": "櫻坂46が2024年3月27月に日本の神奈川県にあるぴあアリーナMMで開催した『4th ARENA TOUR 2024 新・櫻前線 -Go on back?-』",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "櫻坂46 4th ARENA TOUR 2024 新・櫻前線 -Go on back?-",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11588228",
+                "latitude": 35.431389,
+                "longitude": 139.628056,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "地域医療機能推進機構横浜中央病院附属看護専門学校",
+                "description": "神奈川県横浜市にある専修学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%9C%B0%E5%9F%9F%E5%8C%BB%E7%99%82%E6%A9%9F%E8%83%BD%E6%8E%A8%E9%80%B2%E6%A9%9F%E6%A7%8B%E6%A8%AA%E6%B5%9C%E4%B8%AD%E5%A4%AE%E7%97%85%E9%99%A2%E9%99%84%E5%B1%9E%E7%9C%8B%E8%AD%B7%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "地域医療機能推進機構横浜中央病院附属看護専門学校が廃止",
+                "headline_category": "medical_facility",
+                "headline_rule": "medical_facility.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q87265423",
+                "latitude": 35.44126,
+                "longitude": 139.49721,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "横浜市立阿久和小学校",
+                "description": "神奈川県横浜市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E5%B8%82%E7%AB%8B%E9%98%BF%E4%B9%85%E5%92%8C%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "横浜市立阿久和小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "福井県": [
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q6962163",
+                "latitude": 35.896188,
+                "longitude": 136.199133,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "越前たけふ駅",
+                "description": "福井県越前市にある西日本旅客鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%B6%8A%E5%89%8D%E3%81%9F%E3%81%91%E3%81%B5%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "越前たけふ駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            }
+        ],
+        "福岡県": [
+            {
+                "date": "2024-03-16",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P1619",
+                "date_property_label": "date of official opening",
+                "event_type": "opening",
+                "wikidata_id": "Q113301382",
+                "latitude": 33.544764,
+                "longitude": 130.466386,
+                "query_sources": [
+                    "P1619:direct",
+                    "P571:direct"
+                ],
+                "title": "桜並木駅",
+                "description": "福岡県福岡市博多区にある西日本鉄道の駅",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%A1%9C%E4%B8%A6%E6%9C%A8%E9%A7%85",
+                "wikipedia_language": "ja",
+                "headline": "桜並木駅が開業",
+                "headline_category": "railway_station",
+                "headline_rule": "railway_station.open"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q114712229",
+                "latitude": 33.889948,
+                "longitude": 130.836967,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "北九州市立戸畑高等専修学校",
+                "description": "北九州市戸畑区にある市立高等専修学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E4%B9%9D%E5%B7%9E%E5%B8%82%E7%AB%8B%E6%88%B8%E7%95%91%E9%AB%98%E7%AD%89%E5%B0%82%E4%BF%AE%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "北九州市立戸畑高等専修学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "福島県": [],
+        "秋田県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q83937379",
+                "latitude": 40.065548,
+                "longitude": 140.396912,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "北秋田市立前田小学校",
+                "description": "秋田県北秋田市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E7%A7%8B%E7%94%B0%E5%B8%82%E7%AB%8B%E5%89%8D%E7%94%B0%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "北秋田市立前田小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11595443",
+                "latitude": 40.266571666,
+                "longitude": 140.771114444,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "秋田県立十和田高等学校",
+                "description": "かつて秋田県鹿角市にあった高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E7%94%B0%E7%9C%8C%E7%AB%8B%E5%8D%81%E5%92%8C%E7%94%B0%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "秋田県立十和田高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11595512",
+                "latitude": 40.178333,
+                "longitude": 140.793333,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "秋田県立花輪高等学校",
+                "description": "かつて秋田県鹿角市にあった高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E7%94%B0%E7%9C%8C%E7%AB%8B%E8%8A%B1%E8%BC%AA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "秋田県立花輪高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "群馬県": [
+            {
+                "date": "2024-03-05",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P585",
+                "date_property_label": "point in time",
+                "event_type": "event",
+                "wikidata_id": "Q124827295",
+                "latitude": 36.001388888,
+                "longitude": 138.693888888,
+                "query_sources": [
+                    "P585:direct"
+                ],
+                "title": "2024 Nairobi mid-air collision",
+                "description": "aviation accident in 2024",
+                "wikipedia_url": "https://en.wikipedia.org/wiki/Safarilink_Aviation_Flight_053",
+                "wikipedia_language": "en",
+                "headline": "2024 Nairobi mid-air collision",
+                "headline_category": "unknown",
+                "headline_rule": "event.label"
+            }
+        ],
+        "茨城県": [
+            {
+                "date": "2024-03",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11617398",
+                "latitude": 36.350722,
+                "longitude": 140.288056,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "茨城県立友部高等学校",
+                "description": "茨城県笠間市にある高等学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E8%8C%A8%E5%9F%8E%E7%9C%8C%E7%AB%8B%E5%8F%8B%E9%83%A8%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "茨城県立友部高等学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q87567433",
+                "latitude": 36.506031,
+                "longitude": 140.59964,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "日立市立坂本小学校",
+                "description": "茨城県日立市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E7%AB%8B%E5%B8%82%E7%AB%8B%E5%9D%82%E6%9C%AC%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "日立市立坂本小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q87567436",
+                "latitude": 36.495251,
+                "longitude": 140.583115,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "日立市立東小沢小学校",
+                "description": "茨城県日立市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E7%AB%8B%E5%B8%82%E7%AB%8B%E6%9D%B1%E5%B0%8F%E6%B2%A2%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "日立市立東小沢小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "長崎県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17989648",
+                "latitude": 32.6515,
+                "longitude": 128.814694,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "五島市立大浜小学校",
+                "description": "長崎県五島市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%B3%B6%E5%B8%82%E7%AB%8B%E5%A4%A7%E6%B5%9C%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "五島市立大浜小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17991365",
+                "latitude": 32.660194,
+                "longitude": 128.87975,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "五島市立崎山中学校",
+                "description": "長崎県五島市にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%B3%B6%E5%B8%82%E7%AB%8B%E5%B4%8E%E5%B1%B1%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "五島市立崎山中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17991781",
+                "latitude": 32.660528,
+                "longitude": 128.877806,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "五島市立崎山小学校",
+                "description": "長崎県五島市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%BA%94%E5%B3%B6%E5%B8%82%E7%AB%8B%E5%B4%8E%E5%B1%B1%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "五島市立崎山小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11458252",
+                "latitude": 34.685694,
+                "longitude": 129.456167,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "対馬市立豊小学校",
+                "description": "長崎県対馬市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%BE%E9%A6%AC%E5%B8%82%E7%AB%8B%E8%B1%8A%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "対馬市立豊小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q17227067",
+                "latitude": 32.864694,
+                "longitude": 129.0655,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "新上五島町立奈良尾中学校",
+                "description": "長崎県南松浦郡新上五島町にある中学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%B8%8A%E4%BA%94%E5%B3%B6%E7%94%BA%E7%AB%8B%E5%A5%88%E8%89%AF%E5%B0%BE%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "新上五島町立奈良尾中学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q93685687",
+                "latitude": 32.665527,
+                "longitude": 129.872238,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "長崎市立南小学校",
+                "description": "長崎県長崎市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E9%95%B7%E5%B4%8E%E5%B8%82%E7%AB%8B%E5%8D%97%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "長崎市立南小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "長野県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11359797",
+                "latitude": 36.302922222,
+                "longitude": 138.161961111,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "上田市立西内小学校",
+                "description": "長野県上田市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E5%B8%82%E7%AB%8B%E8%A5%BF%E5%86%85%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "上田市立西内小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "青森県": [
+            {
+                "date": "2024-03-20",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q125360965",
+                "latitude": 40.834583333,
+                "longitude": 140.702361111,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "イオンシネマ新青森",
+                "description": "青森県青森市にあるシネマコンプレックス",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B7%E3%83%8D%E3%83%9E%E6%96%B0%E9%9D%92%E6%A3%AE",
+                "wikipedia_language": "ja",
+                "headline": "イオンシネマ新青森が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "静岡県": [
+            {
+                "date": "2024-03",
+                "date_precision": 10,
+                "date_precision_label": "month",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q116456062",
+                "latitude": 34.994735861,
+                "longitude": 138.445317611,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "静岡県立大学大学院経営情報イノベーション研究科附属医療経営研究センター",
+                "description": "静岡県静岡市の研究所",
+                "wikipedia_url": null,
+                "wikipedia_language": null,
+                "headline": "静岡県立大学大学院経営情報イノベーション研究科附属医療経営研究センターが廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            },
+            {
+                "date": "2024-03-09",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P571",
+                "date_property_label": "inception",
+                "event_type": "inception",
+                "wikidata_id": "Q126127793",
+                "latitude": 35.170194444,
+                "longitude": 138.621305555,
+                "query_sources": [
+                    "P571:direct"
+                ],
+                "title": "富士川かりがね橋",
+                "description": "静岡県富士市の岩松地区と木島地区を結ぶ橋梁",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E5%A3%AB%E5%B7%9D%E3%81%8B%E3%82%8A%E3%81%8C%E3%81%AD%E6%A9%8B",
+                "wikipedia_language": "ja",
+                "headline": "富士川かりがね橋が設立",
+                "headline_category": "unknown",
+                "headline_rule": "unknown.inception_fallback"
+            }
+        ],
+        "香川県": [],
+        "高知県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11455635",
+                "latitude": 32.973602,
+                "longitude": 132.773026,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "宿毛市立橋上小学校",
+                "description": "高知県宿毛市にある小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%AE%BF%E6%AF%9B%E5%B8%82%E7%AB%8B%E6%A9%8B%E4%B8%8A%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "宿毛市立橋上小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "鳥取県": [
+            {
+                "date": "2024-03-31",
+                "date_precision": 11,
+                "date_precision_label": "day",
+                "date_property": "P576",
+                "date_property_label": "dissolved, abolished or demolished date",
+                "event_type": "abolition_or_demolition",
+                "wikidata_id": "Q11386567",
+                "latitude": 35.392306,
+                "longitude": 133.782056,
+                "query_sources": [
+                    "P576:direct"
+                ],
+                "title": "倉吉市立上小鴨小学校",
+                "description": "かつて鳥取県倉吉市にあった小学校",
+                "wikipedia_url": "https://ja.wikipedia.org/wiki/%E5%80%89%E5%90%89%E5%B8%82%E7%AB%8B%E4%B8%8A%E5%B0%8F%E9%B4%A8%E5%B0%8F%E5%AD%A6%E6%A0%A1",
+                "wikipedia_language": "ja",
+                "headline": "倉吉市立上小鴨小学校が廃止",
+                "headline_category": "school",
+                "headline_rule": "school.abolish"
+            }
+        ],
+        "鹿児島県": []
+    }
+}
